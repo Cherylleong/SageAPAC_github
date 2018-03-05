@@ -6,3 +6,6 @@ C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\bin\Debug\Sage50.rxtst
 C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\bin\Debug\Ranorex.Core.Resolver.dll
 C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\obj\Debug\Sage50.exe
 C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\obj\Debug\Sage50.pdb
+C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\bin\Debug\Sage50.exe.config
+C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\bin\Debug\Sage50.exe
+C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\bin\Debug\Sage50.pdb
