@@ -1,0 +1,463 @@
+﻿<repository
+id="3a0735bc-e519-4c3d-8de3-fb93bc647ffb"
+name="CommonObjectsRes"
+rxversion="8.0">
+	<codegen
+	classname="CommonObjectsRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ceedd480-7940-4a95-93ce-57f0f33908a7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6e5ba39e-5966-4e35-a028-d59b10d04ea1"
+		isrooted="True"
+		name="SaveTheFileAs"
+		refimgid="5f4cce7a-1883-4a21-ab15-3f6ad64b67a2"
+		refpath="/form[@title='Save the file as']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3557dd9b-ffd4-4365-9030-1ccdfd2e962a"
+			name="FileName"
+			refimgid="5479e4a9-007b-46db-a335-461613703071"
+			refpath="/form[@title='Save the file as']/element[@class='DUIViewWndClassName']/container[@class='DirectUIHWND']/element[@class='FloatNotifySink' and @instance='0']/combobox[@class='ComboBox']/text[@controlid='1001']"
+			searchtimeout="5000ms">
+				/form[@title='Save the file as']/element[@class='DUIViewWndClassName']//combobox[@class='ComboBox']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="edc11a31-ab61-4db7-8834-fed2044eec65"
+			name="Save"
+			refimgid="04751937-7c47-4d34-8ec1-4f6f5cbddc08"
+			refpath="/form[@title='Save the file as']/button[@text='&amp;Save']"
+			searchtimeout="5000ms">
+				/form[@title='Save the file as']/button[@text='&amp;Save']
+			</item>
+			<basepath>
+				/form[@title='Save the file as']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJRSURBVDhPpZPrS5NhGIf3l/QhoqQiMgii6OBx
+5cwPElaEfSqIJJCgzAikQgsELSlI7SCUnayoIKkPghWZhxxpc861Oedh6jZ1mzu8x1092wS10KBu
++H177+t3Pc/LY/jvaWgxc+eVg5rmAaqafnC50cyZ6k5OVHZTXPGFonOtFJa+pKDkybIcPP0Y45Fy
+DHXPbTS1azS2adxqlal+HaHyWZCKR7OUN/k5e9dHye1JTtaOc7zazdEqF4euOMkvM7MmbQeG2mYz
+dW8C3Hwb5uKDKU7dcFN83cmxaw4OX7VTWGGj4NIgpnIrBy4MYCyzkHveQkZpN+vSjRhqGl7gD8QI
+RzXmRUIRlWBYISAyG0rFG1DwzMi4vTIOj4R1TKLL6mHj1u0CUN/CahOPg6JCRIozF9GZCmqM+lUs
+Li8bNm/DcP/p+4VP/xxNB0mJMx/TmZnXmJzTcPsUfk4q9Az9BaCLZlksJ5vDOtOieUw0O6cUrOMy
+ndbVAAltTSzLcYJRHV9IY2JWw+VVsE0o9I/IfLYIwKYVAIvqcWbEckpdxS7ULaMyvcMS7X0rAJLq
+akJdT6kHUuqOpLrCd5dMl0OizZwApC8HJG9cg6g4d2Cp+nRKvc8t0eOU6LDF+ND7G0Dsoi6oh4S6
+P3nrKiMJdc+i+ld7jE/WKO96vKxPAO4tMRDlSOKfh2IIAEzMgcsXZ8ij0T+q8W1YpcOu8HFQTgLW
+pm0Rb6H+Ibn788kxmsgWyRLJFMnINbEvx8Te7Dz2iOzOymNXZio7M1LJyS9i4U3+6xgMvwD+1+a2
+GORSxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="24617776-38b6-48a6-9831-295059f175eb"
+		isrooted="True"
+		name="DialogJournalSearch"
+		refimgid="605d771d-7cea-4fd8-9fe9-844bd8d2a59a"
+		refpath="/form[@title='Search']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="2452813d-8cac-4d15-8c27-5ff8faa6a7e8"
+			name="Name"
+			refimgid="d25dbaa1-a110-4297-bae4-86e930d6c360"
+			refpath="/form[@title='Search']/container[@caption='Basic']/combobox[@controlid='207']"
+			searchtimeout="5000ms">
+				/form[@title='Search']/?/?/combobox[@controlid='207']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="7aec0cae-8160-44ec-ae04-098e7d17d20a"
+			name="Source"
+			refimgid="9ffc4b26-2520-4bf5-946f-ef357b617559"
+			refpath="/form[@title='Search']/container[@caption='Basic']/element[@controlid='209']/text[@accessiblename='Cheque Number:']"
+			searchtimeout="5000ms">
+				/form[@title='Search']/container[@caption='Basic']/?/?/text[@accessiblename='Cheque Number:' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b14e5e01-ebfc-400d-86d8-cd282ec2a71b"
+			name="OK"
+			refimgid="cab60e38-2c90-4712-88aa-21f39425f3b7"
+			refpath="/form[@title='Search']/button[@text='OK']"
+			searchtimeout="5000ms">
+				/form[@title='Search']/button[@text='OK']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="45f044a0-7ca1-4199-b7db-1b01ed989983"
+			name="StartDate"
+			refimgid="7ecf5864-e314-4469-85e9-be7051a71f2a"
+			refpath="/form[@title='Search']/container[@caption='Basic']/combobox[@controlid='201']"
+			searchtimeout="5000ms">
+				/form[@title='Search']/?/?/combobox[@controlid='201']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="c744057c-1a8b-4e50-b484-345407319cf2"
+			name="FinishDate"
+			refimgid="2a33d1ca-7ea1-4945-851f-0b156c1e3505"
+			refpath="/form[@title='Search']/container[@caption='Basic']/combobox[@controlid='204']"
+			searchtimeout="5000ms">
+				/form[@title='Search']/?/?/combobox[@controlid='204']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="a0238f39-256b-4d9a-ae3a-8b271de3c48b"
+			name="JournalEntry"
+			refimgid="bc5b2ede-ecb8-4763-ae2c-d2f6fbf3ff29"
+			searchtimeout="30000ms">
+				/form[@title='Search']/?/?/element[@controlid='211']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="ebb46aa2-0a88-4a15-bc18-77b37cbf0308"
+			name="Amount"
+			searchtimeout="30000ms">
+				/form[@title='Search']/?/?/element[@controlid='213']/text
+			</item>
+			<basepath>
+				/form[@title='Search']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c8c6be3e-833b-4efe-937e-c55c2764d67c"
+		isrooted="True"
+		name="SelectAccount"
+		refimgid="4bb9da39-7b99-4e69-a5b0-c1464a539701"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="tree,accessible"
+			capname="tree"
+			id="1c726ec4-2bfe-4ded-9119-304d9a37c3ef"
+			name="AccountName"
+			refimgid="c80dc3d4-a4f9-4703-9b65-f11e8b043b6c"
+			searchtimeout="5000ms">
+				/form[@title='Select Account' or @controlname='AccountLedgerFinderDialog']/?/?/tree[@accessiblename='Item Description']
+			</item>
+			<item
+			addcaps="tree,accessible"
+			capname="tree"
+			id="eeb88af9-3d9b-44c8-86d1-ef2395618b9a"
+			name="DotNetAccountName"
+			refimgid="f9874230-5371-4537-a4c4-e0533499ba24"
+			searchtimeout="5000ms">
+				/form[@title='Select Account' or @controlname='AccountLedgerFinderDialog']//tree[@controlname='m_itemTree']/tree[@accessiblename='Select account:']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="303ae0e5-1ebd-48a0-9189-a313522b41c8"
+			name="Select"
+			refimgid="e5af4540-5d40-44bb-8b40-b745c4e2dac8"
+			searchtimeout="5000ms">
+				/form[@title='Select Account' or @controlname='AccountLedgerFinderDialog']/button[@text='&amp;Select' or @controlname='m_OKButton']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4898ab7c-79b1-4b38-acbf-1eee307765ef"
+			name="Cancel"
+			refimgid="29bd60ae-74e1-4a34-aa66-624ca1d5c1c4"
+			refpath="/form[@title='Select Account']/button[@text='&amp;Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='Select Account' or @controlname='AccountLedgerFinderDialog']/button[@text='&amp;Cancel']
+			</item>
+			<basepath>
+				/form[@title='Select Account' or @controlname='AccountLedgerFinderDialog']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9eb0a1a2-a9da-453e-b6b5-1cec9cfe46d7"
+		isrooted="True"
+		name="PrintToFile"
+		refimgid="62f6ab28-2ff5-4667-bb04-86781a8e9587"
+		refpath="/form[@title='Print to File']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="a79bfac5-0e1d-495d-8569-2a20856ba014"
+			name="OutputFileName"
+			refimgid="2697732a-8e8c-4d3e-a7bf-41d68a1798be"
+			refpath="/form[@title='Print to File']/text[@controlid='201']"
+			searchtimeout="5000ms">
+				/form[@title='Print to File']/text[@controlid='201']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="29851488-326e-4e7b-9e55-ff1fd92ffa34"
+			name="OK"
+			refimgid="340473b7-90f8-4442-be21-6baa7bb1fd69"
+			refpath="/form[@title='Print to File']/button[@text='OK']"
+			searchtimeout="5000ms">
+				/form[@title='Print to File']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Print to File']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="858b264d-bd93-469b-bd7a-4638895f2800"
+		isrooted="True"
+		name="ProjAllocation"
+		refimgid="229fd650-24fc-4dc3-82c2-f307f310f49c"
+		refpath="/form[@controlname='ProjAllocForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="21bc9f97-d6ec-4f2a-81c6-fd220937f3f3"
+			name="Cancel"
+			refimgid="64f48608-dfd9-49ec-9fb6-f6129159f9ae"
+			refpath="/form[@controlname='ProjAllocForm']/button[@controlname='m_cancelButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='ProjAllocForm']/button[@controlname='m_cancelButton']
+			</item>
+			<item
+			addcaps="table,control,nativewindow"
+			capname="table"
+			id="81c734a7-260c-4c7c-8349-e6f14aef46a5"
+			name="DataGrid"
+			refimgid="d86a1fc1-bced-43d1-ab3b-757fed2124f0"
+			refpath="/form[@controlname='ProjAllocForm']/table[@controlname='m_dataGrid']"
+			searchtimeout="3000ms">
+				/form[@controlname='ProjAllocForm']/table[@controlname='m_dataGrid']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="0918c98a-5b78-4740-ae2d-f1e9b13240c6"
+			name="OK"
+			refimgid="f46be0cc-a45e-4234-a826-f96e53f29988"
+			refpath="/form[@controlname='ProjAllocForm']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='ProjAllocForm']/button[@controlname='m_OKButton']
+			</item>
+			<basepath>
+				/form[@controlname='ProjAllocForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="04f84130-641f-46a3-9f23-9bbfba7731a1"
+		isrooted="True"
+		name="DotNetJournalSearch"
+		refimgid="3d09c3f8-64da-4cbe-a599-a886b9ff6664"
+		refpath="/form[@controlname='SearchForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="95724818-867e-4e78-8cab-e9139f36470f"
+			name="StartDate"
+			refimgid="487769b2-8917-42cb-8e2e-f66a0b344564"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']//container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="9a0cf9c7-3c2e-47cb-8498-70fb7d81987f"
+			name="FinishDate"
+			refimgid="d39158e1-24e7-4c68-ae29-2fb47ef3b526"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/container[@controlname='m_endDatePicker']/combobox[@controlname='m_dateCmb']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']//container[@controlname='m_endDatePicker']/combobox[@controlname='m_dateCmb']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="80a2c12a-3e14-48a4-9b80-d2d7f92bd72b"
+			name="Name"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/combobox[@controlname='m_findNameCombo']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']//combobox[@controlname='m_findNameCombo']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="dc07b852-72f7-4eb9-b7ea-fe01e01c82c3"
+			name="Amount"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/text[@controlname='m_amountDec2Bl']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']//text[@controlname='m_amountDec2Bl']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="0e507853-7d88-469b-8026-1c3289711eed"
+			name="InvoiceNumber"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/text[@controlname='m_sourceChar']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']//text[@controlname='m_sourceChar']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="9387adf6-6411-4502-a477-409c832c7a49"
+			name="Source"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/text[@controlname='m_transNum']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']//text[@controlname='m_transNum']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4699c545-d372-42b2-9c8c-1d4df60401d0"
+			name="Close"
+			refpath="/form[@controlname='SearchForm']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="a8685faf-5b93-4388-ad19-e636bc31f4ef"
+			name="OK"
+			refpath="/form[@controlname='SearchForm']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/button[@controlname='m_OKButton']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="f8213bbf-a90b-43e7-abe1-6be0c32bff0b"
+			name="Cancel"
+			refpath="/form[@controlname='SearchForm']/button[@controlname='m_cancelButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='SearchForm']/button[@controlname='m_cancelButton']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fd0a6a97-d808-49e5-86c1-abf1f076b3dd"
+			name="OpenStartDate"
+			refimgid="4dab52dc-91e5-409a-ab2f-779c0e30d1ab"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']//container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="59f9f7cb-ec4b-479d-b920-12abf4b26cbc"
+			name="OpenFinishDate"
+			refimgid="50dc5d09-6e29-40b7-92fb-342ba83b71f4"
+			refpath="/form[@controlname='SearchForm']/tabpagelist[@controlname='m_searchTab']/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']/container[@controlname='m_lookupJournalGrp']/container[@controlname='m_endDatePicker']/combobox[@controlname='m_dateCmb']/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']//container[@controlname='m_endDatePicker']/combobox[@controlname='m_dateCmb']/button[@accessiblename='Open']
+			</item>
+			<basepath>
+				/form[@controlname='SearchForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="6fe354fa-b10a-45b2-83ea-ec18bd6c6373"
+		name="DotnetSelect">
+			/form[@controlname='AccountLedgerFinderDialog']
+		</var>
+	</variables>
+</repository>

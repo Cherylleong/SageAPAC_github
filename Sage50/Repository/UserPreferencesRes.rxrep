@@ -1,0 +1,769 @@
+﻿<repository
+id="969c9e1b-0fbb-47c5-8717-301ad34d3998"
+name="UserPreferencesRes"
+rxversion="8.0">
+	<codegen
+	classname="UserPreferencesRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="712d83e2-ba73-4975-b17d-25445c69adbc"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="47bc0cfe-22b6-46c0-af3a-4957e5bf7bcd"
+		isrooted="True"
+		name="UserPreferences"
+		refimgid="35d081f3-0101-4389-9d75-762ca0f93c30"
+		refpath="/form[@title='User Preferences']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8b08196a-b9c4-4f8e-a6c3-0455822ae377"
+			name="OK"
+			refpath="/form[@title='User Preferences']/button[@text='&amp;OK']"
+			searchtimeout="30000ms">
+				/form[@title='User Preferences']/button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="77261dc2-5327-4d3c-be8a-9ca0853e1325"
+			name="Cancel"
+			refpath="/form[@title='User Preferences']/button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='User Preferences']/button[@text='Cancel']
+			</item>
+			<folder
+			capname="form"
+			id="2b47b223-f5c5-477d-88f5-030f5de8b340"
+			isrooted="True"
+			name="Options"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="5ad0a614-5585-4b12-8169-583039c0d10b"
+				name="UseAccountingTerms"
+				refimgid="a95302a8-246f-4834-a306-7b459911c708"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='Use &amp;Accounting Terms']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='Use &amp;Accounting Terms']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="623d20e6-b3e1-4d19-a2c3-ad41483bf98d"
+				name="UseNonAccountingTerms"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='Use &amp;Non-accounting Terms']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='Use &amp;Non-accounting Terms']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="72d9c60c-42ef-445d-88e5-d8942c00e509"
+				name="English"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='&amp;English']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='&amp;English']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="ab8009b9-2e0c-43df-b10c-a7c103b2b643"
+				name="French"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='&amp;French']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='&amp;French']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="177d0e08-ddd9-44f1-af86-d9b118d232da"
+				name="Spanish"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='S&amp;panish']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='S&amp;panish']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="7ec72826-587f-430d-ac84-fd7f8c51a312"
+				name="SingleClick"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='&amp;Single Click']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='&amp;Single Click']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="df89755e-55fb-4381-b69a-ab56f263ba9c"
+				name="DoubleClick"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='&amp;Double Click']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='&amp;Double Click']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="e9c449b5-a57c-4740-aa68-93603668db94"
+				name="AnInvoice"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='An Invoice']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='An Invoice']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="728f8141-fef4-4e0d-be5f-02d4a1207f58"
+				name="APackingSlip"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='A Packing Slip']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text='A Packing Slip']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="27aa4e75-b460-44a0-baf0-034278bb3779"
+				name="AnInvoiceAndAPackingSlip"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/radiobutton[@text='An Invoice and a Packing Slip']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/radiobutton[@text~'^An\ Invoice\ and\ a\ Packing\ ']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c61fe7ba-9d69-4bd9-a938-d7c6e756920d"
+				name="AutomaticallySaveChangesToVendorCu"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/checkbox[@text='Automatically Sa&amp;ve Changes to Vendor, Customer and Other Records']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@text~'^Automatically\ Sa&amp;ve\ Chang']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="85bef916-564e-4ab8-95b0-bac3c933267e"
+				name="ShowListButtonsInSage50AndSuggest"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/checkbox[@text='Show &amp;List Buttons in Sage 50 and Suggest Items for Sales and Purchase Transactions']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@text~'^Show\ &amp;List\ Buttons\ in\ Sag']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="6e1775cc-5c2e-4852-aa4c-7999655268bb"
+				name="AutomaticallyRefreshLists"
+				refimgid="de971953-d426-4cc1-936e-fd34b25908b0"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/checkbox[@text='Automatically &amp;Refresh Lists']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@text~'^Automatically\ &amp;Refresh\ Li']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="93255963-f94e-4478-8988-3430998ca884"
+				name="CheckBoxCalculateRecordBalancesInHom"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@controlid='981']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="9ae1df52-8e2a-47ee-9bc3-8e7edf5e1c3c"
+				name="CalculateRecordBalances"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@controlid='982']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="8a25eef8-ea7d-4ce5-a6ef-49adb8d4789c"
+				name="AutomaticallyRefreshRecordBalances"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/checkbox[@text='Automatically Refresh Record &amp;Balances']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@text~'^Automatically\ Refresh\ Rec']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="40d5926c-897a-4daa-bc21-e1b5d5916ad8"
+				name="ShowAListOfInventoryItems"
+				refpath="/form[@title='User Preferences']/container[@caption='Options']/checkbox[@text='Show a List of &amp;Inventory Items When an Unknown Inventory Item Number is Entered']"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@text~'^Show\ a\ List\ of\ &amp;Inventory']
+				</item>
+				<item
+				addcaps="container,accessible"
+				capname="container"
+				id="e36bd5ed-94d9-4cd1-a070-8f968b1ff8c0"
+				name="InTheHomeWindowOpenRecordAndTrans"
+				refimgid="1483bda4-a4a6-4a54-8da5-dda338db4d84"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/container[@controlid='3007']
+				</item>
+				<basepath>
+					/form[@title='User Preferences']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="container,nativewindow"
+			capname="container"
+			id="701cf14e-e08d-47ca-81df-00d1432d5a7c"
+			isrooted="True"
+			name="View"
+			refpath="/form[@title='User Preferences']/container[@caption='View']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="83a57182-bdbe-42fa-b7ac-018b4a5ef6fc"
+				name="CLMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2734']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d8268a0a-c61b-4930-a7bd-c9542ced3628"
+				name="AutomaticAdvice"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2729']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="6c0dda80-c528-4bd2-b96e-ed036834dc26"
+				name="VLMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2732']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="f0d61d55-170a-4a95-b14b-ccb0be22b508"
+				name="ISLMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2738']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="bf4064a5-7cd1-4a7b-b1ac-f771220e80a7"
+				name="ELMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2736']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="bfd9c422-1558-47f8-9a77-4df088b2ae3b"
+				name="PLMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2740']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="6ceca51d-8d92-497f-8a0e-e5fd32e30bc6"
+				name="GLMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2721']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="4f5e8469-d202-43f9-8f32-d6727c5a743d"
+				name="CLicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2735']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="e33c69c4-bc94-43c1-88c9-a4fca536a088"
+				name="VLicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2733']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="9c876d97-60d2-4886-9ae3-ddc1efb12ebc"
+				name="ISLicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2739']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="44fcb29d-5db9-4c93-aa2b-d2b554360beb"
+				name="ELicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2737']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="1639da5d-e78e-4c67-9c25-75e08af21151"
+				name="PLicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2731']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="8c1094e6-e79e-4ca2-9415-b8b7b9da2729"
+				name="GLicon"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2720']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="f163b3ff-e9ed-440d-8a63-1c471ddc9639"
+				name="TimeBillMod"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2730']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="cc3928a2-445e-4ead-933c-f4b7c42e9b12"
+				name="ShowAtStartupDBM"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2723']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="ea9bb144-7d2a-4c8e-9525-d32ef2bb3bc9"
+				name="ShowAfterSessionDateDBM"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2724']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="cec8665e-5303-4016-b794-09e4d6800d37"
+				name="ShowAtStartupChklst"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2726']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="049bbe41-5c3f-4e81-a083-9dfd1f5ae791"
+				name="ShowAfterSessionDateChklst"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2727']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="89e65a3f-61d8-48e9-a03f-ed58c55832a6"
+				name="ShowChangeSessionDateAtStartup"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@text~'^Show\ Change\ Session\ Date\ ']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="ae1e6430-4136-4b6d-a136-e9dc4dc0baa5"
+				name="ShowPaidStampOnFullyPaidSalesInvo"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/container[@caption='View']/?/?/checkbox[@controlid='2743']
+				</item>
+				<basepath>
+					/form[@title='User Preferences']/container[@caption='View']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="3f34987b-4340-44c1-84e2-2513cffe3cfe"
+			isrooted="True"
+			name="UserPrefTree"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="fc7eac62-36fd-4886-9fb5-b58d44dbf814"
+				name="View"
+				refimgid="b38c1fff-338a-42da-a509-f74262d86bb6"
+				searchtimeout="3000ms">
+					/form[@title='User Preferences']//treeitem[@accessiblename='View']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="abdd81fa-4d97-4119-98cb-b17da431e77b"
+				name="Options"
+				refimgid="30b037df-3f15-453c-acae-0e29abe9d617"
+				searchtimeout="3000ms">
+					/form[@title='User Preferences']//treeitem[@accessiblename='Options']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="f67738fb-5f61-49fa-9b84-0eec953e2f38"
+				name="TransactionConfirmation"
+				refimgid="9309f1a9-728e-4643-8b0b-dbeb22b6bfb8"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']//treeitem[@accessiblename='Transaction Confirmation']
+				</item>
+				<basepath>
+					/form[@title='User Preferences']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="e4564b99-98f8-4859-aa7d-8953c0b737da"
+			isrooted="True"
+			name="TransConfirm"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="15725863-e7d5-492e-8b8f-8f5b98625c41"
+				name="DisplayTransConfirmationMsg"
+				searchtimeout="30000ms">
+					/form[@title='User Preferences']/?/?/checkbox[@controlid='3002']
+				</item>
+				<basepath>
+					/form[@title='User Preferences']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='User Preferences']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1b5f430d-0259-44c3-97c1-ae23927bb09e"
+		isrooted="True"
+		name="Sage50"
+		refpath="/form[@title='Sage 50']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="40ce6cb1-90e9-4ee9-9410-76cf49ac0ac2"
+			name="ButtonNo"
+			refimgid="c3a274be-de8f-4086-a56f-84d1c9cca13a"
+			refpath="/form[@title='Sage 50']/button[@text='&amp;No']"
+			searchtimeout="30000ms">
+				/form[@title='Sage 50']/button[@text='&amp;No']
+			</item>
+			<basepath>
+				/form[@title='Sage 50']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f48697cb-527d-44db-bd70-62c965e93527"
+		isrooted="True"
+		name="Sage50Registration"
+		refpath="/form[@title='Sage 50 - Registration']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5b9e1be2-1834-4a0f-bc7d-d47f2cf3f8ec"
+			name="Close"
+			refimgid="ba06abe0-953f-4ac6-b718-516b941ed979"
+			refpath="/form[@title='Sage 50 - Registration']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Sage 50 - Registration']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Sage 50 - Registration']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="617c64c2-5689-4173-938a-ef1e9c12f063"
+		isrooted="True"
+		name="SearchForm"
+		refpath="/form[@controlname='SearchForm']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="ecad89e8-eff1-4ed3-bef4-37888f3963c2"
+			name="MSearchCtrl"
+			refimgid="01c948b8-9b94-4bab-984c-2200867331cb"
+			refpath="/form[@controlname='SearchForm']/tabpagelist/tabpage/container[@controlname='m_searchCtrl']"
+			searchtimeout="30000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']/container[@controlname='m_searchCtrl']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="e90d72be-82b1-46b1-8ffc-3d7a6f6ef8e8"
+			name="MDateCmb"
+			refimgid="b571049d-d2c5-4f77-9523-2a89db698893"
+			refpath="/form[@controlname='SearchForm']/tabpagelist/tabpage/container/container/container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']"
+			searchtimeout="30000ms">
+				/form[@controlname='SearchForm']/?/?/tabpage[@controlname='m_basicTabPage']//container[@controlname='m_StartDatePicker']/combobox[@controlname='m_dateCmb']
+			</item>
+			<basepath>
+				/form[@controlname='SearchForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="c2433dcb-0ec3-40a2-bd5b-da989e5a10a8"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="6b7c647a-891c-4a29-a779-72c235eb35f6"
+			name="Jul012014"
+			refimgid="6e4875cd-3e42-4f62-8a90-c8300c2d0132"
+			refpath="/list[@controlid='1000']/listitem[@text='Jul 01, 2014']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Jul 01, 2014']
+			</item>
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="43d18e80-4086-4490-84a5-e61a04fcaba5"
+			name="Jul012013"
+			refimgid="25251f9f-5277-4225-946e-3dd0a6ed6d14"
+			refpath="/list[@controlid='1000']/listitem[@text='Jul 01, 2013']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Jul 01, 2013']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="c2b8b0cf-7ca8-4d61-bcb2-c76e368164e8"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="e4275651-7810-4414-ae5d-6728b96e0a02"
+			name="MSTaskListWClass"
+			refimgid="44ca3811-d920-418a-b6da-0797af164c56"
+			refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element[@class='MSTaskListWClass']"
+			searchtimeout="30000ms">
+				/menubar[@class='Shell_TrayWnd']/container[@controlid='40965']/?/?/element[@class='MSTaskListWClass']
+			</item>
+			<basepath>
+				/menubar[@class='Shell_TrayWnd']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="83008597-3140-4923-8ac2-9405df901ddb"
+		isrooted="True"
+		name="Explorer1"
+		refimgid="b6e7a93f-66ae-45ac-a2da-42e0956f8b01"
+		refpath="/form[@title='' and @processname='explorer' and @class='TaskListThumbnailWnd']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@processname='explorer' and @class='TaskListThumbnailWnd']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACCSURBVDhPY6AY/L5gf+H3RYf/6PjXBfsN/8/b
+C0CV4QYgxVZbn/1HBnCDgIYTNASuGA3/ueL1/9+Dyv//n0/Gif89m3yBAZsEKXi4GbD1yiZwjODD
+IDXIelAMwKYBG0bWQzsDkMXxyVFuACg1EVKESw6cEpEBsiKoEBzgk6MAMDAAAHhShcghofWfAAAA
+AElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

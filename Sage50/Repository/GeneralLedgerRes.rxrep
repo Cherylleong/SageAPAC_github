@@ -1,0 +1,543 @@
+﻿<repository
+id="84a18723-2655-4cfc-b488-750d725e435d"
+name="GeneralLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="GeneralLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="0eb6de89-3a6e-4c92-bedd-3477f2217c59"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8f680db7-13cf-4193-86c0-11ba4636c96a"
+		isrooted="True"
+		name="GeneralLedger"
+		refimgid="0b8eca88-165e-4e55-bbf6-4d6af843bb84"
+		refpath="/form[@title='General Ledger']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="93448d09-2096-4e04-bbec-8627dec92e55"
+			name="AccountNumber"
+			refimgid="f82f3b1a-c6c4-4017-9b83-45adb907022e"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/element[@controlid='22']/text
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e4365cbf-f869-4d00-b8a2-dad17cd49a68"
+			name="AccountName"
+			refimgid="812d7de4-a368-4381-92f2-81049f5f331c"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/element[@controlid='26']/text
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="1f3c22f5-7ec7-42c5-a38a-5f880f80f48a"
+			name="Save"
+			refimgid="73500926-35bd-4fcc-8bb3-b5b20ef2e9fb"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\.*']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="982f3929-abd0-459f-ba1f-9a9108f045db"
+			name="OpenBalance"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/element[@controlid='181']/text
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9cfb97be-06f2-4111-befe-dfa354ce0d71"
+			name="CreateANewToolButton"
+			refimgid="21525bc5-be46-43aa-a6d0-05e16146f4c9"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ account\ \(Ct']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="7149e5bd-3ffb-4ad8-9bec-ad367b975f68"
+			name="ForeignOpenBalance"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/element[@controlid='183']/text
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="49f68262-0984-4c77-815d-b08a9cb62741"
+			name="InactiveAccount"
+			refimgid="158907e0-3230-4429-bc72-9d96e0ab3fc5"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/checkbox[@controlid='200']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="61295f49-3e5b-49b2-92dd-a5e83973ef22"
+			name="SelectRecord"
+			refimgid="86e961c1-7ec6-4d51-819d-f97d86853b8a"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0316e5aa-dfb1-4a8f-9682-ac7bf5cc5f06"
+			name="LanguageBtn"
+			refimgid="f6a9da6a-8f56-4521-835c-2dc2926e4411"
+			searchtimeout="3000ms">
+				/form[@title='General Ledger']/button[@controlid='31']
+			</item>
+			<folder
+			capname="form"
+			id="05db51a2-e68b-44b2-b6a0-238fb12647fa"
+			isrooted="True"
+			name="Account"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="4e52ffd5-23bd-437f-a219-d7e49f885909"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/tabpage[@title='Account']
+				</item>
+				<item
+				addcaps="radiobutton,accessible"
+				capname="radiobutton"
+				id="e15457ab-d8a6-4585-adc4-446b0de8805b"
+				name="AcctGrpHeading"
+				refimgid="96c7d952-9dc0-452d-a242-0c1cbd0b3122"
+				refpath="/form[@title='General Ledger']/element[@controlid='40']/radiobutton[@accessiblename='Group Heading']"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/radiobutton[@accessiblename='Group Heading']
+				</item>
+				<item
+				addcaps="radiobutton,accessible"
+				capname="radiobutton"
+				id="042e1ce3-4c8e-40ef-80bd-3167c3c06a53"
+				name="SubGrpAcct"
+				refimgid="a030fba6-6e9e-4a95-a0b6-8208b92a76bf"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/radiobutton[@accessiblename='Subgroup Account']
+				</item>
+				<item
+				addcaps="radiobutton,accessible"
+				capname="radiobutton"
+				id="eb3ec760-e4cf-455d-8cec-f42961e40958"
+				name="SubGrpTotal"
+				refimgid="b791d17a-5cc0-4c4e-8476-df4269a1e2e9"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/radiobutton[@accessiblename='Subgroup Total']
+				</item>
+				<item
+				addcaps="radiobutton,accessible"
+				capname="radiobutton"
+				id="ac919210-144e-4d8c-8a13-6206c47d8bd5"
+				name="GrpAcct"
+				refimgid="bd3c712c-0051-488c-bedb-a0074434fb07"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/radiobutton[@accessiblename='Group Account']
+				</item>
+				<item
+				addcaps="radiobutton,accessible"
+				capname="radiobutton"
+				id="5951b539-7ecc-4852-a1c1-fe71896f8f9a"
+				name="GrpTotal"
+				refimgid="688b7bb7-6cb2-4a18-9c13-2ebe459f1ba7"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/radiobutton[@accessiblename='Group Total']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="3312f7e9-be33-4b2e-83e5-532e3ba3dbb4"
+				name="GifiCode"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='54']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="9aabf058-73fe-4168-9e56-4018c530f2d7"
+				name="OmitFrom"
+				refimgid="3130a74f-6dd1-424a-bea8-9a795734ada6"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/checkbox[@controlid='51']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="435ce74f-ee81-461f-b285-5de6ee8e4c4b"
+				name="AllowProjectAllocation"
+				refimgid="d2a0cff5-cd07-4411-bcfe-7b50249c2daa"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/checkbox[@controlid='50']
+				</item>
+				<basepath>
+					/form[@title='General Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="1b538c7e-23c3-4cf3-af45-90c2467f6db6"
+			isrooted="True"
+			name="ClassOptions"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="e8adf47a-ac20-4afb-bc71-9ee98d76675e"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/tabpage[@title='Class Options']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="4ba7a483-cb6f-45f5-a5e7-4ea26cb304d1"
+				name="AccountClass"
+				refimgid="56b842b1-7f94-4a6e-933e-5d87ab414666"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/combobox[@controlid='146']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="2ed88acb-b0c8-4a24-9332-0606358f2c72"
+				name="CurrencyCode"
+				refimgid="3b73522d-4eee-47a7-92cf-50387e732491"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/combobox[@controlid='158']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="018e7365-32a1-4cd7-85d9-14edfca88981"
+				name="NextDepositNumber"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='225']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="7b8df25f-07d3-4245-b3cb-179ede2ca17d"
+				name="Institution"
+				refimgid="2ce59559-ebf2-4c14-b123-f16a19c6db1e"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/combobox[@controlid='144']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="4f832460-e0c5-44f6-8303-4148918037dc"
+				name="BranchName"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='150']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="4ec4f454-4186-4d44-95f5-6696ad6ce916"
+				name="TransitNumber"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='154']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="9be77f97-05e7-4ce1-a9b6-af7e9d288c42"
+				name="BankAccountNumber"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='156']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="457982e1-8eec-449c-aaa6-98b4ab6fcc11"
+				name="BankAccountType"
+				refimgid="5610d745-101a-4e87-81c2-a3191fcf32b1"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/combobox[@controlid='152']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="7c360b89-4d7b-416b-834c-1c80cda7bbaf"
+				name="UseForOnline"
+				refimgid="67cfe950-d873-4906-8a31-9b76bfe996bc"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/checkbox[@controlid='173']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="c24c44c5-d31a-451e-a177-f5683a2a34cd"
+				name="HomePage"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='168']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="4110c678-1395-4b9e-8b5b-8ddc1f2c259f"
+				name="OnlineLogin"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='170']/text
+				</item>
+				<basepath>
+					/form[@title='General Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="ac2aa78f-b329-4447-a803-bbd51775cb24"
+			isrooted="True"
+			name="Budget"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="0556dbce-d752-4e03-be5b-8b68bdc0af97"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/tabpage[@title='Budget']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="544fed2d-e07f-4550-a546-99587f928c18"
+				name="BudgetThisAccount"
+				refimgid="ab00cbda-b885-4f77-8da8-bf14e6298f08"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/checkbox[@controlid='70']
+				</item>
+				<basepath>
+					/form[@title='General Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="895aaf07-026f-4df9-9a3c-d1fe16098dd7"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="0d582956-c52a-4f85-a4a5-c5bbabdea8d1"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="44ba1b91-75dd-4f6d-a995-c15ffd2e7ade"
+				name="Additional1"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="055a0c4f-7a0a-4287-a901-ea239a4a485c"
+				name="Additional2"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="34b6407e-7dc3-4602-899c-d5d9a274c203"
+				name="Additional3"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="f2eacc0c-aceb-4c8a-a1f7-4f38462143f0"
+				name="Additional4"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='808']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5f6f4b20-070a-4fde-bf45-823a91787f3a"
+				name="Additional5"
+				searchtimeout="3000ms">
+					/form[@title='General Ledger']/element[@controlid='809']/text
+				</item>
+				<basepath>
+					/form[@title='General Ledger']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='General Ledger']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACFSURBVDhPtY9bDoAwCAQ5OkfrzbRLug0iRPrh
+JKg8ZhPlV1TkQs1P1BmUfc1xLyiTfc2TOig7jjMWdiaR7ACMMdIgzOAZcckDyMQH4b2q989RZm8y
+F52i/AhAo6qfQV42BzM80JAqKJXBPpqixweVcqAM6sieV9CJvLGQFXQsexi02oDIDT1sMsrd926S
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7804c55e-d08f-41df-944a-7ce260c12155"
+		isrooted="True"
+		name="WindowsTaskManager"
+		refpath="/form[@title='Windows Task Manager']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a11ce448-2821-4eb4-aa95-4fb8fe2eef1b"
+			name="Close"
+			refimgid="a369986c-ccc4-410b-b553-3292192fb16d"
+			refpath="/form[@title='Windows Task Manager']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+			searchtimeout="3000ms">
+				/form[@title='Windows Task Manager']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Windows Task Manager']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJXSURBVDhPrVLNaxpRHNzgrUqNmhplwaAFkdYe
+WkJKz/aQv8CDQdFegsVbiCa0pxx6yKGkYMihEb/Fb0zVoGmiSbDq+r16zn/QQ8nF43Tfc7Wk5wwM
+b/ftzuzMvh/zqBiPR3uTMY85hXuM+RFGowGGwz7lYNBDv99Fr9dBpVI5FqUzEFEoFFowEokgFosh
+n8+hUCigWPyB8/MyqtUKel2OXovSGeYGKpUKOp0OJpMJ6+vrcLvdcLlccDqdsNvtsFqt6AoGxFCU
+zjA3UCqV0Gg0UCVXof/4HF6vFzs7O9jd3YXP54PH40G308bZWQHM1dWVv1arQVivSWcSW6/XY3lP
+iWefV6EqqmHzbtEU29vbizSdTotWYzKZzNTyfhP7+5+En8YjGo3iyb0cT2MKWoVdY7E6YeFwOGCz
+2WDgjJD+WaYGghZM9PJ4unnP4OD2A3h+iFQqRbuzLAu5XA61Wo3XW29gqBrxMvgKb7++g8ViQbv9
+C/F4HEw+n5/yPI9sNksNstkM7a/VaiGTyaBQKGA0GvHiwIy1hIGKzWYzWq0GTcvkcjlqQOKQ8ya9
+lpaWIJFIFqtUKl2YkmQrKys0QTgcfmgwH5bh4OHAcFxLYJOSCAlJAnJiiwrEoNG4/XJzc416vYbL
+y590YMiwpNNpJJNJJBIJOljkpIg4GAwe01Oo1+uzH/If7u7uNi4uqjg8PMTJyclvQbQhPvqHUqk0
+8fv9CAQCfXGLQkh1wHFtNJsNEJNMJk2/KtAlvjLD0dE3OgNkFbcoSAXCcrmE09PvlKFQcNb78cAw
+fwFiifbJggt9QgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8a1d7435-ea8d-4b04-a756-835dc86e5972"
+		isrooted="True"
+		name="EnterAccountName"
+		refimgid="b2a7b001-084c-44ed-983a-868c2d296317"
+		refpath="/form[@title='Enter Account Name']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="ae8e2a77-b1d2-401b-b85c-f999f61bda68"
+			name="English1"
+			refimgid="9463774e-7f63-4dd9-9572-e1a62367db3e"
+			searchtimeout="3000ms">
+				/form[@title='Enter Account Name']/element[@controlid='101']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="8d16e9cc-48f6-4dde-8b35-2fd1a8e45329"
+			name="English2"
+			refimgid="9eacc825-3ed6-4616-9716-428d905f62d0"
+			searchtimeout="3000ms">
+				/form[@title='Enter Account Name']/element[@controlid='103']/text
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ac7c7934-16ca-4985-8ea5-2c90a9fd8081"
+			name="OK"
+			refimgid="e3432419-6152-465f-bed5-2a40d3457d44"
+			refpath="/form[@title='Enter Account Name']/button[@text='&amp;OK']"
+			searchtimeout="3000ms">
+				/form[@title='Enter Account Name']/button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b4a1882e-976a-4d4b-887e-2315db6fe58c"
+			name="Cancel"
+			refimgid="fcaf08b5-9545-4c95-b533-2d9ca6543f1f"
+			refpath="/form[@title='Enter Account Name']/button[@text='&amp;Cancel']"
+			searchtimeout="3000ms">
+				/form[@title='Enter Account Name']/button[@text='&amp;Cancel']
+			</item>
+			<basepath>
+				/form[@title='Enter Account Name']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="575ceeff-b1a1-40ed-8947-76986849ed56"
+		isrooted="True"
+		name="GeneralIcon"
+		refpath="/form[@title='Accounts']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="96f63a40-4942-40bf-ae69-63634dc7ff20"
+			name="CreateNew"
+			refimgid="f569e47d-80ed-4358-b979-740cce580b94"
+			refpath="/form[@title='Accounts']/container[@class='ReBarWindow32']/toolbar[@controlid='20' and @class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']"
+			searchtimeout="3000ms">
+				/form[@title='Accounts']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Accounts']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACFSURBVDhPtY9bDoAwCAQ5OkfrzbRLug0iRPrh
+JKg8ZhPlV1TkQs1P1BmUfc1xLyiTfc2TOig7jjMWdiaR7ACMMdIgzOAZcckDyMQH4b2q989RZm8y
+F52i/AhAo6qfQV42BzM80JAqKJXBPpqixweVcqAM6sieV9CJvLGQFXQsexi02oDIDT1sMsrd926S
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

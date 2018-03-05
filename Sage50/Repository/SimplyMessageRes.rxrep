@@ -1,0 +1,289 @@
+﻿<repository
+id="d63b6e60-3d02-4a11-974a-d522cd0b7341"
+name="SimplyMessageRes"
+rxversion="8.0">
+	<codegen
+	classname="SimplyMessageRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="adff9cea-df57-4bb8-b863-dbfc65d61499"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b11821ce-3aed-4424-9f56-df00187d315a"
+		isrooted="True"
+		name="SimplyMessage"
+		refimgid="10d5e5a0-04e1-4d8d-b560-2e670d79ea28"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="09c62852-3d8d-4794-968b-b5a4fef65c63"
+			name="_MSG_THEREVENUEACCOUNTYOUSELECTEDISNOTASSIGNEDTO_LOC"
+			refimgid="24949d76-17dd-47e6-9c89-2d0633697608"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='.*Do you want to assign this account to use the Operating Revenue acount class??']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="5cff2a00-322c-4963-a50b-9eacd21e6614"
+			name="_MSG_THECOGSACCOUNTISNOTASSIGNEDCOGSDOYOUWANT_LOC"
+			refimgid="dc27519d-c572-40fa-9926-b72802b564d8"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='The Cost of Goods Sold account you selected is not assigned Cost of Goods Sold account class. Do you want to assign this account to use Cost of Goods Sold account class?']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="87e5ad82-cd66-4295-9818-0900316dfb78"
+			name="_MSG_THEVARIANCEACCOUNTYOUSELECTEDISNOTASSIGNEDTO_LOC"
+			refimgid="7ebafc07-a323-4ab2-9137-a1736366eade"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='The Variance account you selected is not assigned Cost of Goods Sold account class. Do you want to assign this account to use Cost of Goods Sold account class?']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="5d4e42e2-fd86-4296-bd36-6615684c4999"
+			name="_MSG_THEEXPENSEACCOUNTYOUSELECTEDISNOTASSIGNEDTO_LOC"
+			refimgid="465e9b9e-7e1e-4755-aeab-70444f1e02be"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='The Expense account you selected is not assigned Expense account class. Do you want to assign this account to use Expense account class?']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="257be28f-36a6-4299-b576-cd52483f0845"
+			name="_MSG_PLACEHOLDERTOFIXEXISTINGMETHODCALLS_LOC"
+			refimgid="251e9c8e-b467-4ae8-b926-ed8b61a9dba4"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='Create a static text object with the correct button, then use with the handlemessage method']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="b9f2d256-f5ca-41e8-815d-b8adc30f8be9"
+			name="_Msg_AreYouSureYouAreFinishedWithThisCompany"
+			refimgid="68079f30-8878-492a-9fc2-fb2e393373e9"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='Are you sure you are finished with this company?']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3469bbbf-13eb-4954-b134-2772040856e9"
+			name="_Msg_Doyouwanttobackupthiscompanybeforeclosing"
+			refimgid="ef56a355-94ae-42bb-a696-cdb9e446e382"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='Do you want to back up this company before closing?']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="571cacb6-7a71-4e0b-92a2-3294872127da"
+			name="_Msg_DiscardTransaction"
+			refimgid="e8425887-7c15-494f-a8af-c9581c68400b"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption='Are you sure you want to discard this transaction?']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="141b4623-a5e7-403d-871f-7e93b32455d5"
+			name="_Msg_LinkAssetMustBeAssignedTheAccountClassInventory"
+			refimgid="2082289a-ed39-40aa-9cc6-b200a58fc732"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@caption~'The Linked Asset account must be assigned the account class &quot;Inventory&quot;. Do you want to assign the &quot;Inventory&quot; account class to the account.*']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f8354d55-a80f-40b5-b13d-94d961e96f96"
+			name="OK"
+			refimgid="4709ce39-cfda-48ca-9f7d-04feba2982d9"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@accessiblename='OK' or @controlname='m_okBtn' or @text='&amp;OK' or @controlid='102']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="4fe5772c-72ed-4218-ad85-35e594cf2286"
+			name="MessageText"
+			refimgid="f2069979-3b46-4a59-aff8-d0c93522942e"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@controlname='m_messageLbl' or @controlid='100']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="85dbaadb-1b49-4b26-b859-b7997ea403d1"
+			name="NoRadioBtn"
+			refimgid="ef967e83-950e-4a13-8f76-24cca9b2af6c"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/radiobutton[@text='&amp;No']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="b6a33726-6297-4d8d-8eb1-a0b99b71f1d9"
+			name="DoNotAskMeAgain"
+			refimgid="1577c0ec-0e2b-4d2a-b16c-27263efa57c5"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/checkbox[@text='&amp;Do not ask me again.']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5bbfae52-bcb4-4f32-893a-2ddb49f58759"
+			name="DoNotShowMeAgain"
+			refimgid="30bedd7c-222f-4b2d-a66f-8a6bc04a879c"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@text='&amp;Do Not Show Me Again']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f26eb461-55ff-4d31-9756-a4132409d771"
+			name="Yes"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@controlid='107' or @controlname='m_yesBtn']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="2aa2a279-1c15-4ce6-b9c2-a39174b6fecb"
+			name="Cancel"
+			refimgid="373d1c9a-4664-4a40-b70d-e487ebadcb07"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@controlname='m_cancelButton']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="59aee10f-bb9f-4aa0-8019-00be437e10a0"
+			name="InstallPromptText"
+			refimgid="9f65d3b7-df17-475f-bbc4-d4527e09c64b"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@controlname='m_installPromptStat']
+			</item>
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="c3405604-750e-4c6e-a711-b143d0a2d2db"
+			name="AutoInstallUpdate"
+			refimgid="d379334f-70d3-425e-879e-110712c56317"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/checkbox[@controlname='m_InstallCheck']
+			</item>
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="35f6dd8e-d730-4d09-aef2-c188256c029a"
+			name="AutoDownloadUpdate"
+			refimgid="63b441e7-43cf-481d-92fe-4a7e1b6bea1c"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/checkbox[@controlname='m_DownloadCheck']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="a2137d59-90a6-4ca4-8d6d-c52a20627373"
+			name="ProductUpdateSettings"
+			refimgid="7d65e624-5d27-4501-8ffa-1d4a58e8e9be"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@text~'^Modify\ Product\ Update\ Set']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4e73ee5d-55de-4c1d-9f63-34fa66159ead"
+			name="CmMessageText"
+			refimgid="e73aa743-e80e-4994-91d7-d361f3803838"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/text[@controlid='100']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5cad1d65-1098-4135-9134-978c235e81dc"
+			name="Close"
+			refimgid="3150e2a8-72b1-48f5-a89e-a0f86306cea4"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@text='&amp;Close']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8a78c866-a8fb-4713-8e92-a7dd1cee5e04"
+			name="TryAgain"
+			refimgid="3c9a8b4a-d70d-42ef-87f4-5894a3b18378"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@text='&amp;Try Again' and @controlid='169']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0837388f-0f80-450e-a43c-8bed2087e118"
+			name="Proceed"
+			refimgid="0efaa18c-9d73-4226-af56-a870365b96f6"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@controlid='118']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="96b167f2-6799-4531-9894-06b9da6a3088"
+			name="No"
+			refimgid="a169c030-7c5c-40cd-95d4-0e80afdf7d63"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50.*']/button[@controlname='m_noBtn' or @controlid='108']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7cf9c475-2fba-4ad2-be1f-6989cb1f55eb"
+			name="Continue"
+			refimgid="66c1e66b-b6ef-4bb6-98e9-5ef76051c2b0"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50*']/button[@text='C&amp;ontinue']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="fcec60dd-82da-41ef-922e-649e3d38d138"
+			name="PrintChgT5018MsgText"
+			refimgid="279c36b9-603e-4b6b-9500-d6e4854c67fc"
+			refpath="/form[@title='Sage 50 - Printing Changes for T5018 Slips']/text[@controlid='101']"
+			searchtimeout="3000ms">
+				/form[@title~'Sage 50*']/text[@controlid='101']
+			</item>
+			<basepath>
+				/form[@title~'Sage 50.*']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

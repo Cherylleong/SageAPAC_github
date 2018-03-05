@@ -1,0 +1,404 @@
+﻿<repository
+id="6e5d93eb-5f0d-4298-a324-864e62e0ba49"
+name="PaymentsJournalRes"
+rxversion="8.0">
+	<codegen
+	classname="PaymentsJournalRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="bf1ec14a-02a8-4f62-8da3-5aa29ce0b5fe"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="590674e5-1cf4-4ea3-96ec-ee763a1ef9cc"
+		isrooted="True"
+		name="PaymentsJournal"
+		refimgid="6798787b-a198-42b0-a317-6a0007711dc7"
+		refpath="/form[@title='Payments Journal']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="333b8a2e-c69d-4fd6-bc92-44edc9cf33f6"
+			name="ChequeNo"
+			refimgid="0d3cf388-de29-419d-aa36-106e8069ef8e"
+			refpath="/form[@title='Payments Journal']/text[@controlid='22']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='22']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="fb19c819-77a4-46fb-aafa-9a2284bf93ef"
+			name="PaymentDate"
+			refimgid="33de7bf4-9461-4335-ba9f-3223802a1ad7"
+			refpath="/form[@title='Payments Journal']/element[@controlid='31']/text[@accessiblerole='Text']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='31']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="0af7e876-c6e1-434d-9ca8-66ad177bbcae"
+			name="EndDate"
+			refimgid="d16e54df-79a4-4a40-ba65-9f0e95ce8db7"
+			refpath="/form[@title='Payments Journal']/element[@controlid='118']/text[@accessiblerole='Text']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='118']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="7e7c186d-265a-443f-87c6-038b01606937"
+			name="Transaction"
+			refimgid="2f204bc0-acf3-4cb2-b7b7-5ae32b865012"
+			refpath="/form[@title='Payments Journal']/combobox[@controlid='39']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/combobox[@controlid='39']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3ac81979-14ac-4c48-b4f1-27cc7795602f"
+			name="PrepaymentReferenceNo"
+			refimgid="c2cf1bdb-a5d7-4402-827e-7dc1375756d3"
+			refpath="/form[@title='Payments Journal']/text[@controlid='54']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='54']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="0c7e6c44-c4c8-437c-90a6-0ebafe1b2953"
+			name="PrepaymentAmount"
+			refimgid="ab8e786d-f1ff-43d7-aed6-975490450062"
+			refpath="/form[@title='Payments Journal']/element[@controlid='56']/text[@accessiblerole='Text']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='56']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="c533c95c-0314-41c8-adf8-a9495b853860"
+			name="EnterPrepayments"
+			refimgid="e40c87d3-c47f-4555-aed4-3ca65e2e57a5"
+			refpath="/form[@title='Payments Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Enter vendor prepayments']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Enter vendor prepayments']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="b5769298-9f95-41ce-a752-6b316a4622f9"
+			name="SearchDialog"
+			refimgid="67ceccec-e8dd-474d-ab46-1151fe36c28c"
+			refpath="/form[@title='Payments Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Adjust payment (Ctrl+A)']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Adjust payment (Ctrl+A)']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="5a64919b-6f31-44f5-861d-4937ca6847e6"
+			name="VendorName2"
+			refimgid="d799c7c3-35c7-43b1-b9af-337cd63075c5"
+			refpath="/form[@title='Payments Journal']/combobox[@controlid='52']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/combobox[@controlid='52']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="11f810eb-0b3b-4594-979e-c9c4ea7ec3aa"
+			name="VendorName"
+			refimgid="0e5b5651-8c8d-4c5f-8153-a2ba58e0e59a"
+			refpath="/form[@title='Payments Journal']/combobox[@controlid='25']/text[@controlid='1001']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="2eac8b41-adf5-45c1-b157-e719d88c38b2"
+			name="PaidBy"
+			refimgid="21322539-1aad-480e-95ce-dd262119594e"
+			refpath="/form[@title='Payments Journal']/combobox[@controlid='49']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/combobox[@controlid='49']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="d4cf96f3-f5ee-4ecd-96f8-bd4d659d86b7"
+			name="PaidFrom"
+			refimgid="e29ce1a1-ba3e-4f9a-a27b-fcce3146ae47"
+			refpath="/form[@title='Payments Journal']/combobox[@controlid='51']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/combobox[@controlid='51']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="bf9ec955-6ce7-4a95-9be8-2f54afa8ece9"
+			name="Comment"
+			refimgid="02f573c4-2cb2-40bc-b32e-0d215d17babd"
+			refpath="/form[@title='Payments Journal']/text[@controlid='62']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='62']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e11cf304-6ad9-48ea-b6a1-b0d48a9b47a9"
+			name="DirectDepositNo"
+			refimgid="e0b4f6ea-4288-491c-9166-5dffea6c5bbf"
+			refpath="/form[@title='Payments Journal']/text[@controlid='136']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='136']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="caa72be6-7e42-48f2-9f69-9ac019ad1d4b"
+			name="Source"
+			refimgid="20764f98-28bc-4b82-b9e6-206e921e8672"
+			refpath="/form[@title='Payments Journal']/text[@controlid='23']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='23']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c891d2c8-844f-44fc-9c87-135e44bfb691"
+			name="ExchangeRate"
+			refimgid="a67ed73b-9fa9-4312-bf9d-e98972b9bf90"
+			refpath="/form[@title='Payments Journal']/element[@controlid='59']/text[@accessiblename='Exchange Rate']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/text[@accessiblename='Exchange Rate' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="fda972a5-1213-4c7a-9ca6-116e02844c6a"
+			name="TransContainer_existing"
+			refimgid="352b2a6b-8c0d-4fbf-a944-8ab0524eb62e"
+			refpath="/form[@title='Payments Journal']/element[@controlid='5012']/element[@class='CA_ContainerChild32']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='5012']/element[@class='CA_ContainerChild32']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="3a319041-7fe0-477b-8549-07ee629cc4fc"
+			name="Post"
+			refimgid="ae9ad412-1891-460f-8763-d686f2e4868e"
+			refpath="/form[@title='Payments Journal']/button[@text='' and @controlid='106']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/button[@controlid='106']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ec089ab1-314c-4702-8586-b2062fbc9f7d"
+			name="AdditionalFeesAndInterest"
+			refimgid="cc495ab4-795d-4cda-a0f5-74acc1916ae1"
+			refpath="/form[@title='Payments Journal']/element[@controlid='46']/text[@accessiblerole='Text']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='46']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="354caf94-5c39-4451-b418-412052c3d831"
+			name="PaymentAmount"
+			refimgid="3eea4806-1cf8-4f64-b603-325c81463f93"
+			refpath="/form[@title='Payments Journal']/element[@controlid='44']/text[@accessiblerole='Text']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/element[@controlid='44']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="42e406b8-5c03-4c33-8979-bc912c1c235b"
+			name="Reference"
+			refimgid="478bf528-72bf-4a95-8ad4-3dba065cda99"
+			refpath="/form[@title='Payments Journal']/text[@controlid='65']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/text[@controlid='65']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="640d57a1-c883-4e4a-b849-83d4d664a702"
+			name="UndoCurrentTransaction"
+			refimgid="287644d3-9ea9-4104-a52d-5143d7e72ad1"
+			refpath="/form[@title='Payments Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Undo current transaction (Ctrl+Z)']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Undo\ current\ transaction\ ']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f818073c-d670-4696-8875-41aae0ed66c6"
+			name="FrequencyButton"
+			refimgid="c1490d9d-a4ea-4eec-95d8-34960f1e6b45"
+			refpath="/form[@title='Payments Journal']/button[@text='' and @controlid='139']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/button[@controlid='139']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="4ea74f9c-ad8b-452d-8b37-8f6f0fff34ed"
+			name="Reverse"
+			refimgid="857799ef-c643-49d5-8c33-d7c9b245f6bb"
+			refpath="/form[@title='Payments Journal - Adjusting Payment VP2']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Reverse payment']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Reverse payment']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="0272bd83-f351-486f-94d6-ff78f31800b1"
+			name="Print"
+			refimgid="10c87a27-29b4-41c6-b1d4-3acf12edcba6"
+			refpath="/form[@title='Payments Journal - Adjusting Payment VP2']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='1']/button[@text='Print (Ctrl+P)']"
+			searchtimeout="3000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text='Print (Ctrl+P)']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="babe67a5-9bb4-4221-91f4-abd8095bd21d"
+			name="TransContainer"
+			refimgid="6f43aff0-c88a-44a8-9e6b-4975d5fa5612"
+			refpath="/form[@title='Payments Journal']/element[@controlid='5012']"
+			searchtimeout="30000ms">
+				/form[@title='Payments Journal']/element[@controlid='5012']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="38180edb-f84e-4c12-b27e-04f78beb5428"
+			name="AllocateToProjects"
+			refimgid="f685dd6c-dfe8-4d41-8f98-bb1c22492dad"
+			refpath="/form[@title='Payments Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='1']/button[@text='Allocate revenues and expenses to a Job Site (Ctrl+Shift+A)']"
+			searchtimeout="30000ms">
+				/form[@title='Payments Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text~'^Allocate\ revenues\ and\ exp']
+			</item>
+			<basepath>
+				/form[@title='Payments Journal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACMSURBVDhPzZFdDoAgDIN39B2Nm+G6HxBEQJ5s
+Mhlb+8Uo/UvMnKN8tK+cSUMIo5fLGUgB4I0he8AeUnp/y6UAUAj0BGxBPIRMC0C5Z6hiYpbzBtH7
+DBILGBtzQHxX5lIeNfWGe59SKj0Kdku10uUbBAWPWQeyrz4KynMWDNVfV8MyXgd7ASLH9+CZiC5j
+evpnRduSsQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d8ed9446-fde2-48d0-b6e4-ca87d3a85ff1"
+		isrooted="True"
+		name="AddOnTheFly"
+		refimgid="fd521924-8f88-42d8-a730-f2ccccd99b57"
+		refpath="/form[@title='Sage 50']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="5df6466e-8c1a-4843-8eb5-0ecbfac21820"
+			name="QuickAdd"
+			refimgid="4432e5bf-fe11-4574-93f3-ac3263344523"
+			refpath="/form[@title='Sage 50']/button[@text='&amp;Quick Add']"
+			searchtimeout="3000ms">
+				/form[@title='Sage 50']/button[@text='&amp;Quick Add']
+			</item>
+			<basepath>
+				/form[@title='Sage 50']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8d8f0135-676a-4d6e-b64e-c49f78e28e90"
+		isrooted="True"
+		name="SelectRemittingFrequency"
+		refimgid="d0526a98-2b9f-4b86-9d07-9b33d4a7f3b7"
+		refpath="/form[@title='Select Remitting Frequency']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="9cfb6405-0df9-4bcb-a624-5ae89b8dcf36"
+			name="Frequency"
+			refimgid="3ea3e0d4-a7aa-49cb-8eae-bf377cadb632"
+			refpath="/form[@title='Select Remitting Frequency']/list[@controlid='20']"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ Remitting\ Frequenc']/list[@controlid='20']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8f1b1081-ea7e-41f0-b281-57c515e07f77"
+			name="Select"
+			refimgid="96dfddc6-3f8c-4971-bbfb-4ed8c4e46fd1"
+			refpath="/form[@title='Select Remitting Frequency']/button[@text='&amp;Select']"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ Remitting\ Frequenc']/button[@text='&amp;Select']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e695a7d7-436a-4e61-a4e7-9cde64fb8935"
+			name="Cancel"
+			refimgid="1ae51f42-596d-4f66-a892-ae07e439ba78"
+			refpath="/form[@title='Select Remitting Frequency']/button[@text='&amp;Cancel']"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ Remitting\ Frequenc']/button[@text='&amp;Cancel']
+			</item>
+			<basepath>
+				/form[@title~'^Select\ Remitting\ Frequenc']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

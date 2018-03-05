@@ -1,0 +1,433 @@
+﻿<repository
+id="0c961da4-6c25-42b9-99e2-e31574b8e36c"
+name="ReportCentreRes"
+rxversion="8.0">
+	<codegen
+	classname="ReportCentreRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="eaeee20a-46e0-4cca-9ec1-953335ec2965"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2d21d7ba-e079-45e2-9dd7-3d4e4395c786"
+		isrooted="True"
+		name="ReportCentre"
+		refimgid="41e61e16-5f9d-4e5d-8285-dafb2003b493"
+		refpath="/form[@title='Report Centre']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="17639024-46f8-4d10-a99a-a1b09c6a791b"
+			name="ReportType"
+			refimgid="d24318c5-088c-414d-963d-9a084b24a362"
+			refpath="/form[@title='Report Centre']/text[@controlid='2501']"
+			searchtimeout="3000ms">
+				/form[@title='Report Centre']/text[@controlid='2501']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="8ef8d5f9-b807-4e01-a698-92d19d99dcc2"
+			name="Details"
+			refimgid="50eae959-cf02-4bd4-8ec5-38994fcd9d7e"
+			refpath="/form[@title='Report Centre']/text[@controlid='2506']"
+			searchtimeout="3000ms">
+				/form[@title='Report Centre']/text[@controlid='2506']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7886ad81-c881-4304-a3ff-37a101fe7864"
+			name="Display"
+			refimgid="f3c5b3e0-a0fa-4391-955c-91ee77b351a7"
+			refpath="/form[@title='Report Centre']/button[@text='&amp;Create']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']/button[@text='&amp;Create']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="e031a093-40e5-49a6-aa33-faeef61677c3"
+			name="ReportList"
+			refimgid="46264015-f65a-4739-8fbc-e6b305e9ebd7"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']/element[@controlid='2502']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="06e36a72-36fa-43ec-925e-e2bbabaa3094"
+			name="BalanceSheetYTD"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Balance Sheet YTD']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Balance Sheet YTD']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="4dec617f-5976-4131-b859-44771093d70d"
+			name="CustomerAgedSummaryYTD"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Customer Aged Summary YTD']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Customer Aged Summary YTD']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="d53341b1-7f60-4977-8238-3091a559d87c"
+			name="VendorAgedSummaryYTD"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Vendor Aged Summary YTD']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Year to Date']/treeitem[@accessiblename='Vendor Aged Summary YTD']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="d6e6c9ea-d953-4594-a6d8-19e79d222731"
+			name="YearToDate"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Year to Date']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Year to Date']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="38ebfd1c-69b2-4fb5-8fcc-8c40ca59c1b0"
+			name="BalanceSheet_Standard"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Standard']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Standard']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="61fa6f64-047c-4d43-919b-9bceaa5831e3"
+			name="BalanceSheet_Comparative"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Comparative']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Comparative']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="e6e4e153-b27a-4177-93c2-245785db9dd2"
+			name="BalanceSheet_MultiPeriod"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Multi-Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Balance Sheet']/treeitem[@accessiblename='Multi-Period']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="ab56c225-40fe-4991-96dc-e56e7affbfa6"
+			name="IncomeStatement_Standard"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Standard']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Standard']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="c6efccc7-1305-47b2-accc-def76e5e2f5d"
+			name="IncomeStatement_Comparative2Period"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Comparative 2 Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Comparative 2 Period']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="2e805805-63da-42bb-952e-8bfcac702ee9"
+			name="IncomeStatement_Comparative4Period"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Comparative 4 Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Comparative 4 Period']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="d6d7e454-e493-4572-9c60-f496c8d83871"
+			name="IncomeStatement_MultiPeriod1"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Multi-Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Multi-Period']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="6adef295-fdbf-4317-b34f-6e2a2d320dff"
+			name="IncomeStatement_GrossMarginStandard"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Gross Margin - Standard']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Gross Margin - Standard']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="c67ebc86-b340-4a80-b3cf-b2dc8a8186f8"
+			name="IncomeStatement_GrossMarginComparative"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename='Gross Margin - Comparative']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Income Statement']/treeitem[@accessiblename~'^Gross\ Margin\ -\ Comparativ']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="9a70974d-545b-4b48-be01-574fb4c61a42"
+			name="TrialBalance_Standard2"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Standard']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Standard']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="24a6aa9e-3fa4-4ab4-9b0b-f9bf9f2685f8"
+			name="TrialBalance_Comparative1"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Comparative']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Comparative']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="584c4af2-78ec-4fee-85cf-4bd0d87a588e"
+			name="TrialBalance_NetChangesForPeriod"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Net Changes for Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Net Changes for Period']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="d1a2505f-3ef6-45e6-bf2c-1967800a54da"
+			name="TrialBalance_MultiPeriod"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Multi-Period']"
+			searchtimeout="30000ms">
+				/form[@title='Report Centre']//treeitem[@accessiblename='Trial Balance']/treeitem[@accessiblename='Multi-Period']
+			</item>
+			<folder
+			addcaps="tree,accessible"
+			capname="tree"
+			id="9c85d410-22b9-44ca-aa12-6c78fb12999d"
+			isrooted="True"
+			name="ReportsTree"
+			refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="5be5d4bd-7014-4a89-a915-0f787071cfd8"
+				name="AllJournalEntries"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='All Journal Entries']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='All Journal Entries']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="ab8af46b-bf92-41f9-8cb4-3eaaf8d460f8"
+				name="BalanceSheet"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Balance Sheet']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Balance Sheet']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="57db22a3-fafb-4c67-9370-daf523939d92"
+				name="Budget"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Budget']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Budget']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="48345f6b-2bb1-4b3b-b8c2-84f7d3d38f95"
+				name="GeneralLedger"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='General Ledger']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='General Ledger']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="58270af7-2020-4f5d-a8a5-d3130b3ac95e"
+				name="IncomeStatement"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Income Statement']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="839d1e28-5e01-4e3f-8af4-bca7ec2102d0"
+				name="StatementOfCashFlows"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Statement of Cash Flows']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Statement of Cash Flows']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="d137e274-f116-4b6b-b8b2-273a3a4db256"
+				name="TrialBalance"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Trial Balance']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="02c30829-4dca-47b5-bcba-e10641c3be3c"
+				name="CashFlowProjectionDetail"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Cash Flow Projection Detail']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename~'^Cash\ Flow\ Projection\ Deta']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="da26024c-6992-4447-9f96-149467bf0a16"
+				name="CashFlowProjectionSummary"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Cash Flow Projection Summary']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename~'^Cash\ Flow\ Projection\ Summ']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="17c2f0fd-c029-45c4-9974-d4f58e6d6d1f"
+				name="RealizedExchangeGainOrLoss"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Realized Exchange Gain or Loss']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename~'^Realized\ Exchange\ Gain\ or']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="4bc1ad1c-49f9-4aed-ae32-e87d65ff8b4f"
+				name="UnrealizedExchangeGainOrLoss"
+				refpath="/form[@title='Report Centre']/element[@controlid='2502']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Unrealized Exchange Gain or Loss']"
+				searchtimeout="30000ms">
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']/treeitem[@accessiblename~'^Unrealized\ Exchange\ Gain\ ']
+				</item>
+				<basepath>
+					/form[@title='Report Centre']/?/?/tree[@accessiblerole='Outline']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Report Centre']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABiSURBVDhP7Y5RCoAwDEN79N5cX5ViBnOtoH8+
+CIM2yWqBu29dYQ+NxKIL9vsC/akSsasoBlnQhdi6gP1UCbHQyScFFcTWBTpTJcT+C16/gGco0FJV
+Ev4jrKihAvu8gOeBzHbqv470a6o1bwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="01c30076-2b4d-43e6-ae5e-8548eaa8b84f"
+		isrooted="True"
+		name="ReportOptions"
+		refimgid="0d22786f-9cb3-4b62-b229-c921fc4c18af"
+		refpath="/form[@controlname='ReportOptionsForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="e3f8047c-f92a-4607-bc1c-fc9aed24b3b2"
+			name="OK"
+			refimgid="af71ceff-9ef2-4509-98cc-797e9978793a"
+			refpath="/form[@controlname='ReportOptionsForm']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='ReportOptionsForm']/button[@controlname='m_OKButton']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="03eb8529-6757-42d4-a0e3-30f34570f0e6"
+			name="DetailBtn"
+			refimgid="f2d700e9-06a3-4f42-8d38-be48e223f88f"
+			refpath="/form[@controlname='ReportOptionsForm']/container[@controlname='VCSaleOptionsForm']/container[@controlname='m_summaryDetailControl']/radiobutton[@controlname='m_detailRdBtn']"
+			searchtimeout="3000ms">
+				/form[@controlname='ReportOptionsForm']/?/?/container[@controlname='m_summaryDetailControl']/radiobutton[@controlname='m_detailRdBtn']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="49c3da82-f17a-401a-8326-9b13ccf2718d"
+			name="VendorAgedDetailBtn"
+			refimgid="11bc8686-25f5-4500-a750-6fbd1c905e85"
+			refpath="/form[@controlname='ReportOptionsForm']/container[@controlname='VCAgedOptionsForm']/container[@controlname='m_summaryDetailControl']/radiobutton[@controlname='m_detailRdBtn']"
+			searchtimeout="3000ms">
+				/form[@controlname='ReportOptionsForm']/container[@controlname='VCAgedOptionsForm']/?/?/radiobutton[@controlname='m_detailRdBtn']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="595418ed-e03a-4366-8494-213c13c4ce3b"
+			name="EmployeeDetailBtn"
+			refimgid="73ac7f48-c593-4eed-b945-5777292dfdd1"
+			refpath="/form[@controlname='ReportOptionsForm']/container[@controlname='EmployeeRptOptForm']/container[@controlname='m_summaryDetail']/radiobutton[@controlname='m_detailRdBtn']"
+			searchtimeout="3000ms">
+				/form[@controlname='ReportOptionsForm']/container[@controlname='EmployeeRptOptForm']/?/?/radiobutton[@controlname='m_detailRdBtn']
+			</item>
+			<basepath>
+				/form[@controlname='ReportOptionsForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="eab6977d-29eb-4eda-80c9-244864ee3625"
+		isrooted="True"
+		name="ReportDisplay"
+		refimgid="d74c2ef9-a362-40c5-ac25-69d97503cbbb"
+		refpath="/form[@controlname='ReportForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<basepath>
+				/form[@controlname='ReportForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABySURBVDhPlY5BDsAgEAL36f7cxhaINJbqJHMR
+2FgT/cAlfZfW2vII4n/igREm2cHGUJhkBxtDYZIdbAyFSXawMRQm2cHGUJhkBxtDYZIdbAyFSXaw
+MRQm2cHGUJhkBxvjDt+M99nB0YEVXweK39zxWVRdwbQCOfYesRYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

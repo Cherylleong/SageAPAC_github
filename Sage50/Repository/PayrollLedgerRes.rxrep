@@ -1,0 +1,887 @@
+﻿<repository
+id="84423655-1343-48b8-ae7f-6bf455fe142d"
+name="PayrollLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="PayrollLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="84a541e8-fb23-4eca-8e02-73008df3a3b0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5505a981-65e8-43a0-948f-09d7edf401e5"
+		isrooted="True"
+		name="PayrollLedger"
+		refimgid="94fa850b-5dd9-40d6-8a49-0b9b3c9beecf"
+		refpath="/form[@title='Payroll Ledger']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="23e56fa8-6f3f-4424-ab5a-2602b17deee4"
+			name="SelectRecord"
+			refimgid="c3d8cccc-2319-4d01-8e8d-9032ab808f2b"
+			refpath="/form[@title='Payroll Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="f7641b5c-effe-4235-b451-7381fb9f704e"
+			name="EmployeeName"
+			refimgid="99110915-149a-4bff-bc13-d7fab8e7c385"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/element[@controlid='22']/text
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="42e1f49b-1765-480f-9a85-d8bc8032716f"
+			name="CreateANewToolButton"
+			refimgid="861b9468-1c67-4fa2-9212-d0329a099a95"
+			refpath="/form[@title='Payroll Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='0']/button[@text='Create a new employee (Ctrl+N)']"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ employee\ \(Ct']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="641217e7-b347-44f4-8b09-2927f8cd53e1"
+			name="InactiveEmployee"
+			refimgid="34973490-9e73-4cf6-9af5-0e5d1263886f"
+			refpath="/form[@title='Payroll Ledger']/checkbox[@text='&amp;Inactive Employee']"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/checkbox[@text='&amp;Inactive Employee']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="629db734-eaac-442a-8475-60e78db1a7a9"
+			name="Remove"
+			refimgid="9effb36a-b528-4293-8041-fcfb7b315340"
+			refpath="/form[@title='Payroll Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='0']/button[@text='Remove the current employee (Ctrl+R)']"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Remove\ the\ current\ employ']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="7f53168e-058f-410f-89e1-9cba21b8a8b3"
+			name="Save"
+			refimgid="8d9e718e-4705-47e2-a30b-f104a28a5e5e"
+			refpath="/form[@title='Payroll Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='0']/button[@text='Save the current employee (Ctrl+S)']"
+			searchtimeout="3000ms">
+				/form[@title='Payroll Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\ employee']
+			</item>
+			<folder
+			capname="form"
+			id="f4667627-40dd-411d-a3f2-21c4af3b62ee"
+			isrooted="True"
+			name="Personal"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="52afa08f-5f14-46a0-a1bb-b358b6dc54f4"
+				name="Tab"
+				refimgid="57f85217-4211-4ba2-89a0-fdab1353be3d"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Personal']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Personal']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e0f1f66b-55c6-4353-ba5e-48babbbe3284"
+				name="Street1"
+				refimgid="ef4f33a6-caad-4c02-b485-beab6d51efd5"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='42']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1c3c8402-b137-468a-8836-8e8a01e8ab05"
+				name="Street2"
+				refimgid="147c4b49-5c17-44ba-87cf-deac389063e3"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='43']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="cad500d0-eb67-403d-b0b1-f49c03af3d67"
+				name="City"
+				refimgid="ff56943a-410f-4494-9ff1-a7bbe491acb2"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='44']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="22ef6bc0-2273-4be7-8a29-36326e4cfb56"
+				name="Province"
+				refimgid="c5f28632-8ec5-4c8f-ae79-a155398224f2"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='45']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="17fac9f7-0db6-4483-a58b-bf27f274faaf"
+				name="ProvinceCode"
+				refimgid="fcfbbaba-b1f5-4024-945a-b5c5d76e4126"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='31']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='31']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="f1813c56-dbf3-4c1d-b55a-882bf27c117e"
+				name="PostalCode"
+				refimgid="d687a8f6-285f-42b8-b2b3-a90c2cfff372"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='46']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="6eec9afa-d361-44bf-b873-71cfe48f6f44"
+				name="Phone1"
+				refimgid="67805904-dc14-4c94-9a72-24595ada1ccc"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='47']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="af61d0ee-18cd-457f-8f4c-bae50f25f776"
+				name="Phone2"
+				refimgid="ff58163d-3204-4ae2-87b8-38732e9e4dd2"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='48']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="e0211a57-4826-44d9-9c02-1ce2312892ea"
+				name="LanguagePreference"
+				refimgid="1523f96c-ca84-438f-819b-8e83aa2c3d8a"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='401']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='401']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b12304c6-b8e4-4e5e-ad6d-485ec1c4b3d3"
+				name="SIN"
+				refimgid="07f05e31-9892-407d-83e1-f9b7ae2234fb"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='49']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="c66aadfe-c224-4dd7-82da-45b415134770"
+				name="BirthDate"
+				refimgid="482f597f-2c30-4b71-b6b7-98998844585d"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='50']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="15d7591c-e67a-4d43-a765-d1bbde94c20f"
+				name="ROECode"
+				refimgid="76c058fc-ae4a-4c91-a44f-b94c116edf09"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='56']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='56']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="70df7361-5be3-4d44-a03d-58861c4740fd"
+				name="HireDate"
+				refimgid="295b2d1f-db22-4f95-acd2-e70999532b0e"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='52']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="53c4deca-f383-47ec-8c87-d65766835617"
+				name="TerminateDate"
+				refimgid="5415a9f6-a380-4ca3-98de-a93bc82d3c52"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='54']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="bd85cd9d-f1fc-4e4d-ae24-5f72d5b913d3"
+				name="Department"
+				refimgid="8550d450-294c-4f9a-9d55-92763bf9e824"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='60']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='60']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="1ba9a83f-230c-4206-9d75-fc27a61850d7"
+				name="JobCategory"
+				refimgid="23a305ba-fbe4-46db-9785-88442a3c735f"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='62']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='62']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="7ea18317-1b0a-4237-b223-ae875f6ce9f7"
+			isrooted="True"
+			name="Taxes"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="df6b8bab-a0d8-450f-8737-39cff224528f"
+				name="Tab"
+				refimgid="ad9cdf2f-4981-4fb5-a5f4-d019bd521291"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Taxes']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Taxes']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="93e36326-8408-4dc6-b333-0fb2ad4421eb"
+				name="TaxTable"
+				refimgid="bf297343-21e1-4655-9d53-a9c4ef428f75"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='129']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='129']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="a2bcd86c-50a2-4cf2-a149-4d0fe789a86d"
+				name="PersonalTaxCreditsContainer"
+				refimgid="636af5fe-4419-4d3c-a46e-11cb64535b91"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='4469']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='4469']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="d04a2a22-ead2-44a2-90a3-3dc29437d146"
+				name="AdditionalFederalTax"
+				refimgid="6069f7ea-12bb-465f-a7fd-e4cf546daa78"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='131']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d5b2848e-aa91-410b-848c-315ecc468e1f"
+				name="DeductEI"
+				refimgid="bfc28d24-fe26-42d2-a023-a537a8309d42"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='Calculate &amp;EI']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text='Calculate &amp;EI']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="0276ebd4-d8df-4bf7-bf57-ad151a8ad57c"
+				name="DeductQpipOrSocSec"
+				refimgid="54c31f3b-f7a7-4a35-8a9d-cab3641b1574"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='Calculate &amp;QPIP']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text='Calculate &amp;QPIP']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="8dd45840-127a-4191-b397-3ce858bf5b54"
+				name="DeductCPPQPP"
+				refimgid="a9be0e87-1a00-4df7-8a80-008d931d789b"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='Calc&amp;ulate CPP/QPP']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text='Calc&amp;ulate CPP/QPP']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="100e1714-7d47-4b16-85c9-f79afc8424cb"
+				name="EIRate"
+				refimgid="215aefd8-8bf5-4333-a947-f5da4a3550e4"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='138']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="b693b6bc-95ae-4b98-81fc-d97faacfe70d"
+				name="TaxContainer"
+				refimgid="a15b4abc-e1af-4040-b2c7-4f9e1f9f5c46"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='4475']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='4475']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="21779d3e-ec47-4ea9-a778-8037db5dd7da"
+			isrooted="True"
+			name="Income"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="1277f960-296f-4603-924a-9a32a86e975c"
+				name="Tab"
+				refimgid="6ee481d8-3c62-459d-8a78-a75e5b01876f"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Income']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Income']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="ac000383-476f-439d-b95a-19b6ce686255"
+				name="IncomeContainer"
+				refimgid="44056794-b903-4d82-b598-2cb7443fdd7f"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='3978']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='3978']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="08a4875d-b8d9-4bd1-9a77-953d8f9d41ef"
+				name="PayPeriodsPerYear"
+				refimgid="a892b6ef-2f76-483c-b08f-88b35ec19e5d"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='72']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='72']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="7fc39cd0-8628-4ae2-91e4-ce22ca3cc50c"
+				name="RetainVacation"
+				refimgid="34490236-7b3d-410f-9a95-f798accd1af6"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='&amp;Retain Vacation']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text='&amp;Retain Vacation']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2418c3f7-19d8-48f1-89bb-4db24e00dc5c"
+				name="CalculateVacationOnVacation"
+				refimgid="335eeebe-7f14-444a-93f4-0df90ec19645"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='Calculate &amp;Vacation on Vacation Paid']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text~'^Calculate\ &amp;Vacation\ on\ Va']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="d2c9ff9e-7489-4415-89c6-3036004d4e11"
+				name="RetainVacationPercentage"
+				refimgid="edf8d7d4-2889-4b15-8380-f5889cb29842"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='74']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='74']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="7b825d3e-1469-46be-a432-1f91e7b39f11"
+				name="RecordWageExpensesIn"
+				refimgid="650890c6-f33a-4830-9055-565cee5c02a6"
+				refpath="/form[@title='Payroll Ledger']/radiobutton[@text='The payroll linked accounts']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/radiobutton[@text~'^The\ payroll\ linked\ accoun']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="d82b4766-6cd5-49c5-a8d5-8193a8ced362"
+				name="WageExpensesButton"
+				refimgid="69ccd70c-d88d-4e05-bd17-cff22f60816f"
+				refpath="/form[@title='Payroll Ledger']/radiobutton[@text='']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/radiobutton[@text='']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="fd1d42b0-b701-49f8-9578-cb6f33e55d55"
+				name="WageExpensesDropDown"
+				refimgid="46b31eba-6471-4200-a356-597fdc24d738"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='104']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='104']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="d33ade79-2ee2-493d-a75d-61d18c6d49e9"
+			isrooted="True"
+			name="Deductions"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="3d3da7e0-aa19-4cf9-bee9-31b05f0bb5c7"
+				name="Tab"
+				refimgid="72fe7e89-602d-44d5-8ff6-757bb553411c"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Deductions']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Deductions']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="420a281b-4ca3-4d88-bf08-8669462c0fc0"
+				name="DeductionsContainer"
+				refimgid="b63697ee-792f-4253-9ef2-07cb9d79d267"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='3979']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='3979']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="78c4e4a8-0468-49de-a4d3-64df412d10cb"
+			isrooted="True"
+			name="WCBOtherExp"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="a1f66255-0f52-4436-9860-477827ac610e"
+				name="Tab"
+				refimgid="6fec9a4e-32e0-43f9-9e72-1ccf4e852edd"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='WCB &amp; Other Expenses']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b769aada-2dfc-4dc8-a437-13ce3e71ef8b"
+				name="WCBRate"
+				refimgid="bd4982c8-4cbc-4ee9-8186-6cec35e1f08f"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='140']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="c0148980-5914-4604-a67b-781e19494312"
+				name="WCBContainer"
+				refimgid="62e031a5-4182-43a6-ac79-3bc402b91c19"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='4494']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='4494']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="e31890a3-9716-434d-ae84-7a15e35263c0"
+			isrooted="True"
+			name="Entitlements"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="c633165c-3de4-4e07-bd7d-769e729d3413"
+				name="Tab"
+				refimgid="58f42d5f-17d0-48e9-b71a-680272cda625"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Entitlements']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Entitlements']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="f3be18fb-17e3-4b1c-adbf-da265fa4be9a"
+				name="HoursInWorkDay"
+				refimgid="c6356a67-2ac7-4656-aee1-08c21c6979aa"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='908']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="2f15e7c2-e3ed-4d46-9311-1ec2926b60b6"
+				name="EntitlementsContainer"
+				refimgid="acaf9218-b4ec-4c31-92f1-f621abb53446"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='3850']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='3850']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="dd0c479a-ab5b-4164-a385-f564f3d72d7f"
+			isrooted="True"
+			name="DirectDeposit"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="7dd7aa36-387d-49f6-9f67-156b12812066"
+				name="Tab"
+				refimgid="6919060e-5681-4193-92bb-fc5b299acc61"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Direct Deposit']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Direct Deposit']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c387e71a-9ebc-4358-8aca-341ef337bc42"
+				name="DD"
+				refimgid="d4818cbe-88f3-47a5-bd66-3266e51c681b"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='&amp;Direct deposit paycheques for this employee.']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text~'^&amp;Direct\ deposit\ paycheque']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="4d8fbcca-3067-4be0-837b-39416f492e54"
+				name="DirectDepositContainer"
+				refimgid="61d36093-c097-4d20-9859-84be596ce802"
+				refpath="/form[@title='Payroll Ledger']/element[@controlid='3700']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='3700']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="44fad97c-c07c-432d-bb88-45dec1656c1d"
+			isrooted="True"
+			name="Memo"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="ef5e40b3-6e29-48de-bb92-3dd074952648"
+				name="Tab"
+				refimgid="1286721a-9a47-49f7-a376-be7e43cd1738"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Memo']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Memo']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="f7ea4a0c-45c2-42e1-bbcc-cb3f4c3ddfba"
+				name="Memo"
+				refimgid="244ed380-b4f6-4206-abde-bc152038415c"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='582']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="690d0006-bd2c-41b1-b8a8-0abe47986668"
+				name="ToDoDate"
+				refimgid="f3d6b769-de66-4773-afff-01a25b635bf4"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='583']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="84369a99-24e4-49f8-ae5b-8228e5392b91"
+				name="DisplayThisMemo"
+				refimgid="5febcaf5-70c8-4158-9f4f-c9b6c28fcf7b"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='Displa&amp;y this memo in the Daily Business Manager']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@text~'^Displa&amp;y\ this\ memo\ in\ the']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="fe05f852-66a3-4533-a4ad-a2a7e9470256"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="05386a04-500d-4329-8a65-19455996d617"
+				name="Tab"
+				refimgid="0185a21c-3030-499b-8115-ed8d182ce37d"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Additional Info']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="2046a22b-df2f-4dc5-bb81-73c2668d6b02"
+				name="Additional1"
+				refimgid="cf3f7c30-6978-426a-92e1-6f0b464d1e37"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="fc42c9c3-b45a-4abb-969a-abd995e2d53c"
+				name="AddCheckBox1"
+				refimgid="57c21aad-86bb-42d8-bcc4-4d328a869386"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='      ' and @controlid='811']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@controlid='811']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="aa8aaec5-cf85-424e-a6c2-1e8b1f67b847"
+				name="Additional2"
+				refimgid="526d4711-fdee-469c-a0e1-eace4f7a5208"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="b6b98dec-95e7-43c6-9a42-c79d604b8467"
+				name="AddCheckBox2"
+				refimgid="57ca6e21-1dc3-4972-a39c-5eee4fe4127d"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='      ' and @controlid='812']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@controlid='812']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="cdc6fcc8-3753-4eb6-ad03-2484d7067b7b"
+				name="Additional3"
+				refimgid="6830f6ea-18ff-4b44-83ee-01f67281a895"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="80d24a4d-dbf3-4d89-89a8-3be889f0debf"
+				name="AddCheckBox3"
+				refimgid="03bd1188-2006-402b-8e1d-b517218a7b60"
+				refpath="/form[@title='Payroll Ledger']/checkbox[@text='      ' and @controlid='813']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/checkbox[@controlid='813']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="727f61b1-8179-4819-a8ed-d0b625612f18"
+			isrooted="True"
+			name="T4RL1"
+			searchtimeout="1000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="84690b7e-4bd1-4853-9adc-94dd917376dd"
+				name="Tab"
+				refimgid="6b66fcc2-9c57-4e09-b2cd-36a9f0639565"
+				refpath="/form[@title='Payroll Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='T4 and RL-1 Reporting ']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/?/?/tabpage[@title='T4 and RL-1 Reporting ']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="65617393-5f9d-4a85-8477-d4701747a11e"
+				name="EIInsEarnings"
+				refimgid="9270390a-54a0-4d6c-b5fa-c889e41de94c"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='950']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='950']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="6268f775-e38b-486b-9fd4-74411901a246"
+				name="PensionableEarnings"
+				refimgid="1a38df7c-ec50-4c8a-be68-748b11fa76c0"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='956']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='956']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="1208ea33-1f9a-4dac-8a9f-75646159298b"
+				name="QPIPInsEarnings"
+				refimgid="46f203dd-862d-49df-aceb-8efef62df013"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='982']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='982']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="a3ce5b2c-d6fa-4f56-b866-dc93ef554a5c"
+				name="RPPDPSP"
+				refimgid="f6449620-9724-4fc3-bf01-007c24014c60"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='954']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1e1d5b38-f418-45ba-968d-9e513901b1eb"
+				name="PensionAdjustment"
+				refimgid="da506857-7b5a-4e32-84f2-f116246a7571"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/element[@controlid='959']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="085bb3c7-1ff7-42c4-a2af-11967dc4d338"
+				name="T4EmpCode"
+				refimgid="69f7aae0-c2b0-4a6d-a803-eab204184ad3"
+				refpath="/form[@title='Payroll Ledger']/combobox[@controlid='970']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/combobox[@controlid='970']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="129d0343-4233-4441-9c63-2800134327dc"
+				name="HistoricalEIInsEarnings"
+				refimgid="9c6c3144-226e-416a-9de9-ab25f87f6c7e"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='952']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='952']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="51e2ce70-8889-4b3a-a63d-2b1b30400eeb"
+				name="HistoricalPensionableEarnings"
+				refimgid="57c986b3-3ab1-4d7d-98aa-43d8348ded45"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='961']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='961']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="f15c8d5f-e412-47ec-96ea-a4fd49384814"
+				name="HistoricalQpipEarnings"
+				refimgid="f8daa5f9-73e8-406b-8b85-a587b251541b"
+				refpath="/form[@title='Payroll Ledger']/text[@controlid='984']"
+				searchtimeout="3000ms">
+					/form[@title='Payroll Ledger']/text[@controlid='984']
+				</item>
+				<basepath>
+					/form[@title='Payroll Ledger']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Payroll Ledger']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABaSURBVDhP1YwBCsAgDAP79P7cNdrhJq6mDAQP
+glabkyWqxW85tBfr+ZhjVovhv/0UJeOVDswQMOQEbdmHRlowQgvs8ZWbkwRYHMpgnwD8FsyIBUQ+
+BWy8Yohce/PDEJdAyB4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8a5ba7ff-d262-47dd-8a87-839e0b10025b"
+		isrooted="True"
+		name="EmployeeIcon"
+		refimgid="3f7bff29-4739-4565-8080-ff71f51d673c"
+		refpath="/form[@title='Employees']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="e428c3b2-df57-4c7e-953f-3eb20ce0a32f"
+			name="CreateNew"
+			refimgid="031afa7c-70e1-4562-8213-b0458b9a133c"
+			refpath="/form[@title='Employees']/container[@class='ReBarWindow32']/toolbar[@controlid='20' and @class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']"
+			searchtimeout="3000ms">
+				/form[@title='Employees']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Employees']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABaSURBVDhP1YwBCsAgDAP79P7cNdrhJq6mDAQP
+glabkyWqxW85tBfr+ZhjVovhv/0UJeOVDswQMOQEbdmHRlowQgvs8ZWbkwRYHMpgnwD8FsyIBUQ+
+BWy8Yohce/PDEJdAyB4AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

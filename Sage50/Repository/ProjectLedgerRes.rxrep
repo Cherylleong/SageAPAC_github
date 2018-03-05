@@ -1,0 +1,360 @@
+﻿<repository
+id="7f4f4de2-a9b9-4d41-ad3b-19a9f3d05857"
+name="ProjectLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="ProjectLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="66ed229b-3a5f-48c0-80bc-a21cd6c27dc7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fdeabf97-8ce2-4389-84d2-c86f0d3950fb"
+		isrooted="True"
+		name="ProjectLedger"
+		refimgid="06a8a606-68d3-4879-9f34-27ff6fdd816e"
+		refpath="/form[@title='Project Ledger']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e581a6c8-1bd0-472f-bbbc-d7bd6eb91069"
+			name="ButtonDetails"
+			refpath="/form[@title='Project Ledger']/button[@text='&amp;Details...']"
+			searchtimeout="30000ms">
+				/form[@title='Project Ledger']/button[@text='&amp;Details...']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9e952ece-cd8f-4e52-ac80-53058660f35f"
+			name="SaveAndClose"
+			refpath="/form[@title='Project Ledger']/button[@text='Save a&amp;nd Close']"
+			searchtimeout="30000ms">
+				/form[@title='Project Ledger']/button[@text='Save a&amp;nd Close']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="94b740cc-a059-490f-8345-63f0da44453b"
+			name="ButtonCreateAnother"
+			refpath="/form[@title='Project Ledger']/button[@text='&amp;Create Another']"
+			searchtimeout="30000ms">
+				/form[@title='Project Ledger']/button[@text='&amp;Create Another']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9cfb97be-06f2-4111-befe-dfa354ce0d71"
+			name="CreateANewToolButton"
+			refimgid="503fb01c-ded5-40bc-83c4-097882a05541"
+			searchtimeout="3000ms">
+				/form[@title='Project Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ Project\ \(Ct']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="1f3c22f5-7ec7-42c5-a38a-5f880f80f48a"
+			name="Save"
+			refimgid="0b04dec7-5fd3-411b-a5b0-4e8d79e12c0b"
+			searchtimeout="3000ms">
+				/form[@title='Project Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\ Project']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="61295f49-3e5b-49b2-92dd-a5e83973ef22"
+			name="SelectRecord"
+			refimgid="45d1602b-7f17-486a-a710-1a9bc1bdd0ab"
+			searchtimeout="3000ms">
+				/form[@title='Project Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="38360ff6-a3f1-49cc-af15-166ecca16a52"
+			name="InactiveProject"
+			searchtimeout="30000ms">
+				/form[@title='Project Ledger']/checkbox[@controlid='47']
+			</item>
+			<item
+			addcaps="tabpagelist,nativewindow"
+			capname="tabpagelist"
+			id="f6638840-b32b-411b-8d6f-f21cf6ebbc1b"
+			name="TabControl"
+			refimgid="673cdac2-f6cd-4598-a83a-fe7591d64cc7"
+			refpath="/form[@title='Project Ledger']/tabpagelist[@class='SysTabControl32']"
+			searchtimeout="30000ms">
+				/form[@title='Project Ledger']/tabpagelist[@class='SysTabControl32']
+			</item>
+			<folder
+			capname="form"
+			id="2367f51c-26b0-49e5-9ca8-78378dfd6c5d"
+			isrooted="True"
+			name="Project"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="4e52ffd5-23bd-437f-a219-d7e49f885909"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/?/?/tabpage[@title='Project']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="dc275952-935b-43e0-8e79-8274721081cb"
+				name="ProjectName"
+				refimgid="2e91601e-a161-4419-87ee-3fb0c4af8c42"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='23']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="58acd22f-e749-4234-9838-30ad3b639fde"
+				name="StartDate"
+				refimgid="c6e3ac1c-49cf-4268-9623-fc799c7c7f41"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='27']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="db8fe4ae-1565-4438-bef3-b632abb18ba6"
+				name="EndDate"
+				refimgid="3a505454-612a-4364-b59e-01515d546e2d"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='301']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="90c8d5fe-98a3-4ce2-8d26-634411828647"
+				name="Revenue"
+				refimgid="8ef771f5-264c-43d8-8f92-55cb032c5849"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='29']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="199b2238-7988-492c-a40b-e442719b462a"
+				name="Expense"
+				refimgid="e29d9b29-f826-4788-a836-1667f3d9ae39"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='30']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="26879eaa-80b6-4d29-bd8f-d4d6da6a1403"
+				name="Status"
+				refpath="/form[@title='Project Ledger']/combobox[@controlid='304']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/combobox[@controlid='304']
+				</item>
+				<basepath>
+					/form[@title='Project Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="3f28add0-6e0c-4972-b8dd-c05c3a80a5e7"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="fdfffdd0-1fd8-4f48-8ec6-e4d08878e6e0"
+				name="Additional1"
+				refimgid="f07f9f12-ea78-4920-a9ec-da5acf7cf0fe"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="8417ae00-9a7e-4fe6-8b81-0dbf31910386"
+				name="Additional2"
+				refimgid="c260a5a9-cff7-4947-82bf-161aa691d0bc"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="fb1d80a2-d2b0-443a-8f7b-c4e282868106"
+				name="Additional3"
+				refimgid="564e26b2-0e98-4aad-b2f1-e08992a4a702"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="ec254af6-81b5-4016-a06f-be2856a01c2e"
+				name="Additional4"
+				refimgid="42c4be34-2bf6-4d44-b58d-959d854e63cd"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='808']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="1db64cce-009c-4383-8a49-a969b146ea68"
+				name="Additional5"
+				refimgid="2dc84795-afef-4022-9f61-7ca8dba9231a"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='809']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d50ae3a6-af1d-41af-baf5-d528351e5a98"
+				name="AddCheckBox1"
+				refpath="/form[@title='Project Ledger']/checkbox[@text='      ' and @controlid='811']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='811']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="bda8636c-1a4e-41ce-b00b-90d0359d043f"
+				name="AddCheckBox2"
+				refpath="/form[@title='Project Ledger']/checkbox[@text='      ' and @controlid='812']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='812']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="296f5960-1634-4527-b467-71c425682f4d"
+				name="AddCheckBox3"
+				refpath="/form[@title='Project Ledger']/checkbox[@text='      ' and @controlid='813']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='813']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c8c0b9d7-348e-40ad-a20d-0b88ce5842a6"
+				name="AddCheckBox4"
+				refpath="/form[@title='Project Ledger']/checkbox[@text='      ' and @controlid='814']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='814']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d61f6d85-29e4-4fe7-a4d4-880f9b93426d"
+				name="AddCheckBox5"
+				refpath="/form[@title='Project Ledger']/checkbox[@text='      ' and @controlid='815']"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='815']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="f3f5daa6-3886-41b8-9019-660e50e844b9"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<basepath>
+					/form[@title='Project Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="dcf6af05-6b56-4525-a69c-e0a00e42a181"
+			isrooted="True"
+			name="Budget"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="53284595-a994-4d1e-8e2e-6c2a6d1710c7"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/?/?/tabpage[@title='Budget']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="755f0cd9-1130-4df2-9bc5-197fb997291f"
+				name="BudgetThisProject"
+				searchtimeout="30000ms">
+					/form[@title='Project Ledger']/checkbox[@controlid='34']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="91cd3b2a-9b3c-4b9c-b6df-2938cae21d60"
+				name="BudgetContainer"
+				refimgid="d9679b5f-93ea-41a8-933b-9e42713f1136"
+				searchtimeout="3000ms">
+					/form[@title='Project Ledger']/element[@controlid='3600']
+				</item>
+				<basepath>
+					/form[@title='Project Ledger']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Project Ledger']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB0SURBVDhP7ZLRCoAgDEXvp/tn+me1jc2W0xzR
+YwcOiHovScNn1IpjlHbJBBLA3ERJnQZvDl9mLgtKKSLdCGfeUOBprUnBjlBgwb+A1layIRQwHMyE
+GSoA+n9/gRQYutcHaSejUXoIj6c+5Um66r3Q2c7oAE6F5UV0DsN4ewAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="645766b1-3a09-4ad8-84c9-5aa9903c31b7"
+		isrooted="True"
+		name="ProjectIcon"
+		refimgid="48c443fd-8bd3-4333-a199-2e9fce696192"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2d56184c-2acb-4e31-90f3-1b3b0813b396"
+			name="CreateNew"
+			refimgid="14be4d56-270e-4e15-a477-b85d7ce9ca26"
+			searchtimeout="3000ms">
+				/form[@title='Project']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Project']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPzZFbDsUgCAVdOktzZ1xAxot9JPrX
+QwgN5Qzatm9LtWnvPTJbZxJjkNnakNiw2m6r54A0i8jIIwBmG+beFSD+/lUc2+INQC9m8UxoADzu
+J+A5zDnD9DC7DBADAdLFdAWO8EUS9Qbwat1pwljNLPIPPQCmIBYAOU2Xyp9K+18OqgAHxkZyMT8A
+ECAA1C1zVb0agG1zFaDV3NoPcHEjnPDwwdMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

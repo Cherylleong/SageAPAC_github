@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="84176ded-cf91-4f14-a611-2ff3d98b675c"
+name="PayrollRunJournalRes"
+rxversion="8.0">
+	<codegen
+	classname="PayrollRunJournalRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7e8e081c-1b2f-4cb1-b3d2-8a0726587aa1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="98c4fdf7-7947-457e-99c5-564e927b8d6b"
+		isrooted="True"
+		name="PayrollRunJournal"
+		refimgid="a9651525-6c86-4dd5-a6c8-089ff628bada"
+		refpath="/form[@controlname='PayrollCheckRunFormCdn']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="c7536b30-be5e-45e6-94ef-56ad6c56a918"
+			name="PaidFrom"
+			refimgid="884fa5c5-c47a-41b1-9cd3-da15506a93da"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/combobox[@controlname='m_paidFromAccount']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/combobox[@controlname='m_paidFromAccount']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="ed8fff1c-399f-4604-881c-7931b9d99db6"
+			name="PayPeriodFrequency"
+			refimgid="df8cd27a-42f9-4820-a2c9-458a71e63bc4"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/combobox[@controlname='m_payPeriodComboBox']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/combobox[@controlname='m_payPeriodComboBox']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="296358d3-2934-4b64-bc81-0a3d7c604058"
+			name="ChequeNumber"
+			refimgid="8c8f5ebc-2233-42d0-bb03-47eb45f693a5"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/text[@controlname='m_startChqNumTextBox']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/text[@controlname='m_startChqNumTextBox']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="6f882549-27cc-4ef9-9845-d97c48706a53"
+			name="DirectDepositNumber"
+			refimgid="2353461d-ea77-43fc-86f8-18f6d7c9087f"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/text[@controlname='m_startDDNumTextBox']/text[@accessiblename='Starting Direct Deposit Number: DD']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/?/?/text[@accessiblename~'^Starting\ Direct\ Deposit\ N']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="caacde39-b6c4-4020-834d-e9c7783bdb21"
+			name="ChequeDate"
+			refimgid="6950d9f2-b109-4bd7-b713-fcf22382b833"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/container[@controlname='m_datePicker']/text[@controlname='m_dateTextBox']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/container[@controlname='m_datePicker']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="334abc32-75dc-4d5e-a146-e6f693cfa11c"
+			name="PeriodEndDate"
+			refimgid="f8407115-e6e7-4927-af88-4724387a7ba4"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/container[@controlname='m_periodEndDatePickerText']/text[@controlname='m_dateTextBox']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/container[@controlname='m_periodEndDatePickerText']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="f1cb2887-90ad-4a8f-a07b-a4f544edb7d9"
+			name="Post"
+			refimgid="b9ded13b-371e-4c2d-bf84-d037008da9f5"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/button[@controlname='m_postButton']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/button[@controlname='m_postButton']
+			</item>
+			<item
+			addcaps="table,control,nativewindow"
+			capname="table"
+			id="979dbe0a-a69e-44d8-be22-4ccda11243b9"
+			name="ChequeTable"
+			refimgid="6dfa3e1f-f84d-4601-9321-ed75c8a67fac"
+			refpath="/form[@controlname='PayrollCheckRunFormCdn']/table[@controlname='m_gridPayrollCheckRunEmp']"
+			searchtimeout="30000ms">
+				/form[@controlname='PayrollCheckRunFormCdn']/table[@controlname='m_gridPayrollCheckRunEmp']
+			</item>
+			<basepath>
+				/form[@controlname='PayrollCheckRunFormCdn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACVSURBVDhPzZBRDsMgDEM5eo7GzSg2ceetWVt1
+P7MUEUj8CLT/UUSMNsaKmXN/V2rGqgCE8URfIJwv83NVk+TjALgP0X84ICGnYlPvfU2QEJxF7IAS
+wqIaEQ7xWglxozcLwtUugWU5X3ozfuao8z8KI4VbZHKjYrYIcBTMfKtN4casobEGSA7BysOp/YIr
+wKV+BhzU2gbeNf3GqMFHtQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

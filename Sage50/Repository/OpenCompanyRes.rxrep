@@ -1,0 +1,67 @@
+﻿<repository
+id="e013b723-b6bb-4e00-84e5-50ec6d327455"
+name="OpenCompanyRes"
+rxversion="8.0">
+	<codegen
+	classname="OpenCompanyRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4ed6691c-f40c-4b48-800c-5ebe4a320578"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="320e6889-482c-47dd-9b6a-61b526440138"
+		isrooted="True"
+		name="OpenCompany"
+		refimgid="d12ea709-cedf-4053-918f-5bf4cd294cf0"
+		refpath="/form[@title='Sage 50 - Open Company']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="97f00cb2-f1b8-4988-8009-edb6debfb78a"
+			name="FileName"
+			refimgid="362aa8b8-3e4f-453d-96fc-444725cad7e3"
+			refpath="/form[@title='Sage 50 - Open Company']/combobox[@controlid='1148']/text[@controlid='1148']"
+			searchtimeout="3000ms">
+				/form[@title='Sage 50 - Open Company']/?/?/text[@controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="bac65eed-d4f7-4b80-8da6-5fe4fde0aeb4"
+			name="Open"
+			refimgid="a324ed4e-39e8-479e-a520-959e000bdddd"
+			refpath="/form[@title='Sage 50 - Open Company']/button[@text='&amp;Open']"
+			searchtimeout="3000ms">
+				/form[@title='Sage 50 - Open Company']/button[@text='&amp;Open']
+			</item>
+			<basepath>
+				/form[@title='Sage 50 - Open Company']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,854 @@
+﻿<repository
+id="40069e0c-5998-4430-9e75-747ef07d8290"
+name="PayablesLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="PayablesLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4e5dc7ef-462a-4642-993e-df4a412d4396"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5aff962d-075b-4a69-9da4-78c96bffa981"
+		isrooted="True"
+		name="PayablesLedger"
+		refpath="/form[@title='Payables Ledger']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="61295f49-3e5b-49b2-92dd-a5e83973ef22"
+			name="SelectRecord"
+			refimgid="de721b19-75d8-4320-9503-9e231764fe6d"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="61003cbe-c7b8-41f9-affc-9303df322302"
+			name="VendorName"
+			refimgid="c4ce1dc6-0fe7-4fe1-8f7f-5c5f1f4d49f0"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/element[@controlid='26']/text
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="224288b8-273b-4895-ba7a-777327609c47"
+			name="InactiveVendor"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/checkbox[@controlid='230']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9cfb97be-06f2-4111-befe-dfa354ce0d71"
+			name="CreateANewToolButton"
+			refimgid="ba3607ea-9b26-4f71-8167-c0580c05457c"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ vendor\ \(Ct']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="1f3c22f5-7ec7-42c5-a38a-5f880f80f48a"
+			name="Save"
+			refimgid="4b977425-96a0-498a-93c4-9da8aac03021"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\ vendor']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0316e5aa-dfb1-4a8f-9682-ac7bf5cc5f06"
+			name="SaveAndClose"
+			refimgid="51924a01-46bf-478a-acbe-3aa84e423b1c"
+			searchtimeout="3000ms">
+				/form[@title='Payables Ledger']/button[@controlid='1002']
+			</item>
+			<folder
+			capname="form"
+			id="5caefd7d-7fba-4887-a2b7-4a551c2a91f3"
+			isrooted="True"
+			name="Address"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="4e52ffd5-23bd-437f-a219-d7e49f885909"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Address']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Address']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="04055c47-8b52-447f-8b07-9d0d54acd701"
+				name="Contact"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='43']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="659a65c7-33bd-487b-a011-788cca05049d"
+				name="Street1"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='44']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="eeea5193-e6cc-4480-9e2c-74d3ff09e183"
+				name="Street2"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='45']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="8044aa34-6fda-4260-8d21-6317e4f28c5c"
+				name="City"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='46']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="bae1ab43-12ef-4577-9327-dae875e83c73"
+				name="Province"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='47']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="04c96174-9baf-4e12-a732-b40f97f191cb"
+				name="PostalCode"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='48']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="6d811a75-38dd-43b6-8f2e-1b0195120966"
+				name="Country"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='55']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="d1913ed3-3a83-4f9d-9858-17a48ab490b1"
+				name="Phone1"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='49']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="869f6b43-1160-4525-9ad5-9e40cbf8b068"
+				name="Phone2"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='50']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b700659c-742e-4851-884f-e01f9f9c02c1"
+				name="Fax"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='51']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="ec98c6db-c9f5-4742-81b1-23a581e243f6"
+				name="TaxID"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='58']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="343f40f1-1b13-4a6e-8f67-e80163e156eb"
+				name="Email"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='52']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="40a18a9b-60df-4c58-8424-100124f9afb4"
+				name="WebSite"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='53']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="a7277918-bf24-45cd-8c22-4c80bf635f74"
+				name="Department"
+				refpath="/form[@title='Payables Ledger']/combobox[@controlid='57']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='57']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="ff98641c-0d29-4763-9fc5-7b77096fb2aa"
+				name="VendorSince"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='68']/text
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="8c87e295-5f2a-4932-81d5-891a453001c2"
+			isrooted="True"
+			name="Options"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="98bed7fc-55d2-4b7d-8966-c8398c988fed"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Options']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="563c4b11-fc47-498c-adf9-31bf304bb40b"
+				name="ExpenseAccount"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='105']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="882c48ef-0f30-4ae7-86dd-36538654abc8"
+				name="Currency"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='102']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="b0f7aeb4-72a5-408a-b9db-89648c74af50"
+				name="UsuallyStoreItemIn"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='246']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="b657ec5d-be9d-4423-b300-ff7942676068"
+				name="ConductBusinessIn"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='112']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="2aed894d-5d2f-4f47-8794-e24d61bb4935"
+				name="OrdersForVendor"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='101']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e69146ad-616e-41b5-8470-4f5f08c86b3e"
+				name="DiscountPercent"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='92']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="a92cabb7-3556-40ec-a1c8-1ea9e92071d2"
+				name="DiscountPeriod"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='93']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="f0024fde-4035-4de0-a3b4-f4f598fe923e"
+				name="TermPeriod"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='94']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="b5ce1c49-14bb-46c7-b714-1e2c67460799"
+				name="CalculateDiscountBeforeTax"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='95']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c36279d0-36c5-463e-bfeb-ca93bdb72a84"
+				name="PrintContactOnCheques"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='82']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="a5218658-e3cf-4e6e-9702-d562c2e0cf5c"
+				name="EmailConfirmationOfPurchases"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='85']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="6e4a443e-bf9a-4c37-b98c-3e7fba07bd22"
+				name="SynchronizeWithMicrosoftOut"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='244']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="308908af-63f1-420e-909b-7cb3d924fa90"
+				name="ChargeDutyOnItemsPurchased"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='85']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="94bcd5e4-1f08-4f7d-ab60-0ddb7314482e"
+			isrooted="True"
+			name="Taxes"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="34f6dcc9-4b81-4ee8-98d4-9a47edd65ded"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Taxes']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Taxes']
+				</item>
+				<item
+				addcaps="button"
+				capname="combobox"
+				id="d1f8d071-d3f4-4a04-843e-bab0acd71387"
+				name="TaxCode"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='131']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="9e703c97-d8c3-41b3-890d-f2cd5965cda1"
+				name="TaxContainer"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='3668']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="cfe1d756-a925-49af-b70a-408f34e682a8"
+			isrooted="True"
+			name="DirectDeposit"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="ae4437bf-9670-4df1-b80a-11053d76b90d"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Direct Deposit']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Direct Deposit']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="1ad693dd-1f48-4df5-a9d1-35a6653093cf"
+				name="AllowDirectDeposits"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='1314']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2041522d-d2bc-46ab-b76c-c6ab0a0936a4"
+				name="EFTReferenceCheckBox"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='1329']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="46b386a6-eeec-48d4-88a9-a6b00289bd23"
+				name="TransCodeCheckBox"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='1330']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="223ba1c5-af83-47c6-a7b1-c7e6a477e0b6"
+				name="CurrencyAndLocation"
+				refpath="/form[@title='Payables Ledger']/combobox[@controlid='1313']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='1313']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="a0500989-7603-457a-aeb3-5c33f99c3023"
+				name="BranchNumber"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1319']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="9ec7d052-d293-4002-9748-6b4277d1c6ea"
+				name="TransCode"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1332']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="67341280-4d35-4ac1-8527-198ecdd28156"
+				name="EFTReference"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1331']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="8cc99b31-b3b3-46eb-8715-e73531864ceb"
+				name="RoutingNumber"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1321']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="c92f0aeb-7381-4f0e-bec2-f4ff2bdcd1c2"
+				name="InstitutionNumber"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1317']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1053322e-98af-4f3c-85fe-eb241a8fd450"
+				name="AccountNumber"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='1323']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="a5398674-3ca3-42f4-9026-12bb8073a6f7"
+				name="AccountType"
+				refpath="/form[@title='Payables Ledger']/combobox[@controlid='1327']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/combobox[@controlid='1327']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="7402b00e-a6ad-45fe-98d7-072934178c42"
+			isrooted="True"
+			name="Statistics"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="9e48af9f-4541-47d1-adf5-319a1c58c250"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Statistics']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Statistics']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b5521c61-cfc5-4538-b481-0970579f9059"
+				name="YTDPurchases"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='122' or @controlid='194']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="53cc8ce0-e5a0-4903-8abc-d228be108dd1"
+				name="LYPurchases"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='121' or @controlid='124']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="446e79cd-8ba9-4de4-935d-5f2a7f008600"
+				name="YTDPayments"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='201']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="6b14ab19-8d8c-41f2-ab69-d1aee185323d"
+				name="PreviousYTDPayments"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='202']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="899fd4ae-b27f-4e9d-b7e6-f85f62519258"
+				name="ForYTDPurchases"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='135' or @controlid='139']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e6d1abcd-fcff-42b7-aeb0-85372c38ca65"
+				name="ForLYPurchases"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='136' or @controlid='140']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="3da957ff-a801-4398-86ff-2b354a9cc056"
+				name="ForYTDPayments"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='137']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1192a2b4-2595-4bc4-82a5-b2f40870cc96"
+				name="ForPreviousYTDPayments"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='138']/text
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="eff4578b-cdec-4673-b50a-a8fbde2152b5"
+			isrooted="True"
+			name="Memo"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="c9dbfa9f-4bf6-46ed-ae5e-9bf89b7d6b87"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Memo']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Memo']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1cf94ca2-8385-4bd2-9881-27833602736a"
+				name="Memo"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='146']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2bf53fcc-6621-4ed4-b0c9-250d0ca09084"
+				name="DisplayThisMemoInTheDaily"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='150']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="f5df3161-a968-4314-88d2-eb5e00b86acb"
+				name="ToDoDate"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='147']/text
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="beb96046-2c15-48d7-b7c1-6065f6ff5f92"
+			isrooted="True"
+			name="ImportExport"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="ac66bdc9-b201-45cd-8b95-4dd626aacdec"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Import/Export']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Import/Export']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="0c6fdde1-7198-4a51-98de-1ad3c16ea6bf"
+				name="ThisVendorHasSage50"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='226']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="dfdd1df0-1bfa-4ad8-ab04-1186971c2e44"
+				name="ThisVendorUsesMyItemNumbers"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='227']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="5c5bb047-8fef-440e-9cf1-6de0b6b4f659"
+				name="ImportContainer"
+				refpath="/form[@title='Payables Ledger']/element[@controlid='3650']/element[@class='CA_ContainerChild32']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='3650']/element[@class='CA_ContainerChild32']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="58de4838-ba9a-4a6c-a3d1-fb24d597f290"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="173aa7e9-7135-4d53-8c3b-0000df9978ca"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Additional Info']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="a1f8db30-dfcb-4a9c-aa37-00b917c8c19a"
+				name="Additional1"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c1484c57-f7cf-40e2-afc5-2e309ffbcca5"
+				name="AddCheckBox1"
+				refpath="/form[@title='Payables Ledger']/checkbox[@text='      ' and @controlid='811']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='811']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="3e81e4dd-dc88-44b7-89d7-a1e102cc4b33"
+				name="Additional2"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2363a714-6d91-420f-ba1e-81eda0848acf"
+				name="AddCheckBox2"
+				refpath="/form[@title='Payables Ledger']/checkbox[@text='      ' and @controlid='812']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='812']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="0a776d9e-56f8-49a7-94a5-3e42b6f58c63"
+				name="Additional3"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="773120dd-c36b-4c61-856d-07dd580ca53b"
+				name="AddCheckBox3"
+				refpath="/form[@title='Payables Ledger']/checkbox[@text='      ' and @controlid='813']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='813']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="911d446c-ef61-483a-88bf-fcbc8bdc6bf9"
+				name="Additional4"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='808']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="e5f6964b-c55d-4085-a6d8-40ae0cc93d19"
+				name="AddCheckBox4"
+				refpath="/form[@title='Payables Ledger']/checkbox[@text='      ' and @controlid='814']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='814']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="7bd7109d-2af6-4d76-98bc-114d732a8a0a"
+				name="Additional5"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/element[@controlid='809']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d387854f-f028-43ef-ac38-2cba900b0c8d"
+				name="AddCheckBox5"
+				refpath="/form[@title='Payables Ledger']/checkbox[@text='      ' and @controlid='815']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='815']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="311df3c0-19df-49c2-b357-ca0cabab7672"
+			isrooted="True"
+			name="T4A"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="bf9b2906-1c05-48e5-bc54-24a7b971e115"
+				name="Tab"
+				refpath="/form[@title='Payables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='T4A &amp; T5018']"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/?/?/tabpage[@title='T4A &amp; T5018']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="e3c4cce6-f74e-4361-8cd2-2c03441dc84e"
+				name="IncludeThisVendorWhenFiling"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/checkbox[@controlid='282']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="7d1c1b6b-12a8-48a6-b6b8-96c79a7a0c21"
+				name="T4A2"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/radiobutton[@controlid='283']
+				</item>
+				<item
+				addcaps="radiobutton,nativewindow"
+				capname="radiobutton"
+				id="f78429ae-b20f-4870-bd2d-466b275dec48"
+				name="T5018"
+				searchtimeout="3000ms">
+					/form[@title='Payables Ledger']/radiobutton[@controlid='284']
+				</item>
+				<basepath>
+					/form[@title='Payables Ledger']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Payables Ledger']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB3SURBVDhP7Y9RDoAgDEN39B2NmyF1K8GBgw8/
+fUkjrl1RGVHRmslj79QNpZS8BKHVzRBJSzyzBVHbCLi/BVHbCMBUfX4uwZkeorYRgPkXfFSAMOSj
+/n5cQLXU/YTVZ1kBb6JQAMV5i64LIiwYZeMzpmXIf8kRuQCIReyKHirKwwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="645766b1-3a09-4ad8-84c9-5aa9903c31b7"
+		isrooted="True"
+		name="PayablesIcon"
+		refimgid="1929b1ee-7fc8-4ba9-9fbf-7cfb0cdc46b4"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2d56184c-2acb-4e31-90f3-1b3b0813b396"
+			name="CreateNew"
+			refimgid="2e1d6ac1-18bd-4cc6-af7c-e96d4bdffd7c"
+			searchtimeout="3000ms">
+				/form[@title='Vendors']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Vendors']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPzZFbDsUgCAVdOktzZ1xAxot9JPrX
+QwgN5Qzatm9LtWnvPTJbZxJjkNnakNiw2m6r54A0i8jIIwBmG+beFSD+/lUc2+INQC9m8UxoADzu
+J+A5zDnD9DC7DBADAdLFdAWO8EUS9Qbwat1pwljNLPIPPQCmIBYAOU2Xyp9K+18OqgAHxkZyMT8A
+ECAA1C1zVb0agG1zFaDV3NoPcHEjnPDwwdMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

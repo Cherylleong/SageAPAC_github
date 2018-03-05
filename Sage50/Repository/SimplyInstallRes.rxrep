@@ -1,0 +1,479 @@
+﻿<repository
+id="51c9a37e-370d-447b-9c53-9dcc71911b17"
+name="SimplyInstallRes"
+rxversion="8.0">
+	<codegen
+	classname="SimplyInstallRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="10ed71f2-5678-43eb-a5f1-f68f9f6a9ea5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0b12aa8f-a7bd-4793-9ae4-97a83318f97f"
+		isrooted="True"
+		name="InstallShieldSage50"
+		refpath="/form[@title='Uninstalling Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']"
+		searchtimeout="5000ms"
+		usecache="False">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="3c602bbf-ca30-49fd-b28b-6a8f01008ede"
+			name="Yes"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text='&amp;Yes']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="afee0479-e860-4d6a-a527-7fad83c14b6c"
+			name="RemoveProgramBtn"
+			refimgid="e5aca7c4-6d7e-4afe-b9be-346ae5184d5d"
+			refpath="/form[@title='Modifying Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/radiobutton[@text='&amp;Remove Program']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/radiobutton[@text='&amp;Remove Program']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0dd425b6-0766-4226-bf39-bf8aad477e5c"
+			name="Next"
+			refimgid="a4abcaeb-f43c-4281-b1cc-c269f1cf9e4c"
+			refpath="/form[@title='Modifying Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/button[@text='&amp;Next >']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text='&amp;Next &gt;']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="373ea2e4-16e3-43a5-a8ba-a3cf8de54fa1"
+			name="Finish"
+			refimgid="ca7157fa-4e98-4cd9-af11-ae9d4a0343f8"
+			refpath="/form[@title='Uninstalling Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/button[@text='&amp;Finish']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text='&amp;Finish']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="da9fd380-c4aa-4f59-9fd3-b69a78ef0862"
+			name="UninstallDialogText"
+			refimgid="183a2658-6a33-4443-a02e-fea393386601"
+			refpath="/form[@title='Question']/text[@controlid='65535']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/text[@controlid='65535']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="f3c314d4-74c5-4379-9854-584a266e3057"
+			name="SelectLanguage"
+			refimgid="9b8f149f-a796-423d-9442-1f65ed671ffa"
+			refpath="/form[@title='Sage 50 Accounting - InstallShield Wizard']/combobox[@controlid='306']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/combobox[@controlid='306']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="326a31fe-caa6-4e27-a69e-c734360a9c54"
+			name="OK"
+			refimgid="d6d095cd-61ae-4d88-b1ae-be07c30d57c3"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text~'OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="6a78c5f1-041c-49fd-93e7-a8120c10d9dd"
+			name="Install"
+			refimgid="656ef271-8e7f-477a-a5fd-27817186aa78"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text~'Install']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="061f8f91-ea2c-4571-95ff-e64a5dec5c56"
+			name="InstallDialogText"
+			refimgid="b29c45d1-14ce-464a-9442-be08fdeb125c"
+			refpath="/form[@title='Installing Sage 50 Accounting Release 2017.1...' and @processname='setup' and @class='#32770']/text[@controlid='1302']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/text[@controlid='1302']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="f7122586-d1a4-40e3-8a90-3e7797677d35"
+			name="Serial1"
+			refimgid="b3100541-8f4a-4a5e-8671-ab2845963dd1"
+			refpath="/form[@title='Installing Sage 50 Accounting Release 2017.1...' and @processname='setup' and @class='#32770']/text[@controlid='303']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/text[@controlid='303']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4416b9f1-4496-4a1e-a366-f8cc7c141bd8"
+			name="Serial2"
+			refimgid="e380c313-ba74-4f05-b7e4-55b661470d8d"
+			refpath="/form[@title='Installing Sage 50 Accounting Release 2017.1...' and @processname='setup' and @class='#32770']/text[@controlid='304']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/text[@controlid='304']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="7849fabe-8191-460f-a470-342c80905a57"
+			name="AgreeToLicenseAgreement"
+			refimgid="2f34ef70-88b2-499f-a937-8e5e509a6587"
+			refpath="/form[@title='Installing Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/checkbox[@text='I agree to accept the terms of the license agreement']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/checkbox[@text~'^I\ agree\ to\ accept\ the\ ter']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="efbeb260-4ff2-4e94-b113-dd25f7337da2"
+			name="ButtonInstall"
+			refimgid="40ea3162-4342-47e9-b4b6-748138eeb271"
+			refpath="/form[@title='Installing Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/button[@text='&amp;Install']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text='&amp;Install']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="2f2ac2e9-12cb-4517-99fc-1cc56d53408a"
+			name="AdvancedBtn"
+			refimgid="c1b305ff-7971-45ba-9d09-3cc14825c010"
+			refpath="/form[@title='Installing Sage 50 Accounting Release 2017.1...' and @processname='setup' and @class='#32770']/radiobutton[@text='Advanced:']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/radiobutton[@text='Advanced:']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="900ca82f-6e17-4d0c-bc81-c9ca56a18cb6"
+			name="ServerOnlyBtn"
+			refimgid="62a6ee7e-84ef-4d73-80ef-5640b0de8e77"
+			refpath="/form[@title='Installing Sage 50 Accounting Release 2017.1...' and @processname='setup' and @class='#32770']/radiobutton[@text='Server-only:']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/radiobutton[@text='Server-only:']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="a1d564a7-a8f9-447c-9df9-d4806b77026c"
+			name="OpenReadMe"
+			refimgid="d894aa3f-b911-417a-ba53-131733690e17"
+			refpath="/form[@title='Installing Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/checkbox[@text='View product information in the README']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/checkbox[@text~'^View\ product\ information\ ']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="3a9fd688-4b12-4b3e-baef-656e53b19dfa"
+			name="OpenSage50"
+			refimgid="dca80765-2fe2-4bc5-a717-b52cbce6beb5"
+			refpath="/form[@title='Installing Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/checkbox[@text='Open Sage 50']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/checkbox[@text='Open Sage 50']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="6da4627f-50c1-4e0c-9666-15d7027699e7"
+			name="ButtonOK"
+			refimgid="a3e95b2a-556a-429c-957b-f20ce20af6ed"
+			refpath="/form[@title='Modifying Sage 50 Accountant Edition Release 2017.1...' and @processname='setup' and @class='#32770']/button[@text='OK']"
+			searchtimeout="5000ms">
+				/form[@processname='setup' and @class='#32770']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@processname='setup' and @class='#32770']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAL6SURBVDhPjZNrSJNRGMePZphpUWpqmqbZMsPU
+1CiU8rZ0m7e5i+nmNivNu3POW6ZBwasNu9o02eZlm7fm5UsfKiqoBCkojCTJgkisvgR9FNuXf+d9
+NfrqgT+c55zz/J7z/A+H9Pf3J9hslq5x+6BhxDrAbEajdovBZjUzJpMpltitFkOFjkGatAlCxaVN
+KVXaiJrGTtiHLQbCVj6drwdf3Q11w30otEYU1RlxtvoeirS9NGZlhIKusVLp+pBZchsiZRvGRylg
+bGSAERS2QKDphkZnRHHtXUjLb0Kl7UFh9R3IK25BWdcDVb0RJfpelDX3I7+CnjnXATaXTIwMcYCE
+3CsQaTqRmN+B+qvDePj8LaL4eg4iUHciQ8kgSdKBuKwW+CdUIk/dBsfEEEMcYxRQ1ApeWgPiRa0Q
+qrrwev4zvn3/hYD4i3g5twjeqTp48JTwilTB67AKZG8B8jRtmHJYKWDCyggVrfCJKcee2FKEJlbB
+N/Y8wpOqYB59CnYUlt8A8RfD+2gJdkRQQFgxxBQwwwKmKIBtgezO466eKmnHtnAF2rvHMb/wFU6n
+E49ezIMEiBFyshKRaTqQXWIKuExvQFtgASmSBrgfVHPVTPYnINszQFySQTzOgARJEXSiAsQnB1tD
+CrD4ZQUHErX02XXrLbAAvqwJJFCOD4vLHGTu3RJK9X2ITtfBP64MfscuIF3cjtHpV9x+83UHjmdW
+Yoo1kQWIqAfEW0zNqsXsm0Xu0L+xtubE6uqfjQj48fM3otKbkSyu/++BkHrgGqqA2/4CuARLka1h
+0Gd7zME+flrBwtIyns2+x/XeGUSk1IB4ZXEmbrRgY0SFjXALlcEvRgXvIwr6TDkgvkK4BubCkyeH
+1yE53IJyQfxEcA+TwiVEBom6dR0wOW43pIgpdScfW4JzOblRue6jCUHZ1P2sddG568Ye8eQjQ16P
+6Um7gdhsg13apmsQyLSQqPSbkkBWi4aWTozQXMJ+SXYy/cBumHLYmM2Ircx+a7PZHP0Xggg9o5ql
+sNYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="36441991-1055-4bdc-a544-8f22353eab8a"
+		isrooted="True"
+		name="InstallationGuide"
+		refimgid="1f905b70-6c1c-4081-92e1-910eb18e0c0d"
+		refpath="/form[@title='Sage 50 – Installation Guide']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Sage\ 50\ &#8211;\ Installation\ Gu']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACeSURBVDhPjZABEoQgDAN5Ok/jZ1xDCRdqFXYm
+KpCkajlRa+lR8+gMzL3vaq3dlWRhykvqe0kMYx33zOYFaIrCIY2cBuE5LVBgmodDPn0v/SyImOMR
+liHvBZwav30LAy3As8r3PsJACzL4D1Qz6mhBNBKz7SFFjRl4A7MtzfUfLdDp3DcLrktYjyDRggyz
+4LqE9QiSU8HVJ9jtRgml/AD3QwB62TRIxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="80870c7b-4ee6-49b8-9daa-549741d4046e"
+		isrooted="True"
+		name="Registration"
+		refimgid="136de6f6-1ab3-4c9b-8538-4d083cbdddee"
+		refpath="/form[@title='Sage 50 - Registration']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7800ecb2-e3a3-415b-9904-af084d035db9"
+			name="Activate"
+			refimgid="79d74968-d1ac-47b5-8eb6-4f2533f58834"
+			refpath="/form[@title='Sage 50 - Registration']/button[@text='&amp;Activate Now']"
+			searchtimeout="5000ms">
+				/form[@title='Sage 50 - Registration']/button[@text='&amp;Activate Now']
+			</item>
+			<basepath>
+				/form[@title='Sage 50 - Registration']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3fadb621-bf79-41a2-9f5f-99b46b9d2399"
+		isrooted="True"
+		name="ProductActivation"
+		refpath="/form[@title='Sage 50 - Product Activation']"
+		searchtimeout="5000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="8f719fce-f73a-4889-86dd-5f5c0c1865e2"
+			name="CompanyName"
+			refimgid="9810a83d-0111-4952-980a-1b4c73eaeb00"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/element[@controlid='103']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="9781feed-5fb5-4656-bf8d-3102711c5201"
+			name="Serial1"
+			refimgid="301564be-8a79-4e57-80b9-adc5ee35c11a"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/element[@controlid='101']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="660327b9-536b-4155-81f4-a5121988900e"
+			name="Serial2"
+			refimgid="aaede9e3-1f4c-4144-b661-04f067aa8424"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/element[@controlid='102']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="770c1503-0a15-4f03-8cf4-e51d5ff7cdd3"
+			name="ClientID"
+			refimgid="b5fd7866-96ce-478a-bb98-6a4d1c23573e"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/element[@controlid='110']/text
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="6021f876-5f57-4c64-a367-2ac6eb0bf99b"
+			name="KeyCode1"
+			refimgid="78704e1a-8f32-4710-af4a-dbd47044ec71"
+			refpath="/form[@title='Sage 50 - Product Activation']/text[@controlid='104']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/text[@controlid='104']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c8a35cc6-2f8d-4b84-b724-2908f1f21234"
+			name="KeyCode2"
+			refimgid="00db85f7-ae4f-42f4-a4fa-f778dbeffc7c"
+			refpath="/form[@title='Sage 50 - Product Activation']/text[@controlid='105']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/text[@controlid='105']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="9d643ba1-1a8d-49b5-b93c-18ce41736f10"
+			name="KeyCode3"
+			refimgid="34a9c1ef-c821-4737-9861-b0d2f2b22913"
+			refpath="/form[@title='Sage 50 - Product Activation']/text[@controlid='106']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/text[@controlid='106']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b7633e15-f1ec-47fc-ad50-d50197d70610"
+			name="KeyCode4"
+			refimgid="c8e0b3f1-c34a-406f-9dc1-857333cda496"
+			refpath="/form[@title='Sage 50 - Product Activation']/text[@controlid='107']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/text[@controlid='107']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="80a72e70-ce48-41ec-a4ed-72587277e8a9"
+			name="KeyCode5"
+			refimgid="3000e82c-4037-4651-b208-87c6ad2a0f76"
+			refpath="/form[@title='Sage 50 - Product Activation']/text[@controlid='108']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/text[@controlid='108']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="95b1eed2-728c-42cb-9d7a-75221db682ad"
+			name="KeycodeOK"
+			refimgid="3e8fc291-11dc-4177-a300-98e30e1a84a4"
+			refpath="/form[@title='Sage 50 - Product Activation']/button[@text='&amp;OK']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="cf91ec32-c07f-4552-a387-3d078c531d3c"
+			name="UseThisKeyCode"
+			refimgid="fe45566c-9743-4053-a286-8cba374e5832"
+			refpath="/form[@title='Sage 50 - Product Activation']/radiobutton[@text='&amp;Use this Key Code']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/radiobutton[@text='&amp;Use this Key Code']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="77e15a0a-1482-4068-9fcf-d6f00fd25479"
+			name="RetrieveMyKeyCode"
+			refimgid="0e27f9b2-d5fb-4007-bc83-5012f79c1335"
+			refpath="/form[@title='Sage 50 - Product Activation']/radiobutton[@text='&amp;Retrieve my Key Code from Sage 50 online']"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/radiobutton[@text~'^&amp;Retrieve\ my\ Key\ Code\ fro']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="3846c107-332d-4f46-8e35-09ab4861189a"
+			name="ActivationOK"
+			refimgid="330c615a-97a1-422a-a2e7-abbf192402c4"
+			searchtimeout="5000ms">
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']/button[@text='&amp;OK' and @instance='0']
+			</item>
+			<basepath>
+				/form[@title~'^Sage\ 50\ -\ Product\ Activat']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="38887ea7-b7b5-48f7-b8f8-2768ece52d9f"
+		isrooted="True"
+		name="WindowsFeatures"
+		refimgid="8fc44f1b-7a71-455d-a26b-a2cc77683906"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ea58da5e-d787-4501-8a60-c1c2dd43a4eb"
+			name="Cancel"
+			refimgid="c7532f3a-2094-41a7-8d17-3b3d11a125ba"
+			searchtimeout="5000ms">
+				/form[@title='Windows Features']/?/?/element[@instance='1']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Windows Features']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALMSURBVDhPnZPbS5NxGMeti4IuoovoH7DorqAL
+hyTLCwWvhCKoLruMLrotI17BaKayNHH6Ondyy8OGuZPb3NFNd9CdnOamm3OsptPNbb1uNUvj26u9
+ILK66QM/+PHj+X54eHh+Vf8DgDPM9TTp9DdWNBo9LxSaMDIyd8DnTxd6e9VpkchqUii8HI0mdF8q
+td9iyk9DEPJzi4t5DA7qnIlEDtnsLtLpIra2DrGxcYDl5X14vRTs9l1wOGNsJnYCQYgujY7Ooq1N
+DJ3OjaWlL9jcLCOzc0BLgGgUtAQgCAVaWkQUEzuBJNUXisV9lMsHoKjvdCAFtdqNAVILHk8DwZAJ
+fX0mWC0xWkKcZWJ/iEQi10mSvExRZWzmslAHjbCsuFAsAoUCkMkAqRQglSphtfrBxE6orq5e2S+X
+wZ8YQ2d/P/olUsjlA3Dru7FmIbBrf4pEAhCJFDAYXJUCFovlL5VK0BunMetwIJlM4sfPX9hdVmHH
+9hZuRTdisUOIxQo4neFKQV1d3Xwo7IVgQAyT2US3m0I+l4fJasdXP4mQWYBIZB/8oXHYbMFKAZvN
+dovH3+FF4AEkEhnWYnEEAgEIhQJ8kAzCMy1FMJjHlHYGPl+iUlBTU+PkcNohFohh8/hh8bgQDCxB
+xhOC192LKf0cXK4UtFrb3wX19fWOYdEwzCoDJidV2NzOIhH7DC6Xi46ODigmjPT0o8cdBIPJSkHt
+7VprPB7H+54eevpyLCzMI1fII+6ZxafACHgSIZRKHzQaM9ZWd9DU9OjO0WlsvHvlWHDzxg17qVSE
+TPoRk8oJuk0f9igK6+txyFTjaON30n9jhl4sK/2WRXPz4+cNDfeuHYeP0Ol0F0Oh0LPwaizhp4cX
+8Afo9d2C3mHBKwEXL/teo2tgmF4kLbq6RktM7N8YbLarxjkbmYyH99KZbbT3d449fPPE3dpKrjAl
+DFVVvwG6rRwO0pDObQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="aad96074-eca1-4382-8fc6-b4ccbab4b684"
+		name="varOK">
+			OK
+		</var>
+	</variables>
+</repository>

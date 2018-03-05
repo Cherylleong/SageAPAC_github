@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="44df5261-265d-4894-80b6-7feaee145e1e"
+name="GeneralJournalRes"
+rxversion="8.0">
+	<codegen
+	classname="GeneralJournalRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="74710ffc-d375-4511-9c0a-421c1277d7d0"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4501ab7f-7f5e-4c07-99aa-1c79d6bcad9c"
+		isrooted="True"
+		name="GeneralJournal"
+		refimgid="eef730b6-638c-4991-bbcd-d78c0ab15691"
+		refpath="/form[@title='General Journal']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			addcaps="toolbar,nativewindow"
+			capname="toolbar"
+			id="5892feb4-d6fb-46ac-965e-7acf51305e33"
+			isrooted="True"
+			name="ToolBar"
+			refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="toolbar,nativewindow"
+				capname="toolbar"
+				id="92a9060e-2dee-4be2-a51c-27db82c72897"
+				name="ToolBar51002"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="694fcd0c-485a-407c-85b8-3ecd9341d230"
+				name="CustomizeJournal"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Customize Journal']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Customize Journal']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="ec2f387d-b08f-42ff-b7d3-46df90ee7984"
+				name="DailyBusinessManager"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Daily Business Manager']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Daily Business Manager']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="9855980d-b727-4e07-aa56-a08c26fa51d1"
+				name="LookUpAnEntryCtrlPlusL"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Look up an entry (Ctrl+L)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Look up an entry (Ctrl+L)']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="4edde687-aa84-4ee4-a637-0ea02546be0c"
+				name="RefreshLists"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Refresh Lists']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Refresh Lists']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="23aea4b0-183e-4b28-b841-73c2db0f20ce"
+				name="Reverse"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Reverse entry']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Reverse entry']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="8ecac691-acd9-4023-b864-4b9892577094"
+				name="Adjust"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Adjust a previously posted entry (Ctrl+A)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Adjust\ a\ previously\ poste']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="3ced3a99-6022-43e5-87ce-7b13f96c48b7"
+				name="BringTheHomeWindowToTheFrontCtrl"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Bring the home window to the front (Ctrl+B)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Bring\ the\ home\ window\ to\ ']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="dd1baced-b248-47d2-ab0d-9f2d2e7b1248"
+				name="DisplayTheWindowsCalculator"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Display the Windows calculator']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Display\ the\ Windows\ calcu']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="ba6f693b-ba56-473f-9b47-cee40a03360d"
+				name="EnterAdditionalInformation"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Enter Additional Information']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Enter\ Additional\ Informat']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="00427c5e-b5bb-4b15-9a19-a44172de8b43"
+				name="InsertALinkToAFileOrWebPageCtr"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Insert a link to a file or web page (Ctrl+Shift+I)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Insert\ a\ link\ to\ a\ file\ o']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="2f797b1d-18b4-4b94-878e-ad4d128d74f2"
+				name="RecallRecurring"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Recall recurring transaction (Ctrl+R)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Recall\ recurring\ transact']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="df424521-7dc9-4558-b01b-99cdca48c848"
+				name="StoreAsRecurring"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Store as recurring transaction (Ctrl+T)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Store\ as\ recurring\ transa']
+				</item>
+				<item
+				addcaps="button,nativeitem,checkable"
+				capname="button"
+				id="19eb4caa-4fe8-40f0-9956-6a3eea0301be"
+				name="Undo"
+				refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Undo current transaction (Ctrl+Z)']"
+				searchtimeout="30000ms">
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Undo\ current\ transaction\ ']
+				</item>
+				<basepath>
+					/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="57d07c98-9e9f-4cd3-a70b-44024c310d67"
+			name="Comment"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/text[@controlid='23']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="a6d9a6e0-ca53-4d0f-94b8-d7eca9e45da1"
+			name="Source"
+			refimgid="fa62cc30-4791-4482-a26b-81cfb5530059"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/text[@controlid='20']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="69725478-9a05-4c76-affe-af45be8556a9"
+			name="Post"
+			refpath="/form[@title='General Journal']/button[@text='' and @controlid='102']"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/button[@controlid='102']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="f51347e6-355e-4ef1-814d-b30f0e3eebb1"
+			name="JournalDate"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/element[@controlid='21']/text
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="8dbf3807-5a86-478f-a44c-68eebe236cfb"
+			name="CurrencyCode"
+			refpath="/form[@title='General Journal']/combobox[@controlid='35']"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/combobox[@controlid='35']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="5befe53f-2a30-4e14-b773-17459e7e925e"
+			name="ExchangeRate"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/element[@controlid='36']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="151e62bc-ddd0-4df0-9f81-bac3b011a814"
+			name="DetailsContainer_old"
+			refimgid="78a22d24-6df8-4cb0-b652-a90f3a2d7217"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/element[@controlid='5006']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="d0cf66b6-e3ff-48cd-8066-63fa04f7ab0d"
+			name="AllocateToProject"
+			refimgid="ce0dbb5d-1bba-44ba-aadf-d4e24604d55e"
+			refpath="/form[@title='General Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='1']/button[@text='Allocate revenues and expenses to a Project (Ctrl+Shift+A)']"
+			searchtimeout="3000ms">
+				/form[@title='General Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text~'^Allocate\ revenues\ and\ exp']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="4e1aad58-b8f1-4d85-8e67-0a45a7f58935"
+			name="DetailsContainer"
+			refimgid="43ddf8b2-fdd4-4550-90ca-64c68e1e1f2b"
+			refpath="/form[@title='General Journal']/element[@controlid='5006']/element[@class='CA_ContainerChild32']"
+			searchtimeout="30000ms">
+				/form[@title='General Journal']/?/?/element[@class='CA_ContainerChild32']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="cf69f87a-953f-47d6-95f2-daee9845e74c"
+			name="DetailsContainerText"
+			refimgid="d6d87dab-cdaf-4915-887d-7ea019061e1c"
+			refpath="/form[@title='General Journal']/element[@controlid='5006']/element[@class='CA_ContainerChild32']/element[@controlid='2000']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@title='General Journal']/element[@controlid='5006']/?/?/element[@controlid='2000']/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@title='General Journal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPtZJREoAgCEQ9ujfTmxUru+koWX30
+JsYEFogp/cphD6wMxtAzEtZaj5zzZbgzZQ8KIFkWwdQViGHqOAN/KZtPUgEwF4DYgvt9uNg/AafQ
+PRR7ZdA7L+ObMByd4aWj05d52x2MyaJ1o6lIWMDTfeugdzQQNpM4LACntnsJ7V0mYSgeaUkcdxQz
+/A510sh0f6P9aSbGSddfpHQCIIJiqNu/L3MAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="2222759f-242f-4f9d-8395-cfe1d0b88f61"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="56b03156-54de-420d-93ef-aea7e391a567"
+			name="RanorexStudio"
+			refimgid="dad2a4de-e3e7-43c5-8b45-cd6bd2cf9c83"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']/button[@accessiblename='RanorexStudio']"
+			searchtimeout="3000ms">
+				/menubar[@processname='explorer']/?/?/container[@caption='Running applications']/?/?/toolbar[@accessiblename='Running applications']/button[@accessiblename='RanorexStudio']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="2efcd0a6-4ac5-49b0-8a40-c3d88e9d9bae"
+		isrooted="True"
+		name="StartDataUI"
+		refpath="/form[@controlname='StartDataUI']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="d417f6e2-b548-4203-ae35-424c76301d50"
+			name="MExitButton"
+			refimgid="0331ed40-9e89-4490-a7bb-79e01595a242"
+			refpath="/form[@controlname='StartDataUI']/button[@controlname='m_exitButton']"
+			searchtimeout="30000ms">
+				/form[@controlname='StartDataUI']/button[@controlname='m_exitButton']
+			</item>
+			<basepath>
+				/form[@controlname='StartDataUI']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFxSURBVDhPnZLBSsNAEIb3AbSXvoB3pXj0JH0L
+BQ8eevTgo+itgqAHIx5EQUE9KYIHERShIohVq2lra5tNurvZmkTJuNkkbdputfjDz+zuzDeTTYJU
+8n0/7Xme5rouExGEC2Kdi9LDJcBxvcX9sa0ioM3HAS9f1sFxnHxU3ivO+cz8WVUJ9pvyNomwUMHk
+uT/gtYcW+ACdfbvtFCMcoRJmfrJY5Qr/Eni3QUp7AsbcDCKEpIfdefa4LGNVwIe6PZBvUNtDNuda
+fyLwVfNTTsTOtxIOvHheAcRsm/UnbgwH7kxXrrefqYzZk7JsmKyTT04Z6zkMwGvRIN5PH7xJUNVA
+ukVoIXkQAEGc2C1J4LcGU/slQBalueRhDI7SYOO+AfIzLl2Il/GPBpZFdmQD07LyycQoXr2thdNj
+vWOLqApVzh69AsZ4MkK7MrBZTGnqnyr2ipishGPVTTOjfxjewqkefmcBTe69wHqhBk3DDO/cEUI/
+DvVjhh0r8zIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

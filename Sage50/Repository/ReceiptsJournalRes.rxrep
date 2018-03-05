@@ -1,0 +1,221 @@
+﻿<repository
+id="784d5382-24a3-4651-b167-14bf98acf97a"
+name="ReceiptsJournalRes"
+rxversion="8.0">
+	<codegen
+	classname="ReceiptsJournalRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="0dfd2478-3510-4ea9-9504-46edf4478a24"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7537e874-2073-47f4-920d-b9848db78784"
+		isrooted="True"
+		name="ReceiptsJournal"
+		refimgid="843457ea-6e3b-4c2b-b062-5df079d53248"
+		refpath="/form[@title='Receipts Journal']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b9c2d7bc-2c58-4616-8202-af0c510c40ef"
+			name="ReceiptNumber"
+			refimgid="3e2bba13-b6fa-4369-bcc2-0de0c47e9183"
+			refpath="/form[@title='Receipts Journal']/text[@controlid='22']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/text[@controlid='22']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="1e4a8258-180c-4063-9fd1-acadbf2c9839"
+			name="CustomerName"
+			refimgid="719f47f0-538f-4cf2-a9ef-f5ffd085b03d"
+			refpath="/form[@title='Receipts Journal']/combobox[@controlid='25']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/combobox[@controlid='25']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2cedf525-43f0-4cbc-9504-fd9fe521a0bb"
+			name="Adjust"
+			refimgid="75c137f7-22c8-4ed1-963e-9e3622330b5a"
+			refpath="/form[@title='Receipts Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Adjust receipt (Ctrl+A)']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Adjust receipt (Ctrl+A)']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="8164ccc3-fa80-4906-9c7f-427208f3ad0a"
+			name="TransContainer"
+			refimgid="743f15cc-c3f2-4173-9bf9-b36e44f59556"
+			refpath="/form[@title='Receipts Journal']/element[@controlid='5013']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/element[@controlid='5013']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="bbbf293b-5f51-4415-81ab-8b0c08072a28"
+			name="Post"
+			refimgid="651d7382-cdbc-4bc4-a193-fad419bb54ef"
+			refpath="/form[@title='Receipts Journal']/button[@text='' and @controlid='106']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/button[@controlid='106']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="b17ddd66-8755-4418-be03-ded0ab44029d"
+			name="EnterDeposits"
+			refimgid="65af3c45-72db-465f-8d59-65040565d4d3"
+			refpath="/form[@title='Receipts Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Enter customer deposits']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Enter customer deposits']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="7f71913c-671e-463d-bce0-0b0ba8b70b86"
+			name="PaidBy"
+			refimgid="97b7004d-c3e9-4661-8020-eb5997825639"
+			refpath="/form[@title='Receipts Journal']/combobox[@controlid='49']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/combobox[@controlid='49']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="6ed91f9c-dd8e-4c83-8a7e-ffbf5edc3417"
+			name="DepositTo"
+			refimgid="3934b177-6206-4636-9619-6dced4a8b9c1"
+			refpath="/form[@title='Receipts Journal']/combobox[@controlid='51']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/combobox[@controlid='51']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="2c5fdb9d-f80b-4cb7-b049-562025935d49"
+			name="ChequeNumber"
+			refimgid="fbd0652e-e535-43e9-bfbd-f5fe56597b24"
+			refpath="/form[@title='Receipts Journal']/text[@controlid='121']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/text[@controlid='121']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="b04d7a1c-2834-4fb4-8f29-0c18ab55d49c"
+			name="ReceiptDate"
+			refimgid="1ba5e68d-dcd6-4267-b28f-70b68e300a9c"
+			refpath="/form[@title='Receipts Journal']/element[@controlid='31']/text[@accessiblename='----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------00/100']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/text[@accessiblename~'^-------------------------' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="1caeaf4a-6cf5-49f4-9a05-6f59b7b79ad7"
+			name="PadNumber"
+			refimgid="bce33064-b92b-4655-ad6b-2645893aa9db"
+			refpath="/form[@title='Receipts Journal']/text[@controlid='136']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/text[@controlid='136']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="7a1d1693-1cd4-4cf8-a4e3-5da50ecdfe6f"
+			name="DepositReferenceNo"
+			refimgid="f4785af4-7556-4c46-9ad0-9bd3f96b34be"
+			refpath="/form[@title='Receipts Journal']/text[@controlid='54']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/text[@controlid='54']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="288b8e62-0c15-4433-905b-f7c9dfb8506f"
+			name="DepositAmount"
+			refimgid="56b7d492-f40b-477a-a49f-4ea637306121"
+			refpath="/form[@title='Receipts Journal']/element[@controlid='56']/text[@accessiblename='Deposit Amount']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/text[@accessiblename='Deposit Amount' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="59540c5d-517b-413c-90b5-868f669c4d16"
+			name="Comment"
+			refimgid="a29945b1-eed0-48e3-b9cd-d57c6f72d139"
+			refpath="/form[@title='Receipts Journal']/text[@controlid='62']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/text[@controlid='62']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="1a91e9c8-995d-40e7-8ffc-b7e3e8bbf832"
+			name="ExchangeRate"
+			refimgid="0ae264be-dd1a-4a70-8e77-305f39316d7f"
+			refpath="/form[@title='Receipts Journal']/element[@controlid='59']/text[@accessiblename='Exchange Rate']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/text[@accessiblename='Exchange Rate' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="6aa57982-5a1a-4e70-a02b-61607a9f201a"
+			name="Print"
+			refimgid="c6ea3764-882d-4a7b-ae7f-fd17d6fb3c4f"
+			refpath="/form[@title='Receipts Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='1']/button[@text='Print (Ctrl+P)']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text='Print (Ctrl+P)']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="f0dbaaa3-2586-4a02-b2d8-920f68419f5b"
+			name="Undo"
+			refimgid="f15a491e-b8c1-41be-95fa-51ba40ff057f"
+			refpath="/form[@title='Receipts Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Undo current transaction (Ctrl+Z)']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Undo\ current\ transaction\ ']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="4159c2d4-1b7f-4fa3-a074-12bbcb427982"
+			name="Reverse"
+			refimgid="cdb0a90c-a7f0-4b6f-b7c4-f06acdd896b8"
+			refpath="/form[@title='Receipts Journal']/container[@class='ReBarWindow32']/toolbar[@controlid='5100' and @class='ToolbarWindow32' and @instance='0']/button[@text='Reverse receipt']"
+			searchtimeout="3000ms">
+				/form[@title='Receipts Journal']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Reverse receipt']
+			</item>
+			<basepath>
+				/form[@title='Receipts Journal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB5SURBVDhPzZFdCsAwCIN79B6tN3NNVtsh2r+n
+BQKi5kMw/Us5Z1G31oFEGGIY9S0IoZqKIHtAC6FRtyuXAoAQH7AFwaYPgCcaS7jgCKIDs9wh8BRi
+Fz51KWX0YVzq6B0GEDoIUvy3E4TqOA6q9HUdshu0IuQmeKeUHgjE+nDrDTZgAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

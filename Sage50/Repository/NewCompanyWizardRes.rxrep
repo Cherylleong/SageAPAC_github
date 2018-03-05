@@ -1,0 +1,348 @@
+﻿<repository
+id="09101589-88a5-4a06-b9c8-d209c0751296"
+name="NewCompanyWizardRes"
+rxversion="8.0">
+	<codegen
+	classname="NewCompanyWizardRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d09c0592-c491-403b-950a-a76edd0b2d25"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="818b45c7-0006-4fac-b3d5-1457886ae270"
+		isrooted="True"
+		name="NewCompanyWizard"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ac3c6bf3-334c-45b6-a3e2-ddffb1b63654"
+			name="Next"
+			refimgid="06e1bdda-9b95-4f54-98b8-fb029b54ac60"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/button[@controlid='12324']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="e887a1e1-3ded-498c-bf9b-197c1c737f0c"
+			name="Premium"
+			refimgid="d4dfe09f-354a-4df6-a512-90b1a1013a1b"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/radiobutton[@text~'^Sage\ 50\ Premium\ Accountin']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="3db0ce76-a316-4738-ab23-e48061d06040"
+			name="Quantum"
+			refimgid="cb720af9-8610-4895-ae73-3e14d48609ad"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/radiobutton[@text~'^Sage\ 50\ Quantum\ Accountin']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="a2d7f21a-87c5-4a1b-b27c-0f6d3cba8a8d"
+			name="First"
+			refimgid="b925b546-858e-41ed-969f-2891c67bf9a9"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/radiobutton[@text~'^Sage\ 50\ First\ Step\ Accoun']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="6b0056fe-da7c-47f6-814d-0342669da778"
+			name="Pro"
+			refimgid="293a5623-eb00-4eda-806f-a01ecbee80ab"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/radiobutton[@text='Sage 50 Pro Accounting']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="56531a54-5ca7-4714-a718-fb486c05499e"
+			name="Name"
+			refimgid="2a666e5a-5a5c-4b2e-aacd-a9e0302bd214"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='20']/text
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="3198bd08-9995-4a5a-9997-9b259632abbc"
+			name="Street1"
+			refimgid="3cfe3bbf-8740-4629-b074-86488feaa714"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='21']/text[@accessiblename='Street 1:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="85b44472-f271-4f1d-9c4e-849e75013478"
+			name="Street2"
+			refimgid="28aa4af3-c145-4bf6-ade3-86a3c3f577d9"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='22']/text[@accessiblename='Street 2:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="298df0d6-cdfd-4e0c-8d3d-2a63a48cd98c"
+			name="City"
+			refimgid="1ec7846d-efc7-4174-a96b-1a8a520e5726"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='23']/text[@accessiblename='City:']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="747c681b-19c8-4052-980e-38b0eadbd5d0"
+			name="Province"
+			refimgid="1d4cb720-69e2-4a5e-a909-54b997e7a09b"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/combobox[@controlid='91']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c0627aa4-e4d9-4cf6-b80c-9dd15b25b852"
+			name="ProvinceName"
+			refimgid="4adc01d0-df63-42fe-9883-d7a6924061aa"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='24']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="1b739b25-ef22-4035-8410-cb7a4115e6f2"
+			name="Postal"
+			refimgid="9bcaf708-7e37-4821-85cc-a702bc5e3042"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='25']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="cabef4ba-a574-4029-b48c-5dcf8909d2b8"
+			name="Country"
+			refimgid="2d3c2806-62f6-4a38-b2c7-d2839177cfa7"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='53']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="52c6f71b-a365-427a-b9ac-103687d1d973"
+			name="Phone1"
+			refimgid="628217ca-f906-4c64-8251-d48324c98dd4"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='50']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="f46fdde1-dad6-46a4-9e88-dd1b8fe614f7"
+			name="Phone2"
+			refimgid="eb109f07-810d-486b-a987-593da3f977cc"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='51']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="df06b9be-fb65-40f8-a6e2-d1776de1e961"
+			name="Fax"
+			refimgid="0952246d-24c0-4c68-9a1d-da2ae7aa0bfb"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='52']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="45a5a05d-4387-492c-af22-c33dc6a7e8d6"
+			name="FiscalStart"
+			refimgid="1e7ea5ad-7d2b-4814-83ee-1949978cadd0"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='20']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="f6170b1f-ad4a-4234-9151-ca94e6327f86"
+			name="EarliestTransaction"
+			refimgid="ea49379e-2086-450f-bd1e-d37e0ab92436"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='24']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="7a9e8a1a-3111-4763-8a5e-f21ee6602ca4"
+			name="FiscalEnd"
+			refimgid="ba9cb3fa-2270-4161-be7b-aca8e3fe3203"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/element[@controlid='22']/text
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="8301681f-5de4-403e-948d-626d3be4af32"
+			name="Ownership"
+			refimgid="c8ae8cb0-7c35-45a7-9043-9a55a41e4d06"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/combobox[@controlid='509']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="6ca16a53-e353-4a22-9e44-537773f7a62b"
+			name="IndustryType"
+			refimgid="6b976ce0-5b35-4d86-8b38-45085aa3be31"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/combobox[@controlid='510']
+			</item>
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="035e338f-ac73-4570-806f-288e00b40b56"
+			name="CompanyType"
+			refimgid="0b832f4c-b9a7-4579-9ebc-226382a6fe2d"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/list[@controlid='506']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="8037c438-eb07-4a48-9125-cbb3d00b8737"
+			name="AccountRanges"
+			refimgid="9dad0c04-5e24-46a3-8e78-e1858d9f910b"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/?/?/button[@text='&amp;Account Ranges...']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="7cb9a159-13cc-427f-83f2-9aa9bbc6e9bd"
+			name="CompanyName"
+			refimgid="ee059476-d09b-4e49-83ff-43883b201fdc"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/container[@instance='0']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f4c7caf6-5f73-4990-beb7-439c5c9a91e9"
+			name="Location"
+			refimgid="3f103dca-0806-40ac-b046-6aee2f74c85d"
+			searchtimeout="3000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/container[@instance='0']/?/?/text[@accessiblename~'^Enter\ the\ location\ where\ ' and @accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4f5bfe18-b445-4212-a356-e3c3943e0ab3"
+			name="Finish"
+			refimgid="ce3316a2-ba22-4f94-b68a-2608874c574d"
+			searchtimeout="30000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/button[@controlid='12325']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4e8e9520-e695-45fc-b751-2766d9458fce"
+			name="Close"
+			refimgid="c1aa50b1-5aaa-4b77-b6a0-1ca4daff5cd5"
+			searchtimeout="30000ms">
+				/form[@title&gt;$Sage_50_CreateNewCompany]/button[@controlid='1']
+			</item>
+			<basepath>
+				/form[@title&gt;$Sage_50_CreateNewCompany]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5f7ea95b-9c37-432e-b493-d05f910d80e7"
+		isrooted="True"
+		name="AccountInformation"
+		refimgid="0109c29d-a88f-4a8d-b4fe-e848ffb27c38"
+		refpath="/form[@title='Account Information']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="6206de2c-6346-4b09-be62-f2ce7cd39101"
+			name="Digits"
+			refimgid="34ae1ac4-8ac5-46a8-aa6e-7cbd20be1f14"
+			refpath="/form[@title='Account Information']/combobox[@controlid='100']"
+			searchtimeout="3000ms">
+				/form[@title='Account Information']/combobox[@controlid='100']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="08b66515-c524-43bc-8df4-478a223fcc13"
+			name="AccountContainer"
+			refimgid="19f368de-d4f4-4190-b50b-92ca6e767c2a"
+			refpath="/form[@title='Account Information']/element[@controlid='3987']"
+			searchtimeout="3000ms">
+				/form[@title='Account Information']/element[@controlid='3987']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="b9a1c5c6-1faf-4b8f-9110-b5345bf277ef"
+			name="OK"
+			refimgid="3a98ba30-3620-4dcb-8b2c-fcc77624ea76"
+			searchtimeout="3000ms">
+				/form[@title='Account Information']/button[@controlid='1']
+			</item>
+			<basepath>
+				/form[@title='Account Information']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="5ab9a0c5-a059-4f9e-831b-207b7d3781ad"
+		name="Sage_50_CreateNewCompany">
+			Sage 50 -
+		</var>
+	</variables>
+</repository>

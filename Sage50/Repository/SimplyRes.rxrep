@@ -1,0 +1,1086 @@
+﻿<repository
+id="5ea8afcb-3eaf-454f-b448-016dc587a64e"
+name="SimplyRes"
+rxversion="8.0">
+	<codegen
+	classname="SimplyRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1cfd7eba-2951-4401-980a-75ba720ad991"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="aac189f9-cc32-44e9-9a47-a6fcd0bcb4ea"
+		isrooted="True"
+		name="SimplyHomeWindow"
+		refimgid="47f5e24f-0d98-45cd-aeed-30637074effe"
+		refpath="/form[@controlname='SimplyHomeWindow']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="b89f7870-9bfa-40b5-aa42-8e8b370ae8f8"
+			name="ReceivablesLink"
+			refimgid="032dd0b8-d777-4ec5-bb43-31d59ae0f52e"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='CustomerNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='CustomerNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="04cf19e1-479e-470d-9e94-640f3f24ab49"
+			name="CustomerIcon"
+			refimgid="cbdaa000-6301-4039-9689-442ecae44d7a"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyCustomerDropdownTaskIcon']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/?/?/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/?/?/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@caption='' and @controltypename='SimplyCustomerDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="beee2d86-db67-431d-8c60-e077c6ff4424"
+			name="SalesIcon"
+			refimgid="277b418b-0d75-4b51-93ba-4ac2c588e49e"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplySalesInvoiceDropdownTaskIcon']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/?/?/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/?/?/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@caption='' and @controltypename='SimplySalesInvoiceDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="9361a49f-0d6c-4bf4-997e-69b555bf6acc"
+			name="ReceiptsIcon"
+			refimgid="ca58b44c-5660-46ed-9f61-36d4f85ebcb8"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyReceiptDropdownTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@caption='' and @controltypename='SimplyReceiptDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="0624bdf2-f9c6-4d33-bfd9-1c1cb7507070"
+			name="SetupMenu"
+			refimgid="d4b75235-7e08-4a19-a1a2-a734bea6b8a9"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Setup']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Setup']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="a38f760e-e1cf-4198-a158-a0ec93f47096"
+			name="SettingsMenuItem"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Setup']/menuitem[@accessiblename='Settings...']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Setup']/menuitem[@accessiblename='Settings...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="8c3761df-54cf-4543-ac18-9f487d7a4aab"
+			name="UserPrefMenuItem"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Setup']/menuitem[@accessiblename='User Preferences...']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="2a98ead5-c326-4b22-aaf7-ea452437e21b"
+			name="PayablesLink"
+			refimgid="b39be01a-9d73-4cb9-a317-df4a53ca7d9f"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='VendorNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='VendorNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="e59c4c89-0729-4bda-a56f-631ab806b243"
+			name="PurchaseIcon"
+			refimgid="29fb9c80-444b-4c82-892e-3ffdaa65e63a"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyPurchaseInvoiceDropdownTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@caption='' and @controltypename='SimplyPurchaseInvoiceDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="44c4af99-6701-4c25-9cf0-87695de2edad"
+			name="VendorIcon"
+			refimgid="e90cb002-3439-44a1-8547-5bf2fac97a4f"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyVendorDropdownTaskIcon']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@caption='' and @controltypename='SimplyVendorDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="a2d95974-6362-45dc-818a-499759516df7"
+			name="PaymentIcon"
+			refimgid="5a15c05e-c9df-4a0a-86c7-cf276a49491a"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyPaymentDropdownTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@caption='' and @controltypename='SimplyPaymentDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="a583c23e-c3bd-459f-a219-fef5d8d4ba73"
+			name="GeneralIcon"
+			refimgid="5053c037-bdda-42c2-be1f-8050204f093b"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='CompanyNavContentPanel']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_panel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyAccountDropdownTaskIcon']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/container[@controlname='CompanyNavContentPanel']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/?/?/container[@controlname='m_taskModule']/container[@controlname='m_contents']/?/?/container[@caption='' and @controltypename='SimplyAccountDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="09c7033c-2573-49e0-bb22-dc901fe431cf"
+			name="GeneralJournalIcon"
+			refimgid="cecfde28-13f1-4819-b9a3-f755cd83daf1"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/container[@controlname='CompanyNavContentPanel']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/?/?/container[@controlname='m_taskModule']/container[@controlname='m_contents']/?/?/container[@caption='' and @controltypename='SimplyGeneralJournalTaskIcon']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="365b2920-d3d9-4498-a010-50bf68bb5c68"
+			name="GeneralLink"
+			refimgid="d8d87d1b-f418-4492-8221-0aaeb2353d1b"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='CompanyNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='CompanyNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="ca089422-99de-401b-8e6d-16b9f71d6ff7"
+			name="InventoryServicesLink"
+			refimgid="07690378-12ca-4987-85eb-628d288fb521"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='InventoryNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='InventoryNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="edda9526-2d52-45ef-a0f0-aa0a37008082"
+			name="InventoryServicesIcon"
+			refimgid="a9640f39-74ec-4a06-b54f-2c89a159422e"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="762db916-cfdb-468f-ba40-da7ef188df4b"
+			name="EmployeeLink"
+			refimgid="653146f7-eedf-4196-b38c-1dd347964a42"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='EmployeeNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='EmployeeNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="6fdaedb0-c218-4474-8a34-eb488d3955a6"
+			name="EmployeeIcon"
+			refimgid="839ed4bb-a13f-4a74-aab0-0cf5d71275bb"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyEmployeeDropdownTaskIcon']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@caption='' and @controltypename='SimplyEmployeeDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="ce601a70-9f3a-45b9-82e1-53bced8eda99"
+			name="PaychequeIcon"
+			refimgid="9c00e9f4-1306-483c-adc9-b3c2364b6156"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyPaychequeDropdownTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@caption='' and @controltypename='SimplyPaychequeDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="8d0903df-24d8-4448-9970-84508a42d822"
+			name="PaychqRunIcon"
+			refimgid="2baaab58-7a11-42a0-9b7e-3b50fc6eacc2"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_journalPanel']/container[@controlname='SimplyTaskIcon']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="2a2385dd-3ab5-4339-b49d-e74e23468087"
+			name="ProjectsLink"
+			refimgid="e5bb5cff-1dcb-4ed3-84b0-b7098c775f58"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_leftPanel']/container[@controlname='m_navBar']/container[@controlname='HomeWindowNaviageBarButton' and @caption='' and @controltypename='ProjectNavigateBarButton']/text[@controlname='m_caption']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_leftPanel']/?/?/container[@caption='' and @controltypename='ProjectNavigateBarButton']/text[@controlname='m_caption']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="7c4edc0c-0208-4de4-9ba2-cd7b3228d1ed"
+			name="ProjectsIcon"
+			refimgid="202f0cc2-0af2-4144-bf85-47b8db21b0a2"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container[@controlname='m_contentsPanel']/container[@controlname='m_HWContents']/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container[@controlname='m_leftTableLayoutPanel']/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/container[@caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="18d63b4c-408d-4f63-8716-519a6b2b083c"
+			name="File"
+			refimgid="4d461b84-72d9-4749-aec7-3e5cd2c8b751"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='File']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='File']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="13c0cd0f-56d6-4c93-903a-236037e03df7"
+			name="Exit"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Exit']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='File']/menuitem[@accessiblename='Exit']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="85501a7f-7869-4356-bfce-f6e393e189b9"
+			name="OpenCompany"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='File']/menuitem[@accessiblename='Open Company...']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='File']/menuitem[@accessiblename='Open Company...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="abc9e54d-bebf-4306-9528-a8c7d57396a4"
+			name="NewCompany"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='File']/menuitem[@accessiblename='New Company...']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='File']/menuitem[@accessiblename='New Company...']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="36420aea-5cf7-4d3c-b38d-1475aa8a5cf1"
+			name="CompanyFlavor"
+			refimgid="2d05eeab-191f-434d-873d-f40d8224bedb"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="85a360fe-7c50-4bf5-bd71-f3e920b4e7f0"
+			name="AccountantMenuItem"
+			refimgid="e96985d9-e004-49a0-901e-b4db7b07743b"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Accountant Edition']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Accountant Edition']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="bd4ae552-17ae-455b-9c76-36d48a90169d"
+			name="History"
+			refimgid="ffce35c9-974d-4340-91e5-347688d2c313"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='History']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='History']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="93c65c87-8289-4740-9dd9-481d6f71212e"
+			name="FinishEnteringHistory"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='History']/menuitem[@accessiblename='Finish Entering History']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='History']/menuitem[@accessiblename='Finish Entering History']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="8b59428d-fb0c-4e39-b433-9f92ca043e6a"
+			name="Help"
+			refimgid="a87d1909-40c9-4d9d-ac4c-eb00ea1a1824"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Help']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Help']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="0a41e95b-5e0c-4f4d-bfe9-65d4d26b40b4"
+			name="AboutSage50"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Help']/menuitem[@accessiblename~$AboutMenu]
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="44dcc297-f0c0-4e72-840f-80e6fe5154a1"
+			name="MaintenanceMenu"
+			refimgid="1cf1fb08-c2c8-4d14-8e66-4c1b2e5a2a43"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Maintenance']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="a2e1caa7-b765-4423-a84e-e67e10a2ae45"
+			name="StartNewYearMenuItem"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Maintenance']/menuitem[@accessiblename='Start New Year...']"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Maintenance']/menuitem[@accessiblename='Start New Year...']
+			</item>
+			<item
+			addcaps="menubar,control,nativewindow"
+			capname="menubar"
+			id="a41b8a47-7b86-42c2-b366-c875f9f13556"
+			name="MMainMenuStrip"
+			refimgid="c1d899c3-7d37-4f98-babc-336ba24df63f"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="672189df-eba5-465e-94d8-8809d4c826b8"
+			name="RichmondAutomation"
+			refimgid="80e3274f-03e8-49fb-aafa-2d88ef873d9c"
+			refpath="/form[@title~'^Terry\ Mah\ says\.\.\.\ -\ Googl']/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename='Richmond Automation']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@accessiblename='Google Chrome']/container[2]/container[2]/?/?/tabpage[@accessiblename='Richmond Automation']
+			</item>
+			<item
+			addcaps="picture,control,nativewindow"
+			capname="picture"
+			id="6a1be941-5598-4501-aeea-8f409719b173"
+			name="MPictureBox"
+			refimgid="f7044b1f-df2a-425b-bccd-17817a474ba8"
+			refpath="/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']/container[@controlname='contentPanel']/container/container/container[@controlname='m_rightPanel']/container[@controlname='SimplyNavContentPanel' and @caption='' and @controltypename='SimplyNavContentPanel' and @instance='0']/container[@controlname='m_contentsSplitter']/container[@controlname='panel1']/container/container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@controlname='SimplyDropdownTaskIcon' and @caption='' and @controltypename='SimplyCustomerDropdownTaskIcon']/picture[@controlname='m_pictureBox']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/container[@controlname='m_toolStripContainer']//container[@controlname='m_rightPanel']/?/?/container[@controlname='m_contentsSplitter']//container[@controlname='m_taskModule']/container[@controlname='m_contents']/container[@controlname='m_ledgerPanel']/container[@caption='' and @controltypename='SimplyCustomerDropdownTaskIcon']/picture[@controlname='m_pictureBox']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="984633c0-28c9-4986-95a5-c98cc4e26242"
+			name="Reports_Item"
+			refimgid="6e78724e-77b6-4319-97e9-4c507b73d535"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Reports']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']
+			</item>
+			<item
+			capname="menuitem"
+			id="3d47d32f-ecce-4c49-9675-0aaf82c509fd"
+			name="Rpt_Item_Financials"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Financials']
+			</item>
+			<item
+			capname="menuitem"
+			id="c4774a9d-8c33-41d8-8876-2971be299c78"
+			name="Rpt_Item_Receivables"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Receivables...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="636c5438-afa9-47d4-85df-a0544dce7c2e"
+			name="Rpt_Item_Payables"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Payables...']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Payables...']
+			</item>
+			<item
+			capname="menuitem"
+			id="89f8e5d4-e255-4c38-a475-27c06d11cbb5"
+			name="Rpt_Item_Payroll"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Payroll']
+			</item>
+			<item
+			capname="menuitem"
+			id="3a3e3d59-9575-4f88-9038-a444379c0a39"
+			name="Rpt_Item_InventoryServices"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Inventory &amp; Services']
+			</item>
+			<item
+			capname="menuitem"
+			id="406b10d7-b0ce-4131-a8b0-ffbd8cb8eb64"
+			name="Rpt_Item_JournalEntries"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Journal Entries']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="5ba3c0c1-3fdf-44a4-a2e9-a6d35f8922ff"
+			name="Rpt_PrintT5018Slips"
+			refpath="/form[@controlname='SimplyHomeWindow']/menubar[@controlname='m_mainMenuStrip']/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Payables...']/menuitem[@accessiblename='Print T5018 Slips...']"
+			searchtimeout="3000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Payables...']/menuitem[@accessiblename='Print T5018 Slips...']
+			</item>
+			<item
+			capname="menuitem"
+			id="513013a2-fcfb-454a-9627-35d463eab120"
+			name="Rpt_BalanceSheetStd"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Financials']/menuitem[@accessiblename='Balance Sheet...']
+			</item>
+			<item
+			capname="menuitem"
+			id="a94e668d-2a64-4c2a-aef4-1ddc70cff196"
+			name="Rpt_JournalEntries_All"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Journal Entries']/menuitem[@accessiblename='All...']
+			</item>
+			<item
+			capname="menuitem"
+			id="64a616f5-b280-40bb-bf45-ea96b362cc87"
+			name="Rpt_CustomerSales"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Receivables...']/menuitem[@accessiblename='Customer Sales...']
+			</item>
+			<item
+			capname="menuitem"
+			id="304455a4-7ed7-4527-8385-47047577e177"
+			name="Rpt_VendorAged"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Payables...']/menuitem[@accessiblename='Vendor Aged...']
+			</item>
+			<item
+			capname="menuitem"
+			id="16fc3eba-473b-4ec3-8859-730b7da50aa6"
+			name="Rpt_Employee"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Payroll']/menuitem[@accessiblename='Employee...']
+			</item>
+			<item
+			capname="menuitem"
+			id="82180445-1655-4cd9-9883-08a2e69e71eb"
+			name="Rpt_InventoryTransactions"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']//menuitem[@accessiblename='Inventory &amp; Services']/menuitem[@accessiblename='Transaction...']
+			</item>
+			<item
+			capname="menuitem"
+			id="38f4626d-2544-4398-9969-e580f09a436f"
+			name="ReportCentre_Item"
+			searchtimeout="30000ms">
+				/form[@controlname='SimplyHomeWindow']/?/?/menuitem[@accessiblename='Reports']/menuitem[@accessiblename='Report Centre...']
+			</item>
+			<basepath>
+				/form[@controlname='SimplyHomeWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFxSURBVDhPnZLBSsNAEIb3AbSXvoB3pXj0JH0L
+BQ8eevTgo+itgqAHIx5EQUE9KYIHERShIohVq2lra5tNurvZmkTJuNkkbdputfjDz+zuzDeTTYJU
+8n0/7Xme5rouExGEC2Kdi9LDJcBxvcX9sa0ioM3HAS9f1sFxnHxU3ivO+cz8WVUJ9pvyNomwUMHk
+uT/gtYcW+ACdfbvtFCMcoRJmfrJY5Qr/Eni3QUp7AsbcDCKEpIfdefa4LGNVwIe6PZBvUNtDNuda
+fyLwVfNTTsTOtxIOvHheAcRsm/UnbgwH7kxXrrefqYzZk7JsmKyTT04Z6zkMwGvRIN5PH7xJUNVA
+ukVoIXkQAEGc2C1J4LcGU/slQBalueRhDI7SYOO+AfIzLl2Il/GPBpZFdmQD07LyycQoXr2thdNj
+vWOLqApVzh69AsZ4MkK7MrBZTGnqnyr2ipishGPVTTOjfxjewqkefmcBTe69wHqhBk3DDO/cEUI/
+DvVjhh0r8zIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="ba6865e3-b16a-47f9-9e6f-035dbcd56278"
+		isrooted="True"
+		name="GettingStarted"
+		refpath="/form[@controlname='GettingStartedForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			capname="checkbox"
+			id="70f35628-4fac-4426-bc40-0e3f8239d234"
+			name="Show"
+			refpath="/form[@controlname='GettingStartedForm']/checkbox[@controlname='m_showAtStartCheckBox']"
+			searchtimeout="3000ms">
+				/form[@controlname='GettingStartedForm']/checkbox[@controlname='m_showAtStartCheckBox']
+			</item>
+			<item
+			capname="button"
+			id="5f6e73f6-0c96-4ab3-81ee-3874366fe419"
+			name="Close"
+			refpath="/form[@controlname='GettingStartedForm']/button[@controlname='m_closeButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='GettingStartedForm']/button[@controlname='m_closeButton']
+			</item>
+			<basepath>
+				/form[@controlname='GettingStartedForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFxSURBVDhPnZLBSsNAEIb3AbSXvoB3pXj0JH0L
+BQ8eevTgo+itgqAHIx5EQUE9KYIHERShIohVq2lra5tNurvZmkTJuNkkbdputfjDz+zuzDeTTYJU
+8n0/7Xme5rouExGEC2Kdi9LDJcBxvcX9sa0ioM3HAS9f1sFxnHxU3ivO+cz8WVUJ9pvyNomwUMHk
+uT/gtYcW+ACdfbvtFCMcoRJmfrJY5Qr/Eni3QUp7AsbcDCKEpIfdefa4LGNVwIe6PZBvUNtDNuda
+fyLwVfNTTsTOtxIOvHheAcRsm/UnbgwH7kxXrrefqYzZk7JsmKyTT04Z6zkMwGvRIN5PH7xJUNVA
+ukVoIXkQAEGc2C1J4LcGU/slQBalueRhDI7SYOO+AfIzLl2Il/GPBpZFdmQD07LyycQoXr2thdNj
+vWOLqApVzh69AsZ4MkK7MrBZTGnqnyr2ipishGPVTTOjfxjewqkefmcBTe69wHqhBk3DDO/cEUI/
+DvVjhh0r8zIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="8cdfa074-e35d-4802-8c0a-4cbb38fbde17"
+		isrooted="True"
+		name="SelectCompany"
+		refimgid="6c7ed83d-9c64-4ef3-a7b3-f9e513260c7f"
+		refpath="/form[@controlname='StartDataUI']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="84e3b5c4-7a6f-4237-9a77-3da7e7926f76"
+			name="OK"
+			refimgid="0975f30a-517c-460e-b42f-2d816266b850"
+			refpath="/form[@controlname='StartDataUI']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/button[@controlname='m_OKButton']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="f5b0c87a-6b88-441c-a1ff-58b5809fd443"
+			name="OpenSampleCompany"
+			refimgid="4d43410b-c650-4e51-bd44-e65a7b9db404"
+			refpath="/form[@controlname='StartDataUI']/radiobutton[@controlname='m_openSampleRadio']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/radiobutton[@controlname='m_openSampleRadio']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="470ba20a-ab19-41b1-acfd-003e6cf654c1"
+			name="CreateANewCompany"
+			refimgid="83c94679-8197-4fa4-b842-21448875fa61"
+			refpath="/form[@controlname='StartDataUI']/radiobutton[@controlname='m_createNewRadio']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/radiobutton[@controlname='m_createNewRadio']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="a3cf22c3-9146-41f0-9a66-e5a641c7b81a"
+			name="SelectAnExistingCompany"
+			refimgid="6216987b-e236-423f-a136-d93c1a296a29"
+			refpath="/form[@controlname='StartDataUI']/radiobutton[@controlname='m_selectCompanyRadio']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/radiobutton[@controlname='m_selectCompanyRadio']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="bf33a6b6-1404-4528-a75a-3e319b4e6077"
+			name="OpenARecentlyUsedCompany"
+			refimgid="5b630f69-4ca8-4352-b785-419e6218f4e0"
+			refpath="/form[@controlname='StartDataUI']/radiobutton[@controlname='m_selectLastCompanyRadio']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/radiobutton[@controlname='m_selectLastCompanyRadio']
+			</item>
+			<item
+			addcaps="combobox,control,nativewindow"
+			capname="combobox"
+			id="c981be8c-e058-4402-8c03-583a69ad3048"
+			name="RecentlyUsedCompaniesDropDown"
+			refimgid="86854b74-588b-459d-89a3-952062db5add"
+			refpath="/form[@controlname='StartDataUI']/combobox[@controlname='m_recentCompaniesComboBox']"
+			searchtimeout="3000ms">
+				/form[@controlname='StartDataUI']/combobox[@controlname='m_recentCompaniesComboBox']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="9e9b5a47-065b-4bb0-b3fd-adc326a05474"
+			name="MExitButton"
+			refimgid="67aa0780-da81-4312-af0a-92c62b8c2127"
+			refpath="/form[@controlname='StartDataUI']/button[@controlname='m_exitButton']"
+			searchtimeout="30000ms">
+				/form[@controlname='StartDataUI']/button[@controlname='m_exitButton']
+			</item>
+			<basepath>
+				/form[@controlname='StartDataUI']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFxSURBVDhPnZLBSsNAEIb3AbSXvoB3pXj0JH0L
+BQ8eevTgo+itgqAHIx5EQUE9KYIHERShIohVq2lra5tNurvZmkTJuNkkbdputfjDz+zuzDeTTYJU
+8n0/7Xme5rouExGEC2Kdi9LDJcBxvcX9sa0ioM3HAS9f1sFxnHxU3ivO+cz8WVUJ9pvyNomwUMHk
+uT/gtYcW+ACdfbvtFCMcoRJmfrJY5Qr/Eni3QUp7AsbcDCKEpIfdefa4LGNVwIe6PZBvUNtDNuda
+fyLwVfNTTsTOtxIOvHheAcRsm/UnbgwH7kxXrrefqYzZk7JsmKyTT04Z6zkMwGvRIN5PH7xJUNVA
+ukVoIXkQAEGc2C1J4LcGU/slQBalueRhDI7SYOO+AfIzLl2Il/GPBpZFdmQD07LyycQoXr2thdNj
+vWOLqApVzh69AsZ4MkK7MrBZTGnqnyr2ipishGPVTTOjfxjewqkefmcBTe69wHqhBk3DDO/cEUI/
+DvVjhh0r8zIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="1de4f976-7e41-4354-99e5-fc20016e537c"
+		isrooted="True"
+		name="UpgradeCompany"
+		refimgid="5b7ce6af-fc0e-4443-80af-56c8bb8225f4"
+		refpath="/form[@controlname='DBConversionForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="checkbox,control,nativewindow"
+			capname="checkbox"
+			id="0ac32a6b-6f66-4dff-99fc-66f002a1e002"
+			name="AutoBackup"
+			refimgid="788a8ef6-f6a5-420b-b6ad-8b360fd93b10"
+			refpath="/form[@controlname='DBConversionForm']/checkbox[@controlname='m_autoBackupChkbox']"
+			searchtimeout="3000ms">
+				/form[@controlname='DBConversionForm']/checkbox[@controlname='m_autoBackupChkbox']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="fe038464-8983-482e-83ac-edbd60419e08"
+			name="Start"
+			refimgid="e7ed52e6-cdc4-47d8-b902-1e0a719eb09b"
+			refpath="/form[@controlname='DBConversionForm']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='DBConversionForm']/button[@controlname='m_OKButton']
+			</item>
+			<basepath>
+				/form[@controlname='DBConversionForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFxSURBVDhPnZLBSsNAEIb3AbSXvoB3pXj0JH0L
+BQ8eevTgo+itgqAHIx5EQUE9KYIHERShIohVq2lra5tNurvZmkTJuNkkbdputfjDz+zuzDeTTYJU
+8n0/7Xme5rouExGEC2Kdi9LDJcBxvcX9sa0ioM3HAS9f1sFxnHxU3ivO+cz8WVUJ9pvyNomwUMHk
+uT/gtYcW+ACdfbvtFCMcoRJmfrJY5Qr/Eni3QUp7AsbcDCKEpIfdefa4LGNVwIe6PZBvUNtDNuda
+fyLwVfNTTsTOtxIOvHheAcRsm/UnbgwH7kxXrrefqYzZk7JsmKyTT04Z6zkMwGvRIN5PH7xJUNVA
+ukVoIXkQAEGc2C1J4LcGU/slQBalueRhDI7SYOO+AfIzLl2Il/GPBpZFdmQD07LyycQoXr2thdNj
+vWOLqApVzh69AsZ4MkK7MrBZTGnqnyr2ipishGPVTTOjfxjewqkefmcBTe69wHqhBk3DDO/cEUI/
+DvVjhh0r8zIAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="b6eea4a6-5271-49d6-82da-a34aff914193"
+		isrooted="True"
+		name="PEPNotification"
+		refimgid="b350b985-a0b7-4dc6-b365-a5b46e531ae8"
+		refpath="/form[@controlname='PEPNotificationForm']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="67e1074e-346f-47c4-85a6-35c361893392"
+			name="OK"
+			refimgid="eaa5820d-bf02-4f5c-8fbb-748c024f5e66"
+			refpath="/form[@controlname='PEPNotificationForm']/button[@controlname='m_OKButton']"
+			searchtimeout="3000ms">
+				/form[@controlname='PEPNotificationForm']/button[@controlname='m_OKButton']
+			</item>
+			<basepath>
+				/form[@controlname='PEPNotificationForm']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ffee1282-5950-43d6-a6ba-df769984d9b5"
+		isrooted="True"
+		name="ChangeSessionDate"
+		refimgid="4d51785c-d8a1-4d3b-b9dd-f7db621e659e"
+		refpath="/form[@title='Change Session Date']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="84d3072a-5134-4208-ae0f-071f2fba47a2"
+			name="OK"
+			refimgid="1547f88f-1859-47ed-87e8-28a1ec23a741"
+			refpath="/form[@title='Change Session Date']/button[@text='&amp;OK']"
+			searchtimeout="3000ms">
+				/form[@title='Change Session Date']/button[@text='&amp;OK']
+			</item>
+			<basepath>
+				/form[@title='Change Session Date']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="91ab5e30-d8a2-4de1-a499-4ca9b4893903"
+		isrooted="True"
+		name="AboutSage50Dialog"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="89d91aa1-8077-4a38-81e1-4d6e13a951e6"
+			name="Support"
+			refimgid="8960dee7-69d4-4e9c-9a7c-2f3a9c1e7c93"
+			searchtimeout="3000ms">
+				/form[@title~'About Sage 50']/button[@text='&amp;Support Info...']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9aa497c2-1b5d-4836-82f8-5e40dc102ce1"
+			name="OK"
+			refimgid="04353b64-9dd3-4e44-ae92-e258f6a40eb6"
+			searchtimeout="3000ms">
+				/form[@title~'About Sage 50']/button[@text='&amp;OK']
+			</item>
+			<basepath>
+				/form[@title~'About Sage 50']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7b6b7638-ca29-49ba-b0bf-a408b0ba51a8"
+		isrooted="True"
+		name="T5018SlipsOptions"
+		refimgid="c54f23ce-e336-467c-932d-0c13f29a6057"
+		refpath="/form[@title='T5018 Slips Options']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="1698e41a-cd92-45d3-955b-df49948d97ee"
+			name="T5018Statements"
+			refimgid="1ed18c10-9e6a-4ecc-9211-cbe4b40d1937"
+			refpath="/form[@title='T5018 Slips Options']/checkbox[@text='T5018 S&amp;tatements']"
+			searchtimeout="3000ms">
+				/form[@title='T5018 Slips Options']/checkbox[@text='T5018 S&amp;tatements']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e0013ada-604b-4f5f-9516-a694946ab7ad"
+			name="CraBusinessNo"
+			refimgid="95c9b4ad-f4b8-403a-b7c9-06144e4a498b"
+			refpath="/form[@title='T5018 Slips Options']/text[@controlid='120']"
+			searchtimeout="3000ms">
+				/form[@title='T5018 Slips Options']/text[@controlid='120']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9524b725-3ce0-4ee3-b53f-6f7a2ce9b88e"
+			name="Print"
+			refimgid="93da607d-7d4e-49cc-8d9e-e1524439842c"
+			refpath="/form[@title='T5018 Slips Options']/button[@text='&amp;Print']"
+			searchtimeout="3000ms">
+				/form[@title='T5018 Slips Options']/button[@text='&amp;Print']
+			</item>
+			<basepath>
+				/form[@title='T5018 Slips Options']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="762621c4-ca83-4a58-8f2f-9dd28afe6718"
+		isrooted="True"
+		name="InventoryServicesLedger"
+		refpath="/form[@title='Inventory &amp; Services Ledger']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button"
+			capname="button"
+			id="57e40931-bd75-45fc-9b36-50a3ccd5e3ba"
+			name="SomeButton"
+			refimgid="04d9b5d2-5041-46e0-bdf7-06e9bc73f924"
+			refpath="/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='77']/button[@text='>']"
+			searchtimeout="30000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='77']/button[@text='&gt;']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="3de877a2-fb42-4cdf-8985-8802bd2e66ad"
+			name="Text1001"
+			refimgid="a32aa0f2-fb8a-472e-9112-693f43400f65"
+			refpath="/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']/text[@controlid='1001']"
+			searchtimeout="30000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']/text[@controlid='1001']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="1df77e6a-fefc-4717-b834-65d11097e137"
+			name="ComboBox73"
+			refimgid="99bd00f5-85ac-4dab-8493-b0692ccfab5e"
+			refpath="/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']"
+			searchtimeout="30000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']
+			</item>
+			<item
+			addcaps="tabpagelist,nativewindow"
+			capname="tabpagelist"
+			id="6a958d6a-f08f-44da-94f6-0b7cd0859d08"
+			name="SysTabControl32"
+			refimgid="52205182-9034-4be5-8863-93867b2fb655"
+			refpath="/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/tabpagelist[@class='SysTabControl32']"
+			searchtimeout="30000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/tabpagelist[@class='SysTabControl32']
+			</item>
+			<basepath>
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPpZEBEoUgCAU9OkfzZuUKmPHR+tPO
+MGn41tKyQ0QOG/6PhY9a63eJzt5AoBXBGfuKW09SsTXbKC1lzBPCzr+Uxc7OVjDCawH/muPhh0Nl
+kXMdpIb1RjaCvgiBSfgaysOIYtGzsIzAHPJahU2gYWiT/lTJJRBBGCoKCEcBvBbMuIBrpf8ggPsZ
+MG8vR60EJCf8mnp4JhVoq5QTdvien7NTWR8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="c2fbfb38-db19-4093-8ef1-e51fca88f2f9"
+		isrooted="True"
+		name="DotNetComboBoxList"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="5000ms"
+		usecache="True">
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e277e7a5-c270-44d4-9ea7-536dd4a4aee2"
+		isrooted="True"
+		name="Sage50Confirmation"
+		refpath="/form[@title='Sage 50 - Confirmation']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="6c6d0596-8bf8-41f4-9517-7cd7d0aae96d"
+			name="ButtonNo"
+			refimgid="aa57b6cd-aa52-4920-81a0-48f23f2bed0c"
+			refpath="/form[@title='Sage 50 - Confirmation']/button[@text='&amp;No' and @controlid='108']"
+			searchtimeout="3000ms">
+				/form[@title='Sage 50 - Confirmation']/button[@controlid='108']
+			</item>
+			<basepath>
+				/form[@title='Sage 50 - Confirmation']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d25ffefb-94f6-4e1f-a2de-adddd2e4840d"
+		isrooted="True"
+		name="StartNewYear"
+		refimgid="e5db24d7-9870-4176-9c1e-da4662ba056e"
+		refpath="/form[@title='Start New Year']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4bc343cf-4655-4f49-80a9-1cce53c13822"
+			name="OK"
+			refimgid="87a398b2-8728-4744-9859-b854faac997f"
+			searchtimeout="3000ms">
+				/form[@title='Start New Year']/button[@controlid='1']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="eb11c7f0-8a94-47d4-8e7f-9df111f48f51"
+			name="FiscalYear"
+			refimgid="a98af2f9-4691-4d7b-8c57-47e537530cd3"
+			searchtimeout="3000ms">
+				/form[@title='Start New Year']/radiobutton[@controlid='80']
+			</item>
+			<basepath>
+				/form[@title='Start New Year']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhPhZI7SwNBFIUHRBQLsREstFFbwWr/
+gr2t/0BBS/0LtqZyG18sSrTQ1kJQRAmIEpQUiZsgPhKSnd28No815jpnsrPmiRcOc/fc883ODsu6
+y/M8TUgXStXrdQ9C73uaH+utZrM5XqvVDNNxaeM+Q/NnSRo+SEihh4cZMsj6WKtgVKvViB7jNHqY
+ILYX79GI8KdOTEIG2Y5NhGHsikE/ENqJOfT906Tlqy/5jCwYCbuuq8V5eeCbF87fKFtt0BOv0eSx
+KT1kwYBlbqWir9+lO6DpcJK2n21avHijTKVBK9dpGtrv3BgMWFYql1Nzp8kO+LXoSdXFsQG3g0pg
+wLJiqeThpmHO+PDWQ47GjhK0dPkRACjVQ2DAskLxb4NH8Z2bAm4PKlCtSmDAYoPgEyaM1yCggO5V
+CQxYli8U9LXbz2CggoNWJTBgWT6f117StvxR+gHdK4QsGLDyX+COY4SimSDwn5AFI2GUZVnj3LYj
+oWg6OEk/YYYMsmB8vFUwLO4Y0U9OqzfvNBs2xU3jtuOyh4cZMj1we4mhlrNsPWfxVNbiHoQeHmZ+
+zC/GfgFYt5qP5cFZbgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="604f2f01-25d3-44b3-8402-81f6af08496e"
+		name="Sage_50_CreateNewCompany">
+			Sage 50 -
+		</var>
+		<var
+		id="53e7ceca-5211-4747-aad2-7be5dcf7e113"
+		name="AboutMenu">
+			^About\ Sage\ 50\&#32;
+		</var>
+		<var
+		id="bc12c058-afe9-4187-a6df-be7907c307d0"
+		name="AboutDialog">
+			^About\ Sage\ 50\
+		</var>
+	</variables>
+</repository>

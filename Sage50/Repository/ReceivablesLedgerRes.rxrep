@@ -1,0 +1,1100 @@
+﻿<repository
+id="5ac055c4-8568-472f-b8ae-926016a0ee39"
+name="ReceivablesLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="ReceivablesLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="0ec55c70-5517-4b72-91e7-a799d837037a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9abc03ce-ec5d-4f9f-bd5c-ba1facb40c6a"
+		isrooted="True"
+		name="ReceivablesLedger"
+		refpath="/form[@title='Receivables Ledger']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="61003cbe-c7b8-41f9-affc-9303df322302"
+			name="CustomerName"
+			refimgid="4b2e05fe-8a6f-4860-861f-30166af5f3f6"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/element[@controlid='26']/text
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="49f68262-0984-4c77-815d-b08a9cb62741"
+			name="InactiveCustomer"
+			refimgid="84d8c4c6-6728-4932-b64a-3e27014b1000"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/checkbox[@controlid='230']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="9aed1c3d-606c-4c3c-9352-386a2f033633"
+			name="InternalCustomer"
+			refimgid="d29746e1-571f-4ade-835a-bdbebdce139a"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/checkbox[@controlid='260']
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="61295f49-3e5b-49b2-92dd-a5e83973ef22"
+			name="SelectRecord"
+			refimgid="65354ef3-2244-4853-809c-1278c8082ae1"
+			refpath="/form[@title='Receivables Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="5aeb74b8-d0d9-42df-9429-2642f2aae6b5"
+			name="BalanceOwingInHome"
+			refimgid="90125f0c-3c5b-4cd3-9379-e86510a654e5"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/element[@controlid='233']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="7325f357-366e-4a9f-bff8-63900cc371a9"
+			name="BalanceOwingInForeign"
+			refimgid="6ba74aff-c633-44ad-9999-6ad520d25076"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/element[@controlid='234']/text
+			</item>
+			<item
+			addcaps="unknown,nativewindow"
+			capname="text"
+			id="71c36d9a-e69e-4462-8ca5-a0f8fd00f1d7"
+			name="DateOfLastSale"
+			refimgid="0f3ff723-12b1-487d-a329-da3a44fa2d13"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/element[@controlid='71']/text
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9cfb97be-06f2-4111-befe-dfa354ce0d71"
+			name="CreateANewToolButton"
+			refimgid="0e571936-6834-4bdd-bb06-af13b1048849"
+			refpath="/form[@title='Receivables Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='0']/button[@text='Create a new customer (Ctrl+N)']"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ customer\ \(Ct']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0316e5aa-dfb1-4a8f-9682-ac7bf5cc5f06"
+			name="SaveAndClose"
+			refimgid="7b942673-478a-4e85-9aff-6968489c7ac3"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/button[@controlid='1002']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1bf844ba-59ec-4329-833c-1a0e719e1aeb"
+			name="Close"
+			refimgid="3f0c3a9b-bbf9-44b6-8e23-467e935f00c1"
+			refpath="/form[@title='Receivables Ledger']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="1f3c22f5-7ec7-42c5-a38a-5f880f80f48a"
+			name="Save"
+			refimgid="8335dd3a-26af-46dd-ae2a-c78f38b897d7"
+			refpath="/form[@title='Receivables Ledger']/container[@class='ReBarWindow32']/toolbar[@controlid='5075' and @class='ToolbarWindow32' and @instance='0']/button[@text='Save the current customer (Ctrl+S)']"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\ customer']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="5bf1a389-00f4-43bc-b399-b3364a17a29a"
+			name="View"
+			refimgid="c29e81aa-ba43-4b3f-9d72-d7a95df7a223"
+			refpath="/form[@title='Receivables Ledger']/menubar[@accessiblename='Application']/menuitem[@accessiblename='View']"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/?/?/menuitem[@accessiblename='View']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="0ea9d520-20a9-49e3-b8b0-86c55a145186"
+			name="RestoreWindow"
+			refimgid="7364d653-4494-48e4-a788-ff40e0a9e580"
+			searchtimeout="3000ms">
+				/form[@title='Receivables Ledger']/contextmenu/?/?/menuitem[@accessiblename='Restore Window']
+			</item>
+			<folder
+			capname="form"
+			id="1172e54f-33bf-4af3-a34a-eb4d5498cd33"
+			isrooted="True"
+			name="Address"
+			refimgid="068cba1a-7ccb-492c-b35d-4db9ded2923e"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="dc275952-935b-43e0-8e79-8274721081cb"
+				name="Contact"
+				refimgid="fba9ff4c-56f3-4d71-8619-7bc212154ffe"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='43']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="6a8b9c9f-cfde-493e-83da-1d7a48f7e367"
+				name="Street1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='44']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="ff4c7865-37a0-485a-9fc8-deba70d1d5e5"
+				name="Street2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='45']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="9611da2b-f319-4ef6-9cc1-cfe33af2c367"
+				name="City"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='46']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="bd1ffaea-df4a-43a3-985b-32d90cb03795"
+				name="Province"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='47']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5e7b7be7-2908-4466-affc-42bf6a4453e5"
+				name="Postalcode"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='48']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="83cc29d5-8904-4900-b916-8dcb46723b7c"
+				name="Country"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='55']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="b9616a6c-1601-4045-8d89-6d82b9cda699"
+				name="Phone1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='49']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="4f2e3292-2bc6-41ed-8368-2451c45161d3"
+				name="Phone2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='50']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5512716a-c7b4-47aa-9106-54e678291799"
+				name="Fax"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='51']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="5d45fa45-f4df-4ac2-93ff-b5451c090f86"
+				name="Email"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='52']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="092778b7-7d8c-4c88-92d1-c85493916fef"
+				name="Website"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='53']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="combobox"
+				id="37329dd8-c155-4c6a-9526-bd2e9b6a13db"
+				name="Department"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='57']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="combobox"
+				id="26d5c23c-dcf0-4e02-abfd-93b9fac7f291"
+				name="Salesperson"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='250']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="a30a0eef-e47e-42f9-ac62-6090ca8a31fa"
+				name="CustomerSince"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='68']/text
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="9e2130c1-fcd6-4111-8f22-1479317a7982"
+				name="Tab"
+				refimgid="549862c7-be4a-47a9-a004-2674bfd4ce27"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Address']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Address']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="0e1170b4-8780-4e7c-aa4e-075da72176a7"
+			isrooted="True"
+			name="ShipToAddress"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="fd8bcebe-d2a5-4c0b-ac06-87f24dca186a"
+				name="AddressName"
+				refimgid="d3199273-4b7a-46c4-8035-21ffdbeb4221"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='272']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7c8332f6-3226-452a-8058-da44f0b542e4"
+				name="Contact"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='168']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="67f733f9-9549-4d74-a65a-b56b08c6295c"
+				name="DefaultShipTo"
+				refimgid="f57ff7d5-2cff-4f8f-808d-71f024beff2e"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='175']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7125d205-f4d0-4d4e-8fcf-0c1d3ee18b0f"
+				name="Street1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='169']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="94ab42f5-907e-4e46-b8aa-a5877944c059"
+				name="Street2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='170']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="b956dce3-c860-4a4f-a8fd-7ae8cb60c1a2"
+				name="City"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='171']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="dea53a10-7010-48b8-9c87-6e698ce8947f"
+				name="Province"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='172']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="23e2e7f1-6ba1-4a55-8455-44e720f81b53"
+				name="Postalcode"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='173']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="388407ce-c77d-44c8-ade5-1eb47c72ddb9"
+				name="Country"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='174']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="cb4d01ab-4c47-4945-a2a4-3569c890f09d"
+				name="Phone1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='267']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="badbc6c6-3ca1-4d62-aa03-41e6eafcdd5f"
+				name="Phone2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='268']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="8c774472-e260-4454-b497-1675da7bf9fb"
+				name="Fax"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='269']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="eabb62e4-681f-483b-ba98-af1d1120ce37"
+				name="Email"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='270']/text
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="409e7bbe-874e-4e23-ae01-61c4054c89c1"
+				name="Tab"
+				refimgid="8f255e15-6124-4669-a955-3770d04ac286"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Ship-to Address']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Ship-to Address']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="8a947323-fcff-4f0d-bb64-4953409c52b4"
+			isrooted="True"
+			name="Options"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="4ba7a483-cb6f-45f5-a5e7-4ea26cb304d1"
+				name="RevenueAccount"
+				refimgid="5a707909-e876-4992-b611-764bfbf5a70a"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='80']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="da9f9d05-ec07-4253-aae1-ab46b3e0b542"
+				name="Currency"
+				refimgid="90452686-b025-45f0-b336-623c72f7b011"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='102']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="fcccd7da-a5f6-4cb0-b1d4-278aee3e2cfe"
+				name="PriceList"
+				refimgid="8be1fa55-1642-4501-ac53-7b5b4d7872c2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='242']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="1f46d868-c710-4e0a-b861-03ff36829f8f"
+				name="ConductBusinessIn"
+				refimgid="276018a6-c967-45ee-9d53-67e06e7916b8"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='112']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="74d6919c-265b-45d8-8741-b12735baf5f1"
+				name="UsuallyShipItemFrom"
+				refimgid="d5d38398-3d79-49fb-8c1a-d92a02a26770"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='248']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="85e954b7-19f6-4871-8d93-6909414ed75e"
+				name="StandardDiscount"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='110']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="9fdcc1fe-e110-4348-ace8-cc462b141865"
+				name="DiscountPercent"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='92']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="929cde8e-209c-4e31-aa26-9806d6b92675"
+				name="DiscountPeriod"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='93']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="93448d09-2096-4e04-bbec-8627dec92e55"
+				name="TermPeriod"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='94']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="f2848122-c71c-4a1a-8199-5378057c7ede"
+				name="FormsForThisCustomer"
+				refimgid="50878c58-f7a4-4a2d-80f3-6e70a2307c19"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='101']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="9aabf058-73fe-4168-9e56-4018c530f2d7"
+				name="SyncWithOutlook"
+				refimgid="cb364929-f574-44ad-878d-5d4452bf4dcd"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='243']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="fe6ac42d-dbde-43e1-8533-03da5f039576"
+				name="ProduceStatementsForThisCustomer"
+				refimgid="6286477a-8b71-47c6-9ba0-26a12a7b74b1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='87']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="89261ab0-fe1c-46d0-ad59-ce6d38d0f8da"
+				name="Tab"
+				refimgid="b2bb1a79-e0bb-42f2-8be4-6e5c9522e333"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Options']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Options']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="d203f2d2-43ee-4478-bdb2-6c4df34e6ef7"
+			isrooted="True"
+			name="Taxes"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="fcdd2399-c775-428b-9f12-969ecb8bd05c"
+				name="TaxCode"
+				refimgid="4c5accd8-29d4-487e-bfbe-24ef21895e97"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='131']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="151e62bc-ddd0-4df0-9f81-bac3b011a814"
+				name="TaxContainer"
+				refimgid="a295e1ba-35a9-4014-a507-0f52eb4f722a"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='3661']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="91cd3b2a-9b3c-4b9c-b6df-2938cae21d60"
+				name="TaxTable"
+				refimgid="cc78c006-62d5-401a-80af-252c9e16b27d"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/element[@class='CA_ContainerChild32']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="9568f9fb-a156-4066-8817-f35e6692e33d"
+				name="Tab"
+				refimgid="0ba40d09-57c0-4be0-ac36-e45c409ed798"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Taxes']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Taxes']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="96102f10-b0fa-496d-870a-d40fdbca9340"
+				name="containerText"
+				refimgid="4a275973-5c9d-43d8-9f83-2b37d087ad47"
+				refpath="/form[@title='Receivables Ledger']/element[@controlid='3661']/element[@class='CA_ContainerChild32']/element[@controlid='2000']/text[@accessiblerole='Text']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='3661']/?/?/element/text[@accessiblerole='Text']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="5cefb576-ee8b-46d0-9b46-07c331b91d79"
+				name="CntSimBool"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='3661']/?/?/element
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="4b6dc155-6869-4e1c-aae5-718989630dfc"
+			isrooted="True"
+			name="PAD"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="263439f5-12ce-485b-bfc0-7c80ab9896d1"
+				name="CustHasPAD"
+				refimgid="9cc59758-35ab-47c2-9d8b-150a5fa060f2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='1314']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="8d0c8470-4392-42b1-87c6-b6f12805582c"
+				name="CurrencyAndLocation"
+				refimgid="0eae24a5-76c3-4eea-a448-690a812575b5"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='1313']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0f261434-ea59-4528-b529-b40a38c3031d"
+				name="BranchNumber"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1319']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="19db8b9e-0de8-43f0-a1ab-e4e500cb9f01"
+				name="InstitutionNumber"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1317']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="1e9a7dfa-8087-4d60-8514-c41269b8525a"
+				name="AccountNumber"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1323']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="70fd3835-4cd0-4a21-802a-979c35981b1a"
+				name="RoutingNumber"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1321']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="7a903e3b-6553-4c22-9a42-5705c4a2747f"
+				name="AccountType"
+				refimgid="2f91120b-3d02-4a4a-8253-dcd990ca4d8d"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/combobox[@controlid='1327']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="d194e86d-adc4-4fe9-9ad4-b5957bae18ab"
+				name="Tab"
+				refimgid="231e415c-3437-428a-9dcf-3e7ee24135b8"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Pre-Authorized Debit']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Pre-Authorized Debit']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="bc97c30c-12c0-47d3-9dbe-59582b439dbb"
+				name="EftRefCheckBox"
+				refimgid="72acdd42-52ac-47e6-80a7-9c07b6c9d741"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='1329']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2f14a350-d973-440a-aa67-db0fedd08054"
+				name="TransCodeCheckBox"
+				refimgid="a2195b62-7499-465b-b762-47b2e5ea75d6"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='1330']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="a67697fe-4181-420f-bd61-80401115f646"
+				name="EftRerence"
+				refimgid="9bc38536-60c1-4beb-822a-2b40bcd64c3f"
+				refpath="/form[@title='Receivables Ledger']/element[@controlid='1331']/text[@accessiblerole='Text']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1331']/text[@accessiblerole='Text']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="2624e607-0a8e-4bf5-a5e3-e65cd800d194"
+				name="TransCode"
+				refimgid="73ef0397-d599-47ab-9047-8493043c0c01"
+				refpath="/form[@title='Receivables Ledger']/element[@controlid='1332']/text[@accessiblerole='Text']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='1332']/text[@accessiblerole='Text']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="6e26798a-c1e9-4a37-b54b-d770ae51f434"
+			isrooted="True"
+			name="Statistics"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0b74f46d-46d8-4a0d-9601-0461c8d7870d"
+				name="YTDSales"
+				refimgid="2c683e1a-9d67-410c-81ff-f280aaed3cc8"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='191' or @controlid='125']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="935f3833-3489-44e4-9992-de4248b7e2e5"
+				name="LYSales"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='190' or @controlid='124']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="c901287c-2491-4f92-97b9-b031f4e04f35"
+				name="CreditLimit"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='192' or @controlid='220']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0513e06d-c8d4-4c4a-98f9-31dbd32faab2"
+				name="ForeignYTDSales"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='210' or @controlid='139']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="823bbec9-5701-47af-b3f6-7f94ca68decf"
+				name="ForeighLYSales"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='211' or @controlid='140']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="6fb732ab-c5bf-42b6-810e-009ea7fc6839"
+				name="ForeignCreditLimit"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='220']/text
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="74a3d232-cd00-4d44-bd8f-7fbcae4e74ae"
+				name="Tab"
+				refimgid="e1244c01-f09f-4f7f-ac29-eabde2788f0a"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Statistics']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Statistics']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="46498716-b866-4751-b234-777dfb6f9d14"
+			isrooted="True"
+			name="Memo"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="b2e9fbd0-0dcd-4d5e-85a0-6d2364368476"
+				name="Memo"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='146']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="426b5804-057e-4ef8-ac9b-a484b45afc84"
+				name="ToDoDate"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='147']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="dfa897db-2fa4-472f-9b80-c975d1e1c1a3"
+				name="DisplayInDBM"
+				refimgid="d064948f-376f-40cf-a157-3918eb9b9492"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='150']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="59917fda-f2fc-4cad-ac07-492c0baf43fd"
+				name="Tab"
+				refimgid="cc254cc9-2113-4946-929e-b79686f310c2"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Memo']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Memo']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="aa71fc92-25c0-4086-89b9-950ed63544cf"
+			isrooted="True"
+			name="ImportExport"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="f1db4c80-939f-40be-9541-9caeca7b4f6c"
+				name="ThisCustHasSage50"
+				refimgid="0a177935-c94e-44c5-aad7-12197ecca9c1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='226']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="54707f1e-fd6b-44a7-98ae-6197870d8ff5"
+				name="ThisCustUsesMyItemNum"
+				refimgid="8d32fd3f-aca1-4603-94db-f4754c45802b"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='227']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="02d1d7a6-3b20-4c4b-b101-9a9cf28222ec"
+				name="ImportContainer"
+				refimgid="282e73f9-4439-4813-9b8b-43be2cfd8e6d"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='3651']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="f0e70821-95a6-4a37-8f75-7e9109d36b59"
+				name="ImportTable"
+				refimgid="16382379-f6ca-45d5-89e8-527d79175abb"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@class='CA_ContainerChild32']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="2c087b58-44ff-4e71-859a-c89ba2ff3dee"
+				name="Tab"
+				refimgid="345cbe49-038e-48ea-a11b-577a827fcc2c"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Import/Export']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Import/Export']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="2de2a34f-7354-4792-b36a-4e74612abb98"
+				name="CAContainerChild32"
+				refimgid="bd19ac1b-b580-4adf-9db8-972b04cac4f0"
+				refpath="/form[@title='Receivables Ledger']/element[@controlid='3651']/element[@class='CA_ContainerChild32']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='3651']/element[@class='CA_ContainerChild32']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="a5ef9641-7999-4d47-9ec3-c3f4760fa25d"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="ea6d4170-8f1e-4262-99a4-33d1f93b8947"
+				name="Additional1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="274720bb-37fa-4ec2-adff-38628e920c4f"
+				name="Additional2"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="627066a4-760a-4f41-a129-26a0d6193ffe"
+				name="Additional3"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="0a802acd-c1f9-4131-9ec4-43ecbf7c3aab"
+				name="Additional4"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='808']/text
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="ed6d27c2-d02e-4720-8026-a2d85b23c037"
+				name="Additional5"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/element[@controlid='809']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="12a04636-86c8-4ce5-bea6-484327bf58bd"
+				name="AddCheckBox1"
+				refimgid="94abf494-faa2-4d60-b5bc-b10e7bfb5c08"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='811']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="e117cca2-9680-4ed4-bcbe-533ac154d29b"
+				name="AddCheckBox2"
+				refimgid="df5f4004-1811-45ee-8c54-2752fb800a93"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='812']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="a8864f00-d37b-4d9e-a519-d5bc88a60ff0"
+				name="AddCheckBox3"
+				refimgid="1471e257-9c0e-4cf7-9cfe-e94a079561c4"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='813']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="b61bc8e4-61f7-4bf6-a093-2fbdac60173a"
+				name="AddCheckBox4"
+				refimgid="4505ac6f-b7b9-46ea-88e2-30e94b39c7e1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='814']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="f8da1fce-49bf-4d20-85b7-514881882c8c"
+				name="AddCheckBox5"
+				refimgid="317fd39c-7a7f-4e55-9cc7-9a28b4d3dfe1"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/checkbox[@controlid='815']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="0319e145-3194-4def-90b2-14a5702293e0"
+				name="Tab"
+				refimgid="eea3e8b9-5daf-4cec-a9d9-b14ce98fdd5d"
+				refpath="/form[@title='Receivables Ledger']/tabpagelist[@class='SysTabControl32']/tabpage[@title='Additional Info']"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="b62a2b5f-2471-4e26-8bf4-5b6388f637b0"
+			isrooted="True"
+			name="History"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="8d786518-2f70-4945-aa5b-3ee7711896fe"
+				name="Invoices"
+				refimgid="d9f80273-623a-45f1-b01f-f822f9f55311"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/button[@controlid='60']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="750ebe4b-11d0-47a7-b808-0c6d5b9559d7"
+				name="Payments"
+				refimgid="12b2ea0c-5d21-4038-a90f-8dbc0aca4473"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/button[@controlid='61']
+				</item>
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="8688f474-9291-4f4d-acec-4f8e044d8ab5"
+				name="Tab"
+				refimgid="74fd3549-3a90-4139-8e89-6a3dc6b8166f"
+				searchtimeout="3000ms">
+					/form[@title='Receivables Ledger']/?/?/tabpage[@title='History']
+				</item>
+				<basepath>
+					/form[@title='Receivables Ledger']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Receivables Ledger']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPzZFbDsUgCAVdOktzZ1xAxot9JPrX
+QwgN5Qzatm9LtWnvPTJbZxJjkNnakNiw2m6r54A0i8jIIwBmG+beFSD+/lUc2+INQC9m8UxoADzu
+J+A5zDnD9DC7DBADAdLFdAWO8EUS9Qbwat1pwljNLPIPPQCmIBYAOU2Xyp9K+18OqgAHxkZyMT8A
+ECAA1C1zVb0agG1zFaDV3NoPcHEjnPDwwdMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="645766b1-3a09-4ad8-84c9-5aa9903c31b7"
+		isrooted="True"
+		name="ReceivablesIcon"
+		refimgid="8ec7c648-4823-4821-8c77-c071c1e167d8"
+		refpath="/form[@title='Customers']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2d56184c-2acb-4e31-90f3-1b3b0813b396"
+			name="CreateNew"
+			refimgid="cffb35f5-9077-4441-bf85-fb66b715c99e"
+			refpath="/form[@title='Customers']/container[@class='ReBarWindow32']/toolbar[@controlid='20' and @class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']"
+			searchtimeout="3000ms">
+				/form[@title='Customers']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Customers']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPzZFbDsUgCAVdOktzZ1xAxot9JPrX
+QwgN5Qzatm9LtWnvPTJbZxJjkNnakNiw2m6r54A0i8jIIwBmG+beFSD+/lUc2+INQC9m8UxoADzu
+J+A5zDnD9DC7DBADAdLFdAWO8EUS9Qbwat1pwljNLPIPPQCmIBYAOU2Xyp9K+18OqgAHxkZyMT8A
+ECAA1C1zVb0agG1zFaDV3NoPcHEjnPDwwdMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

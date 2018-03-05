@@ -1,0 +1,926 @@
+﻿<repository
+id="2f89a780-3297-41a4-9895-56a0f7026fc6"
+name="InventoryServicesLedgerRes"
+rxversion="8.0">
+	<codegen
+	classname="InventoryServicesLedgerRes"
+	namespace="Sage50.Repository">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9275a519-4b2e-43e4-87ba-49e6f6cb8b11"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="88ecd34e-3d88-47b2-95d7-9617e79e0ef0"
+		isrooted="True"
+		name="InventoryServicesLedger"
+		refimgid="2af567ca-30c3-474d-8162-c5a36d00edb1"
+		refpath="/form[@title='Inventory &amp; Services Ledger']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="61295f49-3e5b-49b2-92dd-a5e83973ef22"
+			name="SelectRecord"
+			refimgid="e931ce3e-df7f-4cb0-875a-d1fbff55541b"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/toolbar[@class='ToolbarWindow32' and @instance='1']/combobox[@controlid='504']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="61003cbe-c7b8-41f9-affc-9303df322302"
+			name="ItemNumber"
+			refimgid="fd43bb12-44bf-48e3-a854-6c3d5fefbfc5"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='23']/text
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e9b8c8f2-001d-4186-839f-d83ba4ae2211"
+			name="ItemDescription"
+			refimgid="695a382c-7f30-4ce4-819d-dd978dfa5e43"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='24']/text
+			</item>
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="da9f9d05-ec07-4253-aae1-ab46b3e0b542"
+			name="ItemCategory"
+			refimgid="17548262-8518-438b-94ea-1afbbe6446e4"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='62']
+			</item>
+			<item
+			addcaps="radiobutton,accessible"
+			capname="radiobutton"
+			id="e15457ab-d8a6-4585-adc4-446b0de8805b"
+			name="InventoryType"
+			refimgid="e3531f5d-ba7e-4128-81cd-636e354750bf"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/radiobutton[@controlid='30']
+			</item>
+			<item
+			addcaps="radiobutton,nativewindow"
+			capname="radiobutton"
+			id="7bc0842e-5f39-45bb-9aa6-56d6e8f5cba0"
+			name="ServiceType"
+			refimgid="5a428641-0e21-4bb5-9e6e-3f1ddcb48152"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/radiobutton[@controlid='31']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="dadfc80a-fd6e-422e-aab6-79d551f399f0"
+			name="Activity"
+			refimgid="93df4d3b-92da-4076-aae8-1e98d6f2fc98"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='32']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="ce449772-86b6-4803-97ac-ad75fa52f568"
+			name="InactiveItem"
+			refimgid="b7a55be4-09e5-41b8-b38d-2da8113eb5da"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='153']
+			</item>
+			<item
+			addcaps="checkbox,nativewindow"
+			capname="checkbox"
+			id="8eb90fcb-626f-4c3c-bdbc-1b6595cbd635"
+			name="InternalServiceActivity"
+			refimgid="6a61d7a5-73ee-4871-9a77-3c194a14cc46"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='154']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="9cfb97be-06f2-4111-befe-dfa354ce0d71"
+			name="CreateANewToolButton"
+			refimgid="f723ef02-0c53-4b20-8f2e-c615f26d6275"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Create\ a\ new\ inventory\ item \(Ct']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="1f3c22f5-7ec7-42c5-a38a-5f880f80f48a"
+			name="Save"
+			refimgid="7f280924-df7e-4010-af49-6ceccf37e853"
+			searchtimeout="3000ms">
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text~'^Save\ the\ current\ inventory\ item']
+			</item>
+			<folder
+			capname="form"
+			id="472d061b-eca7-49bd-9a62-7dab3fb13f1c"
+			isrooted="True"
+			name="Quantities"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="c3b89263-c966-4b09-98ae-c43a677946e1"
+				name="Tab"
+				refimgid="36d6d336-a220-4c1e-89b0-22a14e90567d"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Quantities']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="076f3c8c-9e33-4083-b72c-0d86ecc3f3c1"
+				name="ShowQuantitiesIn"
+				refimgid="7708e8a6-a5a2-4ec9-b697-111dd47c082a"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='181']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="4c236de6-2930-4b4a-b198-8bb2c7e95967"
+				name="ForLocation"
+				refimgid="62604af9-9b27-4a31-8127-49487ffc9e45"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='1203']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="349dfcd3-1585-4536-839f-5746d3887fd8"
+				name="MinimumLevel"
+				refimgid="a3319fc1-d3d2-45e8-b820-ab002621cbea"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='194']/text
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="37cb7f91-ecf5-49d7-ab87-a7ac44610e32"
+			isrooted="True"
+			name="Units"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="7d805696-af88-41e1-90cd-984449a6e6c6"
+				name="Tab"
+				refimgid="35d8ea96-1be4-47e8-9f95-6e55a7c84236"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Units']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="c6f8e0c1-a6d3-46d1-ac60-e9aa901f553c"
+				name="StockingUnitOfMeasure"
+				refimgid="7a429917-232e-40e1-a44d-3266a6980c0e"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='142']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="16da7189-d29f-4e38-8896-1d006a0e4b7f"
+				name="ServiceItemUnitOfMeasure"
+				refimgid="26c2b444-e27a-44b6-bf87-b2f18a622be1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='36']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2ce939c5-42b8-48ac-ad07-bbf15251d2e8"
+				name="SellSameAsStockUnit"
+				refimgid="1706c9b0-ccbc-4d40-a6e4-da9d3953eb48"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='151']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="ce125919-063a-45dd-8bd5-a647deec353b"
+				name="SellUnitOfMeasure"
+				refimgid="c0be3fa9-8990-4555-8642-5c1c80038b43"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='143']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e51acce9-f026-413e-9f57-f566d9dac4a6"
+				name="SellRelationshipEditBox"
+				refimgid="7ffa930a-172d-44e6-923a-156398430c3e"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='145']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="84b176c1-5de3-40f3-b8e7-6234be52671a"
+				name="SellRelationshipComboBox"
+				refimgid="ce77318c-bfc2-4345-9be5-8f1360a1601d"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='147']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="45ff0234-2536-495c-ba9a-80c8c598f5d9"
+				name="BuySameAsStockUnit"
+				refimgid="f33e3807-6529-4e2c-bbec-2dcef68d9ba3"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='152']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e1a686bb-f5a0-4f43-b949-3605ce185dbc"
+				name="BuyUnitOfMeasure"
+				refimgid="599b5bd4-a6a0-4768-9950-59ba0f333c61"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='144']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b2af0ab5-f545-45b7-b8d4-da3ca0df1590"
+				name="BuyRelationshipEditBox"
+				refimgid="b620008b-115d-4651-ae4e-a8b5f8ddf87d"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='146']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="defe3cf3-1c26-4590-b857-d97fd7d10c8a"
+				name="BuyRelationshipComboBox"
+				refimgid="3c9590c6-1882-4894-81d5-88d08da1f7b0"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='148']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="3dab48cf-f755-4b2b-b12f-85add40e2536"
+			isrooted="True"
+			name="Pricing"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="2a2b56f0-40b4-4318-b7af-1843cad8ea54"
+				name="Tab"
+				refimgid="61146f6e-5c14-45cc-b1f0-bd5556e6bef8"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Pricing']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="85dc7373-8284-49de-a878-d09f4f81e453"
+				name="Currency"
+				refimgid="ae662b46-b65e-44e4-a694-c73c2221a6c7"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='164']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="35ec6971-d4ce-4ca1-bc5c-e5ea2d9b8d9e"
+				name="PriceContainer"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='3679']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="29a7c354-82fa-4d90-bda9-99dd2fc0c313"
+			isrooted="True"
+			name="Linked"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="b2896380-04e0-4eaa-9903-44138dc9d855"
+				name="Tab"
+				refimgid="8587b8b5-127b-46f6-acb3-704bb1c6b356"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Linked']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="4d07aa37-10ea-4f4c-a8be-264fe7bdb2c7"
+				name="InvAssetAcct"
+				refimgid="efb136e3-129d-4c0c-97bf-06822b8954e5"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='77']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="d14c4bc0-dc60-4917-b250-92191f4de262"
+				name="InvRevenueAcct"
+				refimgid="594ede70-e433-4ec7-9317-56be01e3e038"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="2077f1a9-8ba5-4ee9-b9ed-6216f5c8c33c"
+				name="InvCogsAcct"
+				refimgid="89be576b-8eca-495a-ae57-ba04b0e9deba"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='74']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="e5c2d25b-d714-4e77-8fc1-07bc9ad9e83a"
+				name="InvVarianceAct"
+				refimgid="ef5a346e-8672-4bac-ae0d-5717574f17fa"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='78']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="fc4d18aa-eeed-4565-b61b-27750a7759c1"
+				name="ServRevenueAct"
+				refimgid="40dc2448-4161-41b2-8164-0648e3fb2ca4"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='73']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="861924db-f199-425c-8b47-47965c4a2c37"
+				name="ServExpenseAct"
+				refimgid="fc520b1f-e35a-44bd-88ae-3dd0218ababd"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='74']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="6df6ff80-01b9-4079-bb01-6d76a9094ecb"
+			isrooted="True"
+			name="TimeBilling"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="78769f70-6121-4899-8562-4282a67c9e01"
+				name="Tab"
+				refimgid="0f2d6b5b-82fe-46b7-86df-4314e59c81ac"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Time &amp; Billing']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="001c60f4-89c2-4b7b-976c-c0d1f6f93110"
+				name="UnitOfMeasure"
+				refimgid="264fdeef-869c-4c97-9b33-da1edf2eb2c1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='234']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="146125e3-2311-4ccc-b7f4-780868cdd836"
+				name="UnitIsRelatedToTime"
+				refimgid="40883141-372b-4002-8b1c-33ca38e87113"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='232']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="4541447f-eb99-44cb-a8c5-454e250f2b90"
+				name="RelationshipEditBox"
+				refimgid="48962622-7d6e-4ad3-88b8-b23d08f2afe9"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='236']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="dfc02b22-7d3c-48e3-a31b-49fa751ce056"
+				name="RelationshipComboBox"
+				refimgid="e5535c3d-c835-4acf-a065-757dc9970a3f"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='237']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="45dbb6f1-6059-45df-a6a3-5369f6cb3ff5"
+				name="ServiceActivityIs"
+				refimgid="287b9a8d-27d4-4c95-83b8-0338e655536d"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='240']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="742b8f51-544f-4e52-baa0-0cb267a2975b"
+				name="ChargesAreBasedOn"
+				refimgid="cc5420dc-0658-420d-aefb-3c7b58bdf563"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='242']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="8730f6b4-e4f2-40a7-bfa7-8e4759d30e9c"
+				name="DefaultPayrollIncome"
+				refimgid="8f2a22fa-3e22-416b-84d2-b8e743ffbb10"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='249']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="28fe318f-4d30-4423-8bf4-9e78b250281e"
+				name="SomeTimesChargeForThisActivity"
+				refimgid="c06c91e2-d4f7-4ecf-ba1c-99631f3e72a1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='246']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="9c8efcec-c334-445e-8528-223855e97be0"
+				name="FlatFee"
+				refimgid="757c3ff6-f0ba-4b9b-b57c-c61b5fe0e9d5"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='244']/text
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="9015be73-9787-4805-81ae-ded46c988a8c"
+			isrooted="True"
+			name="Build"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="7824f6ee-f2ed-466e-bad5-d5d87a029651"
+				name="Tab"
+				refimgid="02e0d61f-2bbe-4b98-9459-2c0d8bff441a"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Build']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="7a11f751-fcd8-43a8-bbaf-9e02db354b59"
+				name="Build"
+				refimgid="810825eb-5a2c-4fec-9e41-b580c15f27d6"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='221']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="62ba8552-990e-412a-b037-efca3cbd4e7c"
+				name="AdditionalCosts"
+				refimgid="3370d1a5-c25e-4549-9696-d71d48d346f0"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='224']/text
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="c167e8da-fbb4-4281-9949-f421ca423272"
+				name="RecordAdditionalCostsIn"
+				refimgid="9dedd1de-83b5-4c24-9e55-03bf80063065"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='226']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="9e703c97-d8c3-41b3-890d-f2cd5965cda1"
+				name="BuildContainer"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='3659']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="7402b00e-a6ad-45fe-98d7-072934178c42"
+			isrooted="True"
+			name="Statistics"
+			refimgid="3f9bbc08-57cc-4625-92c8-06613d2820fd"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="9e48af9f-4541-47d1-adf5-319a1c58c250"
+				name="Tab"
+				refimgid="c9586a65-89cd-4fa4-a362-8e28d671a40e"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Statistics']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="e75e771e-354e-4dcb-b7f3-53f1b27abb42"
+				name="ShowUnitsSoldIn"
+				refimgid="bf4b1c24-5c4a-4a1a-989c-2a0e679010ae"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='112']
+				</item>
+				<item
+				addcaps="combobox,nativewindow"
+				capname="combobox"
+				id="cd8b5179-f648-4023-ab76-dcdf405c61e1"
+				name="ForLocationStatistics"
+				refimgid="a7db901b-292a-4f4f-a881-350ce08e0464"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/combobox[@controlid='105']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b5521c61-cfc5-4538-b481-0970579f9059"
+				name="YTDNoOfTransactions"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='98' or @controlid='86']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="53cc8ce0-e5a0-4903-8abc-d228be108dd1"
+				name="YTDUnitsSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='99' or @controlid='87']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="446e79cd-8ba9-4de4-935d-5f2a7f008600"
+				name="YTDAmountSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='100' or @controlid='88']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="6b14ab19-8d8c-41f2-ab69-d1aee185323d"
+				name="YTDCostOfGoodsSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='116' or @controlid='114']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="899fd4ae-b27f-4e9d-b7e6-f85f62519258"
+				name="LastYearNoOfTransactions"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='101' or @controlid='93']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="e6d1abcd-fcff-42b7-aeb0-85372c38ca65"
+				name="LastYearUnitsSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='102' or @controlid='94']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="3da957ff-a801-4398-86ff-2b354a9cc056"
+				name="LastYearAmountSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='103' or @controlid='95']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="1192a2b4-2595-4bc4-82a5-b2f40870cc96"
+				name="LastYearCostOfGoodsSold"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='118' or @controlid='117']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="bf0668c1-233b-4999-b924-97f3c14cdbda"
+				name="DateOfLastSale"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='96' or @controlid='81']/text
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="510d6442-b9b6-47a2-97de-5e7885902fa7"
+			isrooted="True"
+			name="Taxes"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="38855c54-6dfc-4ad6-b8c3-223b5603617a"
+				name="Tab"
+				refimgid="dc969622-0e21-4dba-8673-dd97e8a20fca"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Taxes']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="eb3e2869-8cf9-418b-bbf2-7ff89b34f995"
+				name="DutyChargedOnThisItem"
+				refimgid="9f4bf264-f4bd-4798-8903-e9b19e4ab718"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='127']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="unknown"
+				id="85044f91-468c-4093-845e-88f052f88c04"
+				name="TaxContainer"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='3660']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="58de4838-ba9a-4a6c-a3d1-fb24d597f290"
+			isrooted="True"
+			name="AdditionalInfo"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="173aa7e9-7135-4d53-8c3b-0000df9978ca"
+				name="Tab"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Additional Info']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="a1f8db30-dfcb-4a9c-aa37-00b917c8c19a"
+				name="Additional1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='805']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="c1484c57-f7cf-40e2-afc5-2e309ffbcca5"
+				name="AddCheckBox1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='811']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="3e81e4dd-dc88-44b7-89d7-a1e102cc4b33"
+				name="Additional2"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='806']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="2363a714-6d91-420f-ba1e-81eda0848acf"
+				name="AddCheckBox2"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='812']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="0a776d9e-56f8-49a7-94a5-3e42b6f58c63"
+				name="Additional3"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='807']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="773120dd-c36b-4c61-856d-07dd580ca53b"
+				name="AddCheckBox3"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='813']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="911d446c-ef61-483a-88bf-fcbc8bdc6bf9"
+				name="Additional4"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='808']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="e5f6964b-c55d-4085-a6d8-40ae0cc93d19"
+				name="AddCheckBox4"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='814']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="7bd7109d-2af6-4d76-98bc-114d732a8a0a"
+				name="Additional5"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='809']/text
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="d387854f-f028-43ef-ac38-2cba900b0c8d"
+				name="AddCheckBox5"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='815']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="fd80c94a-d674-45e1-be50-6dc0fe824a28"
+			isrooted="True"
+			name="DetailedDesc"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="1c7666f9-643e-469c-80f5-22b3abae0a16"
+				name="Tab"
+				refimgid="00605acf-18a6-44aa-9765-6aa50c353600"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Detailed Desc.']
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="860ea55a-885f-4262-b6dd-615e4e5bb584"
+				name="LongDescription"
+				refimgid="7f75b7b0-c6e6-4bc4-827b-f51b9e62c466"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='201']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="bb54219a-c901-43f7-809c-b39a52607de4"
+				name="Picture"
+				refimgid="c3407e65-75dc-4f06-880d-a041c682ffb0"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='200']/text
+				</item>
+				<item
+				addcaps="unknown,nativewindow"
+				capname="text"
+				id="b767d5e7-e30f-419f-a68e-d83a17cbfca2"
+				name="Thumbnail"
+				refimgid="9e11f7ba-ab53-4034-8cac-e40b0aebefb1"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/element[@controlid='209']/text
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="f47e05d1-1407-4aa3-bd28-fd07dff3b721"
+			isrooted="True"
+			name="SerialNumbers"
+			searchtimeout="500ms"
+			usecache="False">
+				<item
+				addcaps="tabpage"
+				capname="tabpage"
+				id="eb502709-4773-4c14-af7a-e86ddcce415a"
+				name="Tab"
+				refimgid="3909be9a-8b1e-4e84-aa9a-c7ddeb3fe680"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/?/?/tabpage[@title='Serial Numbers']
+				</item>
+				<item
+				addcaps="checkbox,nativewindow"
+				capname="checkbox"
+				id="f87c8346-86c9-4271-91f2-21cef6a8370f"
+				name="UsesSerialNumbers"
+				refimgid="dca0a622-9280-4cc8-8d42-c234a1e4f572"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/checkbox[@controlid='1220']
+				</item>
+				<item
+				addcaps="button,nativewindow"
+				capname="button"
+				id="7f98e176-31ad-4a9f-b585-ac8ee33699b1"
+				name="EditSerialNumbers"
+				refimgid="3c9257b9-5ab4-4f93-8863-3952b9ed4d6c"
+				searchtimeout="3000ms">
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']/button[@controlid='1221']
+				</item>
+				<basepath>
+					/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Inventory\ &amp;\ Services\ Ledg']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPpZEBEoUgCAU9OkfzZuUKmPHR+tPO
+MGn41tKyQ0QOG/6PhY9a63eJzt5AoBXBGfuKW09SsTXbKC1lzBPCzr+Uxc7OVjDCawH/muPhh0Nl
+kXMdpIb1RjaCvgiBSfgaysOIYtGzsIzAHPJahU2gYWiT/lTJJRBBGCoKCEcBvBbMuIBrpf8ggPsZ
+MG8vR60EJCf8mnp4JhVoq5QTdvien7NTWR8AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="645766b1-3a09-4ad8-84c9-5aa9903c31b7"
+		isrooted="True"
+		name="InventoryServicesIcon"
+		refimgid="a74714dd-b771-4d18-bdb4-2d4f9f083935"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="2d56184c-2acb-4e31-90f3-1b3b0813b396"
+			name="CreateNew"
+			refimgid="c4e3c37c-296c-419e-b65c-0309183267e6"
+			searchtimeout="3000ms">
+				/form[@title='Inventory &amp; Services']/?/?/toolbar[@class='ToolbarWindow32' and @instance='0']/button[@text='Create (Ctrl+N)']
+			</item>
+			<basepath>
+				/form[@title='Inventory &amp; Services']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACfSURBVDhPzZFbDsUgCAVdOktzZ1xAxot9JPrX
+QwgN5Qzatm9LtWnvPTJbZxJjkNnakNiw2m6r54A0i8jIIwBmG+beFSD+/lUc2+INQC9m8UxoADzu
+J+A5zDnD9DC7DBADAdLFdAWO8EUS9Qbwat1pwljNLPIPPQCmIBYAOU2Xyp9K+18OqgAHxkZyMT8A
+ECAA1C1zVb0agG1zFaDV3NoPcHEjnPDwwdMAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
