@@ -1,0 +1,2 @@
+C:\Users\Cheryl.Leong\Source\Workspaces\Sage50Automation\SA2018\Sage50\obj\Debug\Sage50.csprojResolveAssemblyReference.cache
+C:\Users\Cheryl.Leong\Desktop\SageAPAC_github\Sage50\obj\Debug\Sage50.csprojResolveAssemblyReference.cache

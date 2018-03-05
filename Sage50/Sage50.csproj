@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{D4835205-62EB-4BA1-A093-C25CA60B6A0E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Sage50</RootNamespace>
+    <AssemblyName>Sage50</AssemblyName>
+    <RanorexVersion>8.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <projectdefaultrepository>61e5e4a2-b5f6-40de-9d8d-77b8620f4a2a</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
+    <TargetFrameworkProfile />
+    <RxSccProvider>Microsoft Team Foundation Server MSSCCI Provider</RxSccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>ba449476-50ce-4e87-b4c8-d41a13c814d7</id>
+    </Compile>
+    <Compile Include="Classes\CommonObjects.cs">
+      <id>5d756ebb-95be-4dfa-ae41-e6512698ad56</id>
+    </Compile>
+    <Compile Include="Classes\GeneralJournal.cs">
+      <id>5bdb7148-db07-4f2e-a111-73345a9c32a8</id>
+    </Compile>
+    <Compile Include="Classes\GeneralLedger.cs">
+      <id>df9f156a-275c-41a2-aff6-5173d56a9e42</id>
+    </Compile>
+    <Compile Include="Classes\InventoryServicesLedger.cs">
+      <id>f7496561-2fdb-4bce-a7cb-8e81bb02d128</id>
+    </Compile>
+    <Compile Include="Classes\NewCompanyWizard.cs">
+      <id>903cd707-ae54-4fa8-8465-f0bc87adc2fe</id>
+    </Compile>
+    <Compile Include="Classes\OpenCompany.cs">
+      <id>c509e32d-314d-4bd6-a320-c70e12077750</id>
+    </Compile>
+    <Compile Include="Classes\PayablesLedger.cs">
+      <id>66bcad0b-d95f-409a-8f65-6c43f7f4536b</id>
+    </Compile>
+    <Compile Include="Classes\PayrollJournal.cs">
+      <id>763d27da-e456-4cd4-b315-35585b78f621</id>
+    </Compile>
+    <Compile Include="Classes\PayrollLedger.cs">
+      <id>909f0a8e-a89d-4877-8975-18868b228016</id>
+    </Compile>
+    <Compile Include="Classes\PayrollRunJournal.cs">
+      <id>d50a6cec-15a9-4617-8d2e-939a576e8ca7</id>
+    </Compile>
+    <Compile Include="Classes\ProjectLedger.cs">
+      <id>0b3d04d2-bd74-46f2-bea8-4e0ddb822b3a</id>
+    </Compile>
+    <Compile Include="Classes\PurchasePayment.cs">
+      <id>78b62e8a-c212-467b-94bd-083089854a5f</id>
+    </Compile>
+    <Compile Include="Classes\PurchasesJournal.cs">
+      <id>4d71a8a2-fe7f-42b6-b2f1-a457cb419083</id>
+    </Compile>
+    <Compile Include="Classes\ReceiptsJournal.cs">
+      <id>001acb7c-36a5-4399-b174-81daf3d058ce</id>
+    </Compile>
+    <Compile Include="Classes\ReceivablesLedger.cs">
+      <id>803101c6-9010-4737-8570-7aebc458f26c</id>
+    </Compile>
+    <Compile Include="Classes\ReportsFromMenu.cs">
+      <id>cdd33172-8102-4649-9755-9dbea0b1a3ad</id>
+    </Compile>
+    <Compile Include="Classes\SalesJournal.cs">
+      <id>97d9de57-35cf-4802-b200-dcf20090262f</id>
+    </Compile>
+    <Compile Include="Classes\Settings.cs">
+      <id>d95703c5-178c-4b64-9cf1-7963a2ab2262</id>
+    </Compile>
+    <Compile Include="Classes\Simply.cs">
+      <id>5b75e4b0-803c-409c-848a-537012036bcd</id>
+    </Compile>
+    <Compile Include="Classes\SimplyInstall.cs">
+      <id>42856486-e162-44b7-8cd0-fd5a1ddbe285</id>
+    </Compile>
+    <Compile Include="Classes\SimplyMessage.cs">
+      <id>99075b06-339f-4349-8bfe-e08067876a9e</id>
+    </Compile>
+    <Compile Include="Classes\UserPreferences.cs">
+      <id>a3099da9-be1a-4dd7-bccb-13d25706727e</id>
+    </Compile>
+    <Compile Include="Classes\Variables.cs">
+      <id>5b1be5eb-e24c-4588-ae88-f962833c42a9</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>0897d861-20fe-476b-ad82-0b70e3b489bf</id>
+    </Compile>
+    <Compile Include="Repository\CommonObjectsRes.cs">
+      <BoundTo>3d545b18-903e-4a97-aa51-e01058cdcecf</BoundTo>
+      <DependentUpon>CommonObjectsRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>d72faa5d-5ae0-479e-afd8-6aa37868b2b2</id>
+    </Compile>
+    <Compile Include="Repository\GeneralJournalRes.cs">
+      <BoundTo>d42fd216-95bc-4ae6-acaf-ccbc8392f38e</BoundTo>
+      <DependentUpon>GeneralJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>70cd7292-b0fe-4908-beb6-4872d004b84b</id>
+    </Compile>
+    <Compile Include="Repository\GeneralLedgerRes.cs">
+      <BoundTo>9f1652c0-8fdd-48e0-bd42-4322c80fb134</BoundTo>
+      <DependentUpon>GeneralLedgerRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>29cf0225-5256-49bf-9ba5-110bb30619ff</id>
+    </Compile>
+    <Compile Include="Repository\InventoryServicesLedgerRes.cs">
+      <BoundTo>9300cea6-57fc-4b73-85c1-f2f1590c34f0</BoundTo>
+      <DependentUpon>InventoryServicesLedgerRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>81372667-08d7-4dd0-9436-2be065aa0d53</id>
+    </Compile>
+    <Compile Include="Repository\NewCompanyWizardRes.cs">
+      <BoundTo>77ea6f97-6144-40bc-9f1f-6985ca2683a8</BoundTo>
+      <DependentUpon>NewCompanyWizardRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>a27803cd-1554-42b6-9a78-cb87a6119359</id>
+    </Compile>
+    <Compile Include="Repository\OpenCompanyRes.cs">
+      <BoundTo>1d42efd2-e3e3-4c30-a322-0991d17a4196</BoundTo>
+      <DependentUpon>OpenCompanyRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>33d5b063-cd16-48bd-9acb-cdc5bffd6618</id>
+    </Compile>
+    <Compile Include="Repository\PayablesLedgerRes.cs">
+      <BoundTo>dec8fed8-60cb-448b-99a1-d92963e48cab</BoundTo>
+      <DependentUpon>PayablesLedgerRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>0f4d1308-e4f1-41a4-9858-9dd10b3dcd5a</id>
+    </Compile>
+    <Compile Include="Repository\PayrollJournalRes.cs">
+      <BoundTo>8e55163f-b9f2-49a7-b3ac-5c17f3567097</BoundTo>
+      <DependentUpon>PayrollJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>82edef6f-13b8-4034-834e-a65247f30c8f</id>
+    </Compile>
+    <Compile Include="Repository\PayrollLedgerRes.cs">
+      <BoundTo>b4e6ef0f-7423-424c-a5ce-52f806bf2482</BoundTo>
+      <DependentUpon>PayrollLedgerRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>92c047f2-3b4d-424e-8a29-10ea895f9436</id>
+    </Compile>
+    <Compile Include="Repository\PayrollRunJournalRes.cs">
+      <BoundTo>8b7a22c0-1688-4973-b110-602554044121</BoundTo>
+      <DependentUpon>PayrollRunJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f8c37ccf-e80e-45d6-a9c8-6576ac7fe677</id>
+    </Compile>
+    <Compile Include="Repository\ProjectLedgerRes.cs">
+      <BoundTo>5dd19487-d460-4a81-859d-2431996fa8aa</BoundTo>
+      <DependentUpon>ProjectLedgerRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>83ff3b28-0a6a-43b6-88c4-50562c509393</id>
+    </Compile>
+    <Compile Include="Repository\PaymentsJournalRes.cs">
+      <BoundTo>1a408837-8812-4fb9-a36a-966f1b4bcc0b</BoundTo>
+      <DependentUpon>PaymentsJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f1929cba-b6f1-4b29-ad4f-7e0a15b4a741</id>
+    </Compile>
+    <Compile Include="Repository\PurchasesJournalRes.cs">
+      <BoundTo>f6ee73f0-b506-4297-881e-7819804ccb49</BoundTo>
+      <DependentUpon>PurchasesJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>88faad48-f3cf-4a72-b373-abfb51966710</id>
+    </Compile>
+    <Compile Include="Repository\ReceiptsJournalRes.cs">
+      <BoundTo>2103afb6-0c13-47ac-a13a-3b68de14f714</BoundTo>
+      <DependentUpon>ReceiptsJournalRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>57293391-5429-44a7-92fe-ec416bd22f8e</id>
+    </Compile>
+    <Compile Include="Repository\ReceivablesLedgerRes.cs">
+      <DependentUpon>ReceivablesLedgerRes.rxrep</DependentUpon>
+      <id>2af39022-6e52-41f1-b196-327977ec93ec</id>
+      <BoundTo>720ca75a-b94d-4f35-b68a-3f6723e09394</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Repository\ReportCentreRes.cs">
+      <BoundTo>0af137aa-1caa-41e0-8a8a-4f33780b80b6</BoundTo>
+      <DependentUpon>ReportCentreRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>bf0e5505-e04a-497c-bcee-71390e1a425e</id>
+    </Compile>
+    <Compile Include="Repository\SalesJournalRes.cs">
+      <DependentUpon>SalesJournalRes.rxrep</DependentUpon>
+      <id>d54bf580-4de2-4b50-922b-99267bcd22d3</id>
+      <BoundTo>a0b607f4-bfb5-4428-828b-ecde43ac572b</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Repository\SettingsRes.cs">
+      <BoundTo>416d6c95-590f-4683-aca0-404e4eb3e440</BoundTo>
+      <DependentUpon>SettingsRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>700dca76-d281-4a7f-b394-e23bdbf8bf81</id>
+    </Compile>
+    <Compile Include="Repository\SimplyInstallRes.cs">
+      <BoundTo>8850101e-e038-4d8c-85c8-f920a834c92e</BoundTo>
+      <DependentUpon>SimplyInstallRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e98218ae-3daa-45af-8db1-0bd7094e48b9</id>
+    </Compile>
+    <Compile Include="Repository\SimplyMessageRes.cs">
+      <BoundTo>cd70bcef-c9fd-45cc-9d7c-8c65dfaf14f1</BoundTo>
+      <DependentUpon>SimplyMessageRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>10fc7d9f-6f6b-4efb-b636-dc2a62c16875</id>
+    </Compile>
+    <Compile Include="Repository\SimplyRes.cs">
+      <DependentUpon>SimplyRes.rxrep</DependentUpon>
+      <id>fd10858f-eb7b-4dc6-a32b-fb1e618892e7</id>
+      <BoundTo>a0618ada-784b-43de-a030-5261eb682f34</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <Compile Include="Repository\UserPreferencesRes.cs">
+      <BoundTo>61e5e4a2-b5f6-40de-9d8d-77b8620f4a2a</BoundTo>
+      <DependentUpon>UserPreferencesRes.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>45e410dc-d814-4b5a-bef6-00d05b0f7c19</id>
+    </Compile>
+    <Compile Include="Scripts\AddCustomerFull.cs">
+      <id>f9e51000-3a7e-40de-a7bf-c98fda73729b</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddEmployee.cs">
+      <id>b861596c-6003-4baf-8f08-6ccc8eedf731</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddGeneralJournal.cs">
+      <id>cc3f3ff4-a31a-40d4-a2f3-a60a10c8d52a</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddItem.cs">
+      <id>e896841a-cb41-40f4-8525-ce5650964e9a</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddPayCheque.cs">
+      <id>4aab51c8-8016-4bf4-911f-005778ecc8dd</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddPayment.cs">
+      <id>a75b0b1d-bd72-4585-bbc6-f29a0c676069</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddProject.cs">
+      <id>a00059a4-72bf-4f35-bfd3-67f8f0172a5a</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddPurchaseInvoice.cs">
+      <id>a863488a-993d-4941-8590-fa09e97b6909</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddReciept.cs">
+      <id>d914d57f-fe77-44e9-accf-351d83bbc2ac</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddSalesInvoice.cs">
+      <id>cfab14ca-6984-4b96-b0f8-24221a22fdb7</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddVendor.cs">
+      <id>40ad9bd2-6977-4b5d-a8ad-3375b9598c11</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AdjustPurchaseInvoice.cs">
+      <id>b4b2caca-684f-4885-9487-196ce9589998</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AdjustSalesInvoice.cs">
+      <id>ce715b98-a819-4386-8910-8394fb491b92</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\CloseApp.cs">
+      <id>2c37af02-f36f-49ee-ac16-5a5b45f1d694</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\CloseHistory.cs">
+      <id>a08f4951-a49d-4fc5-b26a-76a61a05e23a</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\CreateNewCompany.cs">
+      <id>d525c7d6-1f0e-4a1a-bf65-c416bfb01170</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\EditSettings.cs">
+      <id>362e96ad-872c-488b-bdf3-eaf3ea34f314</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\GenerateReports.cs">
+      <id>59396db9-434d-4e6e-8da1-3997b08d64d9</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\OpenSampleCompany.cs">
+      <id>cb2ea55f-9b0d-4230-8ba5-8026bf2c4f12</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddCustomer.cs">
+      <id>959af5ba-b3a5-4936-a9b2-2089d2e6f8f1</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\InstallApp.cs">
+      <id>e464d74c-83af-4e48-808b-a50f3fdc17aa</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\AddAccount.cs">
+      <id>19833984-e531-429e-a832-a35eebf40a41</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\PrintSimplyForm.cs">
+      <id>d4d06216-6d54-4046-87ee-d15c9adb8c0d</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\PrintVendorForm.cs">
+      <id>d9f519f7-6512-45a7-82f1-bd4bdc1cbe15</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\Recording1.UserCode.cs">
+      <BoundTo>89c2e21e-27c7-4f77-a15f-8018eacc71ff</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7cf2aa48-dd5d-4b89-a1ef-c469c34f2889</id>
+    </Compile>
+    <Compile Include="Scripts\BVT\StartNewYear.cs">
+      <id>adced800-5d17-40ad-94d5-6fc5d7d4b2ee</id>
+    </Compile>
+    <Compile Include="Scripts\RunDataFile.cs">
+      <id>c810afb4-a2f6-4a5b-b3aa-7948a8d7d102</id>
+    </Compile>
+    <Compile Include="Scripts\test.cs">
+      <id>057a8605-705f-4ccd-ae58-43f37dee99bf</id>
+    </Compile>
+    <Compile Include="Scripts\CheckTestCaseState.cs">
+      <id>2054e200-1ca1-4538-a945-4faa72aee3ed</id>
+    </Compile>
+    <Compile Include="Shared\ConvertFunctions.cs">
+      <id>8f0edc61-d072-4355-b1bd-122ede5b3e87</id>
+    </Compile>
+    <Compile Include="Shared\Functions.cs">
+      <id>67949a41-f24c-4eb4-b994-3aa29eb2377d</id>
+    </Compile>
+    <Compile Include="Shared\StringFunctions.cs">
+      <id>833222a8-78d1-49c8-965c-63070dfe1f37</id>
+    </Compile>
+    <Compile Include="Shared\TypeExtensions.cs">
+      <id>97487baf-075b-4a24-a1b5-afdfce6290f2</id>
+    </Compile>
+    <Compile Include="Types\ACCOUNT_LIST.cs">
+      <id>f266d206-4210-497b-88d0-56c6f09accee</id>
+    </Compile>
+    <Compile Include="Types\ADDITIONAL_FIELD_NAMES.cs">
+      <id>ff30d49b-c446-43d3-bcfb-f19c84c7c4cc</id>
+    </Compile>
+    <Compile Include="Types\ADDRESS.cs">
+      <id>a196a379-cc22-48cd-873b-14acf65fd7c5</id>
+    </Compile>
+    <Compile Include="Types\ALLOCATE_PAYROLL.cs">
+      <id>e35a4f9f-ddbb-42ee-9a4f-3fb7ea5c2ec6</id>
+    </Compile>
+    <Compile Include="Types\ALLOCATE_TRANSACTIONS.cs">
+      <id>93915363-1513-4527-b7ed-e2cb6c622e36</id>
+    </Compile>
+    <Compile Include="Types\APARPerson.cs">
+      <id>6c2c7653-02c9-4ae1-ad9b-de981f7cf449</id>
+    </Compile>
+    <Compile Include="Types\BACKUP.cs">
+      <id>2549b33f-fd96-4bfa-aedb-ed56d72db393</id>
+    </Compile>
+    <Compile Include="Types\BaseType.cs">
+      <id>067d1edb-352a-4088-b5a8-966f9d215bf9</id>
+    </Compile>
+    <Compile Include="Types\BUDGET_FREQUENCY.cs">
+      <id>41a3691f-d06d-4c4c-9908-8d2d4989334e</id>
+    </Compile>
+    <Compile Include="Types\CATEGORY.cs">
+      <id>74bb5dd2-4de3-4453-9179-5981a7a642f1</id>
+    </Compile>
+    <Compile Include="Types\COMPANY.cs">
+      <id>6b666f45-0170-4fb3-8f76-0710eb4c2e54</id>
+    </Compile>
+    <Compile Include="Types\COMPANY_ACCOUNT.cs">
+      <id>6bc4d1aa-8097-4a7e-b1ff-7b3490637b65</id>
+    </Compile>
+    <Compile Include="Types\EDITION.cs">
+      <id>bbe5c214-c553-4913-8e12-708a5e9daab7</id>
+    </Compile>
+    <Compile Include="Types\FLAVOR.cs">
+      <id>29d9cecd-9789-4261-923d-406209ee978d</id>
+    </Compile>
+    <Compile Include="Types\GENERAL_JOURNAL.cs">
+      <id>b09d5896-fc23-4fb8-a635-d0d3047c588c</id>
+    </Compile>
+    <Compile Include="Types\GJ_ROW.cs">
+      <id>0ea029d1-f338-49ea-81be-f93be9ebfa4e</id>
+    </Compile>
+    <Compile Include="Types\INDUSTRY_TYPE.cs">
+      <id>e6a20541-a8e4-4847-a58f-9a5798dbfcea</id>
+    </Compile>
+    <Compile Include="Types\OWNERSHIP.cs">
+      <id>78d76bc6-d7ee-4f64-9d16-11d03adddbe7</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE.cs">
+      <id>4a6030cf-e397-4f2d-a885-4ab199ff5d0d</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_DEDUCTIONS.cs">
+      <id>fb2c013f-5410-47ad-b22a-9a5800c926ad</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_EARNINGS.cs">
+      <id>72f403aa-5801-41b1-bbfd-135bc9e1116b</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_ENTITLEMENTS.cs">
+      <id>5b5c245d-4b6f-403d-b0b3-0728118baa84</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_OTHER_INCOMES.cs">
+      <id>f51e7c31-4292-4a38-8faa-d0a5569d3da7</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_RUN.cs">
+      <id>5bb37d9e-2f8a-46b4-8199-03e93c33de5c</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_TAXES.cs">
+      <id>69fce681-096c-4f0c-8469-f9006051b2c3</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_TIPS.cs">
+      <id>d7777b43-f53c-48d8-a3da-1695a79cfcd2</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_USER_DEFINED_EXPENSES.cs">
+      <id>49592f6f-d67c-4abc-8897-ec4b0e460d3c</id>
+    </Compile>
+    <Compile Include="Types\PAYCHEQUE_VACATION.cs">
+      <id>868240d6-47af-4a61-a909-a69523584de6</id>
+    </Compile>
+    <Compile Include="Types\PAYMENT.cs">
+      <id>2e697a3e-d6ee-4f0b-a81c-d33efa012cd3</id>
+    </Compile>
+    <Compile Include="Types\PAYMENT_CREDIT_CARD.cs">
+      <id>73f0b74f-407b-4404-9461-92ee1f196723</id>
+    </Compile>
+    <Compile Include="Types\PAYMENT_OTHER.cs">
+      <id>faec5984-8d12-43b1-8781-59d98ee8ace8</id>
+    </Compile>
+    <Compile Include="Types\PAYMENT_PURCH.cs">
+      <id>f0621194-12b3-4be4-9f63-b2f2eb779163</id>
+    </Compile>
+    <Compile Include="Types\PAYMENT_REMIT.cs">
+      <id>ffb40dfa-f1ce-4260-bb73-28e9f45557f4</id>
+    </Compile>
+    <Compile Include="Types\PAY_OTHER_ROW.cs">
+      <id>d348122d-ecd5-4a02-8f2c-a8d89b1c991b</id>
+    </Compile>
+    <Compile Include="Types\PAY_REMIT_ROW.cs">
+      <id>2af352ae-f435-4bc1-80a0-29b3d565304e</id>
+    </Compile>
+    <Compile Include="Types\PAY_ROW.cs">
+      <id>711e3925-c65a-41f9-bcfe-b2920daeacd7</id>
+    </Compile>
+    <Compile Include="Types\PURCHASE.cs">
+      <id>0919c1e6-a84e-4684-8423-01ade58fffde</id>
+    </Compile>
+    <Compile Include="Types\PURCHASE_COMMON_ORDER_INVOICE.CS">
+      <id>b7069a86-79b1-4182-9476-0b80ef6f2fbe</id>
+    </Compile>
+    <Compile Include="Types\PURCHASE_INVOICE.cs">
+      <id>b489f29c-e9a1-4479-8a39-8fc3b98a4ea0</id>
+    </Compile>
+    <Compile Include="Types\PURCHASE_ORDER.cs">
+      <id>d8cfc518-4550-4be8-8a42-cccd42b5557b</id>
+    </Compile>
+    <Compile Include="Types\PURCHASE_QUOTE.cs">
+      <id>96fb88f1-0d9c-4625-b731-93edc64c67a8</id>
+    </Compile>
+    <Compile Include="Types\PURCH_TABLE.cs">
+      <id>f5f33693-b6e3-4153-bcd4-2cd0ba108882</id>
+    </Compile>
+    <Compile Include="Types\RECEIPT.cs">
+      <id>57904fbb-4fed-4b6f-b033-39dc1226ad05</id>
+    </Compile>
+    <Compile Include="Types\RECEIPT_ROW.cs">
+      <id>7d2f51e7-bf4b-4e57-91a4-626e8fb66714</id>
+    </Compile>
+    <Compile Include="Types\RegInc.cs">
+      <id>2095e4f7-dceb-4ecc-a20b-75aa649e1b40</id>
+    </Compile>
+    <Compile Include="Types\REGI_DATA.cs">
+      <id>11a960c8-cf6e-4e6e-a5d8-fb83921446af</id>
+    </Compile>
+    <Compile Include="Types\TRANS_TYPE.cs">
+      <id>4f4b0465-ad33-4bb9-b3ff-f085bfe72675</id>
+    </Compile>
+    <Compile Include="Types\VENDOR.cs">
+      <id>92fc88b5-558b-4568-8141-c1c31457a8a8</id>
+    </Compile>
+    <Compile Include="Types\COMPANY_INFO.cs">
+      <id>d092b80f-bf89-4722-88a8-8619be2be30c</id>
+    </Compile>
+    <Compile Include="Types\COMPANY_SETTINGS.cs">
+      <id>20ac2059-9fcf-4813-9b1e-7e19f141f243</id>
+    </Compile>
+    <Compile Include="Types\COSTING_METHOD.cs">
+      <id>b33eae10-ae5b-4f76-a55b-6cbd5ff4fd39</id>
+    </Compile>
+    <Compile Include="Types\CREDIT_CARD_ACCEPTED.cs">
+      <id>f1749cb5-252e-4316-bc25-cc559bc834ad</id>
+    </Compile>
+    <Compile Include="Types\CREDIT_CARD_SETTINGS.cs">
+      <id>f0f83e9f-21a8-411d-bd91-646d27e5acde</id>
+    </Compile>
+    <Compile Include="Types\CREDIT_CARD_USED.cs">
+      <id>2d0508b9-8734-4546-a72a-d879d0b2cea9</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY.cs">
+      <id>fadafd57-31c0-46eb-90b7-a335037df8a7</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_ACCOUNT.cs">
+      <id>9c2aeca7-6135-46d4-93f3-690c6fee3331</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_DATA.cs">
+      <id>51101bde-cee6-46fd-b991-cfbf97cf226a</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_DECIMAL.cs">
+      <id>d5f42969-60ac-45b8-9638-f935f2d1a404</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_EXCHANGE.cs">
+      <id>48ea53ec-dca2-4b50-9d53-f18aefd5b7c0</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_RATE_REMINDER.cs">
+      <id>58e3088d-8514-4d07-926d-79972dfcbca0</id>
+    </Compile>
+    <Compile Include="Types\CURRENCY_SYMBOL.cs">
+      <id>391ff252-0f55-4ba5-961d-e4db3039882f</id>
+    </Compile>
+    <Compile Include="Types\CUSTOMER.cs">
+      <id>fccc11c7-922e-4abc-9b25-f7ec77f7ee3b</id>
+    </Compile>
+    <Compile Include="Types\DATE_FORMAT.cs">
+      <id>f8970cf5-f24b-4512-be52-83bd88ede434</id>
+    </Compile>
+    <Compile Include="Types\DATE_SHORT_LONG.cs">
+      <id>10536181-1788-4c31-aa5f-b9b2052c6e74</id>
+    </Compile>
+    <Compile Include="Types\DATE_WEEK.cs">
+      <id>0e8899ef-fa02-49c0-8d21-5f26296218d5</id>
+    </Compile>
+    <Compile Include="Types\DEDUCTION_NAME.cs">
+      <id>d7e70d60-b6f9-431d-b8df-cdc1f37c168c</id>
+    </Compile>
+    <Compile Include="Types\DEDUCT_TYPE.cs">
+      <id>311a9a05-412b-47a4-a331-a35706824fde</id>
+    </Compile>
+    <Compile Include="Types\DEPT_ACCT.cs">
+      <id>02337698-a182-425b-a2ac-0128853c1b8e</id>
+    </Compile>
+    <Compile Include="Types\EMAIL.cs">
+      <id>24dee02a-6e3f-4934-8e53-6f6b0c9e5de7</id>
+    </Compile>
+    <Compile Include="Types\EMAIL_ATTACH.cs">
+      <id>904220dd-4c75-4e75-9335-5eade0bf4f83</id>
+    </Compile>
+    <Compile Include="Types\EMAIL_FORM_TYPE.cs">
+      <id>90022fe3-7588-4026-8ab7-176684e052bd</id>
+    </Compile>
+    <Compile Include="Types\EMAIL_MESSAGES.cs">
+      <id>a0b46865-6cf9-4564-9232-d357668b69fb</id>
+    </Compile>
+    <Compile Include="Types\EMPLOYEE.cs">
+      <id>7a2f8ac8-6343-452e-a27f-6eb6d1ad895d</id>
+    </Compile>
+    <Compile Include="Types\EMP_DEDUCT.cs">
+      <id>e346c1e1-99bf-45c3-97a7-450ebf7c1e42</id>
+    </Compile>
+    <Compile Include="Types\EMP_DIRECT_DEP.cs">
+      <id>fd6e1fa5-be4a-4c93-bd61-05fac534328e</id>
+    </Compile>
+    <Compile Include="Types\EMP_DIRECT_DEP_DATA.cs">
+      <id>5b7e59d7-31f5-48ab-b6bf-0c196ded930c</id>
+    </Compile>
+    <Compile Include="Types\EMP_ENTITLE.cs">
+      <id>42e094ca-ff95-47ce-9e4c-db6f00aebd8b</id>
+    </Compile>
+    <Compile Include="Types\EMP_ENTITLE_DATA.cs">
+      <id>6647e1f1-ae11-4cd5-a173-15655bdf5132</id>
+    </Compile>
+    <Compile Include="Types\EMP_EXPENSE.cs">
+      <id>96c7a326-96c5-4a83-bfcc-db3e0a215e4a</id>
+    </Compile>
+    <Compile Include="Types\EMP_EXPENSE_DATA.cs">
+      <id>aab4651e-e21f-418f-b127-1e6f3f3fd73f</id>
+    </Compile>
+    <Compile Include="Types\EMP_INCOME.cs">
+      <id>3fb0596d-180e-4470-91a3-7288a873e2c0</id>
+    </Compile>
+    <Compile Include="Types\EMP_INCOME_USE.cs">
+      <id>5337999d-e37c-498f-9eb0-e5ed7ba09fd5</id>
+    </Compile>
+    <Compile Include="Types\EMP_REPORTING.cs">
+      <id>3d122b4b-4e5d-4cd2-9ee1-66126434f1ec</id>
+    </Compile>
+    <Compile Include="Types\EMP_TAX.cs">
+      <id>dc80d608-976f-45b4-aea0-6124e2a4b80b</id>
+    </Compile>
+    <Compile Include="Types\EMP_TAX_CREDIT_DATA.cs">
+      <id>74de0fd8-65e6-4029-9514-150be50483b8</id>
+    </Compile>
+    <Compile Include="Types\EMP_TAX_HIST.cs">
+      <id>c64e8114-4da4-4187-8c84-98a4e8b53e4a</id>
+    </Compile>
+    <Compile Include="Types\FEATURES.cs">
+      <id>0d6a5684-00ce-4001-8bca-8090e0e352d6</id>
+    </Compile>
+    <Compile Include="Types\FORMS.cs">
+      <id>1f4d9d09-e627-44bd-988b-aa159df480db</id>
+    </Compile>
+    <Compile Include="Types\GENERAL_NUMBERING.cs">
+      <id>9c6becc1-1903-49cb-8b66-ff9961d87bd1</id>
+    </Compile>
+    <Compile Include="Types\GENERAL_SETTINGS.cs">
+      <id>883229dd-eaa2-46ba-b279-d2d363fed121</id>
+    </Compile>
+    <Compile Include="Types\GL_ACCOUNT.cs">
+      <id>05769f48-0394-4fff-9e3a-d78fe33a7918</id>
+    </Compile>
+    <Compile Include="Types\GL_ACCT_CLASS.cs">
+      <id>cf10d24b-0803-4917-9a99-4ad17e4f95de</id>
+    </Compile>
+    <Compile Include="Types\GL_ACCT_TYPE.cs">
+      <id>472caa6f-8b6d-47af-bd7f-ba25649b596d</id>
+    </Compile>
+    <Compile Include="Types\HISTORICAL_INVOICE.cs">
+      <id>66b59735-5b36-4f39-a268-3e297ae67559</id>
+    </Compile>
+    <Compile Include="Types\HISTORICAL_PAYMENT.cs">
+      <id>70e1c8e1-864c-4ff4-b161-0607bf45a5ce</id>
+    </Compile>
+    <Compile Include="Types\HISTORICAL_PAYMENT_ROW.cs">
+      <id>e56e0a7b-4aec-4c6f-b2a3-b5af09063f92</id>
+    </Compile>
+    <Compile Include="Types\IMPORT.cs">
+      <id>74f133ae-550d-4c55-ae8c-d0031725f483</id>
+    </Compile>
+    <Compile Include="Types\INCOME_NAME.cs">
+      <id>99be32aa-37a8-4ca7-8e1a-e2e73c9a18cd</id>
+    </Compile>
+    <Compile Include="Types\INCOME_SPECIFIC_ACCOUNTS.cs">
+      <id>87dc25d6-8353-4edf-9aac-abcee01691c8</id>
+    </Compile>
+    <Compile Include="Types\INCOME_TYPE.cs">
+      <id>e8d22912-6129-41ec-a9ef-5ffe71442957</id>
+    </Compile>
+    <Compile Include="Types\INVENTORY_SETTINGS.cs">
+      <id>ca71967c-3639-40c7-9112-8f79d9a3a949</id>
+    </Compile>
+    <Compile Include="Types\ITEM.cs">
+      <id>22466716-1a57-4b1c-95eb-4d6f9b10eb8a</id>
+    </Compile>
+    <Compile Include="Types\ITEM_BUILD_ITEMS.cs">
+      <id>54168bf5-73b9-4f5f-a696-a8500a356974</id>
+    </Compile>
+    <Compile Include="Types\ITEM_HISTORY.cs">
+      <id>de08a663-a772-4f5a-bb22-334baf90ecde</id>
+    </Compile>
+    <Compile Include="Types\ITEM_PRICE.cs">
+      <id>1033c065-3157-45e9-8520-ab785c07c640</id>
+    </Compile>
+    <Compile Include="Types\ITEM_QTY.cs">
+      <id>d6f9078b-7917-4b21-afbb-02d443da63a5</id>
+    </Compile>
+    <Compile Include="Types\ITEM_STATS.cs">
+      <id>63d58fd7-9bee-40cb-ab66-6ff948b5e332</id>
+    </Compile>
+    <Compile Include="Types\LANGUAGE_PREF.cs">
+      <id>263823b2-1df4-48fc-8612-381f100413b8</id>
+    </Compile>
+    <Compile Include="Types\LedgerData.cs">
+      <id>ef55a580-da18-4c1a-a0c9-0a4158c39737</id>
+    </Compile>
+    <Compile Include="Types\LEDGER_HISTORY.cs">
+      <id>ea978ef1-3cd5-4417-b2b0-5c5b7158538a</id>
+    </Compile>
+    <Compile Include="Types\LOCATION.cs">
+      <id>423211d1-feb6-437d-92cc-b5c321195adf</id>
+    </Compile>
+    <Compile Include="Types\PAYABLE_SETTINGS.cs">
+      <id>39ecbf30-57aa-4398-86fa-69ffcbd417ad</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_ADDITIONAL.cs">
+      <id>7388286b-cebe-42f9-a5f5-4f79921d6e1e</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_DEDUCTION.cs">
+      <id>566cdcd0-1b11-4287-8d53-97704e67c95a</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_ENTITLEMENTS.cs">
+      <id>d8a4d2bb-de6b-4141-ae5d-2696682fad70</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_ENTITLEMENT_SETTINGS.cs">
+      <id>8aeb20eb-cb7a-413e-a92d-c0977b06edad</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_INCOME.cs">
+      <id>64035f2d-01c3-4069-9361-2e0d670ce1cd</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_INCOME_SETTINGS.cs">
+      <id>e345fb2e-f95d-428d-b441-5640de48b89c</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_JOB.cs">
+      <id>ae0ff1db-1261-42c8-997a-907848d07142</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_REMITTANCE.cs">
+      <id>a4899c24-a5e8-4945-a27d-d8725b732496</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_SETTINGS.cs">
+      <id>817bf065-f531-49e4-89f0-7852e37bd6fc</id>
+    </Compile>
+    <Compile Include="Types\PAYROLL_TAXES_SETTINGS.cs">
+      <id>990f9e76-ec8b-4b35-a390-7b87ae6765ad</id>
+    </Compile>
+    <Compile Include="Types\Person.cs">
+      <id>badcafd6-742a-4255-a4d4-8c09a03e5dbd</id>
+    </Compile>
+    <Compile Include="Types\PRICE_LIST.cs">
+      <id>9d64b517-1cb0-4daa-a0e6-923b6687b2a9</id>
+    </Compile>
+    <Compile Include="Types\PRICE_METHOD.cs">
+      <id>ccab4b93-a97d-42fd-87b0-c1608dd37101</id>
+    </Compile>
+    <Compile Include="Types\PROFIT_METHOD.cs">
+      <id>65c1825d-9fd8-4552-83a3-f7d2fca1c8a4</id>
+    </Compile>
+    <Compile Include="Types\PROJECT.cs">
+      <id>7242d4a8-432b-439e-b0dd-24909be5da7a</id>
+    </Compile>
+    <Compile Include="Types\PROJECT_ALLOCATION.cs">
+      <id>37c274f1-9aeb-4b66-8e67-6c973e7a8de5</id>
+    </Compile>
+    <Compile Include="Types\PROJECT_BUDGET.cs">
+      <id>7387061d-875d-4b45-88d2-869ae91efcdf</id>
+    </Compile>
+    <Compile Include="Types\PROJECT_SETTINGS.cs">
+      <id>5b16b463-0fae-4b34-a34b-027868d16dab</id>
+    </Compile>
+    <Compile Include="Types\PROJECT_STATUS.cs">
+      <id>1f62fbf1-cce8-4617-ad9a-29a17860cdd6</id>
+    </Compile>
+    <Compile Include="Types\RECEIVABLE_SETTINGS.cs">
+      <id>79c38a06-00f1-4289-9d6a-c6304aca714c</id>
+    </Compile>
+    <Compile Include="Types\REMITTING_FREQUENCY.cs">
+      <id>c8e783c9-12c4-4bb6-a2ac-83660df1659b</id>
+    </Compile>
+    <Compile Include="Types\ROW.cs">
+      <id>cb5f41fe-5f2e-4258-9044-948bf44ab881</id>
+    </Compile>
+    <Compile Include="Types\SALES.cs">
+      <id>019ad6ba-04c6-40e9-880a-e71b8e7d77e8</id>
+    </Compile>
+    <Compile Include="Types\SALES_COMMON_ORDER_INVOICE.cs">
+      <id>91207ca5-6cba-4c6a-882e-7d7c46e4338a</id>
+    </Compile>
+    <Compile Include="Types\SALES_INVOICE.cs">
+      <id>28b802d7-d2b1-461c-badc-868387f858e6</id>
+    </Compile>
+    <Compile Include="Types\SALES_ORDER.cs">
+      <id>c13d0785-5501-496d-bbc2-7a1c390d48b8</id>
+    </Compile>
+    <Compile Include="Types\SALES_QUOTE.cs">
+      <id>60e066d8-ae9b-4067-8d54-67b830df0661</id>
+    </Compile>
+    <Compile Include="Types\SALES_TABLE.cs">
+      <id>8e8f0a08-7b64-4ea8-8f6f-ff2e800177be</id>
+    </Compile>
+    <Compile Include="Types\SETTINGS.cs">
+      <id>c3e2cab0-359e-4079-8d50-435aff6d61a5</id>
+    </Compile>
+    <Compile Include="Types\SHIP_SERVICES.cs">
+      <id>60bd7237-828f-424f-ae56-6cb774441a63</id>
+    </Compile>
+    <Compile Include="Types\SORT_METHOD.cs">
+      <id>1384c2af-d3c1-40b4-b127-d1587ca121a3</id>
+    </Compile>
+    <Compile Include="Types\SYSTEM.cs">
+      <id>e54a94da-18d4-4da1-89a9-cadf8869d5fa</id>
+    </Compile>
+    <Compile Include="Types\TAX.cs">
+      <id>4d362bea-169f-4755-8deb-bb1ea815ed37</id>
+    </Compile>
+    <Compile Include="Types\TAXES_LINKED_ACCOUNTS.cs">
+      <id>c1c11d8f-7bc0-48a3-9c43-fe141d73d787</id>
+    </Compile>
+    <Compile Include="Types\TAX_CODE.cs">
+      <id>ce2b093f-205b-4ebe-952e-95392e9299b8</id>
+    </Compile>
+    <Compile Include="Types\TAX_DETAIL.cs">
+      <id>f1e1197a-7f07-434b-ad8e-575fc81f7ed0</id>
+    </Compile>
+    <Compile Include="Types\TAX_LEDGER.cs">
+      <id>53c3d0ff-077c-4e8b-85d5-0bd3e02ce511</id>
+    </Compile>
+    <Compile Include="Types\TAX_STATUS.cs">
+      <id>e397e166-c40e-4910-9829-052f23d355a7</id>
+    </Compile>
+    <Compile Include="Types\TAX_USED_IN.cs">
+      <id>57bbeb9f-67e5-483f-b993-c460b7bdad2d</id>
+    </Compile>
+    <Compile Include="Types\TRACK_SHIPMENTS.cs">
+      <id>35d547e7-a2fc-4137-ba57-c181a6b2d540</id>
+    </Compile>
+    <Compile Include="Types\TRANS_SERIAL.cs">
+      <id>49257c8a-5236-4354-ab92-88afc17d65c6</id>
+    </Compile>
+    <Compile Include="Types\USER_DEFINED_ACCOUNTS.cs">
+      <id>64e62a96-14f2-4f4e-a613-eb5e4e3620be</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>6a5e8996-44b5-4ee6-93a5-b54bfa58141e</id>
+    </None>
+    <None Include="Repository\CommonObjectsRes.rximg">
+      <BoundTo>3d545b18-903e-4a97-aa51-e01058cdcecf</BoundTo>
+      <DependentUpon>CommonObjectsRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>213f1b4d-dce4-447f-9106-cb34de18ad50</id>
+    </None>
+    <None Include="Repository\CommonObjectsRes.rxrep">
+      <id>3d545b18-903e-4a97-aa51-e01058cdcecf</id>
+      <repoid>3a0735bc-e519-4c3d-8de3-fb93bc647ffb</repoid>
+      <reporootid>ceedd480-7940-4a95-93ce-57f0f33908a7</reporootid>
+    </None>
+    <None Include="Repository\GeneralJournalRes.rximg">
+      <BoundTo>d42fd216-95bc-4ae6-acaf-ccbc8392f38e</BoundTo>
+      <DependentUpon>GeneralJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d02d2080-e583-4d77-a09b-48938c76ad8e</id>
+    </None>
+    <None Include="Repository\GeneralJournalRes.rxrep">
+      <id>d42fd216-95bc-4ae6-acaf-ccbc8392f38e</id>
+      <repoid>44df5261-265d-4894-80b6-7feaee145e1e</repoid>
+      <reporootid>74710ffc-d375-4511-9c0a-421c1277d7d0</reporootid>
+    </None>
+    <None Include="Repository\GeneralLedgerRes.rximg">
+      <BoundTo>9f1652c0-8fdd-48e0-bd42-4322c80fb134</BoundTo>
+      <DependentUpon>GeneralLedgerRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b358d0ef-db6f-4c26-92c8-fd216bb0a2c9</id>
+    </None>
+    <None Include="Repository\GeneralLedgerRes.rxrep">
+      <id>9f1652c0-8fdd-48e0-bd42-4322c80fb134</id>
+      <repoid>84a18723-2655-4cfc-b488-750d725e435d</repoid>
+      <reporootid>0eb6de89-3a6e-4c92-bedd-3477f2217c59</reporootid>
+    </None>
+    <None Include="Repository\InventoryServicesLedgerRes.rximg">
+      <BoundTo>9300cea6-57fc-4b73-85c1-f2f1590c34f0</BoundTo>
+      <DependentUpon>InventoryServicesLedgerRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>21a59559-2327-4c74-af79-d9ce0f536d37</id>
+    </None>
+    <None Include="Repository\InventoryServicesLedgerRes.rxrep">
+      <id>9300cea6-57fc-4b73-85c1-f2f1590c34f0</id>
+      <repoid>2f89a780-3297-41a4-9895-56a0f7026fc6</repoid>
+      <reporootid>9275a519-4b2e-43e4-87ba-49e6f6cb8b11</reporootid>
+    </None>
+    <None Include="Repository\NewCompanyWizardRes.rximg">
+      <BoundTo>77ea6f97-6144-40bc-9f1f-6985ca2683a8</BoundTo>
+      <DependentUpon>NewCompanyWizardRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>9ce47fba-0925-44e1-9ba5-014eaeefa78b</id>
+    </None>
+    <None Include="Repository\NewCompanyWizardRes.rxrep">
+      <id>77ea6f97-6144-40bc-9f1f-6985ca2683a8</id>
+      <repoid>09101589-88a5-4a06-b9c8-d209c0751296</repoid>
+      <reporootid>d09c0592-c491-403b-950a-a76edd0b2d25</reporootid>
+    </None>
+    <None Include="Repository\OpenCompanyRes.rximg">
+      <BoundTo>1d42efd2-e3e3-4c30-a322-0991d17a4196</BoundTo>
+      <DependentUpon>OpenCompanyRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f4780385-f98b-4138-8075-0e54209ae7b8</id>
+    </None>
+    <None Include="Repository\OpenCompanyRes.rxrep">
+      <id>1d42efd2-e3e3-4c30-a322-0991d17a4196</id>
+      <repoid>e013b723-b6bb-4e00-84e5-50ec6d327455</repoid>
+      <reporootid>4ed6691c-f40c-4b48-800c-5ebe4a320578</reporootid>
+    </None>
+    <None Include="Repository\PayablesLedgerRes.rximg">
+      <BoundTo>dec8fed8-60cb-448b-99a1-d92963e48cab</BoundTo>
+      <DependentUpon>PayablesLedgerRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f699d622-96de-4480-b201-43fd57a0062e</id>
+    </None>
+    <None Include="Repository\PayablesLedgerRes.rxrep">
+      <id>dec8fed8-60cb-448b-99a1-d92963e48cab</id>
+      <repoid>40069e0c-5998-4430-9e75-747ef07d8290</repoid>
+      <reporootid>4e5dc7ef-462a-4642-993e-df4a412d4396</reporootid>
+    </None>
+    <None Include="Repository\PayrollJournalRes.rximg">
+      <BoundTo>8e55163f-b9f2-49a7-b3ac-5c17f3567097</BoundTo>
+      <DependentUpon>PayrollJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>09060d6b-f2aa-4153-8651-8c9879a83399</id>
+    </None>
+    <None Include="Repository\PayrollJournalRes.rxrep">
+      <id>8e55163f-b9f2-49a7-b3ac-5c17f3567097</id>
+      <repoid>2c2cb8ed-4354-463e-bf83-21bf57da1e66</repoid>
+      <reporootid>f934d11d-6caf-475e-bf81-b8cd416596ee</reporootid>
+    </None>
+    <None Include="Repository\PayrollLedgerRes.rximg">
+      <BoundTo>b4e6ef0f-7423-424c-a5ce-52f806bf2482</BoundTo>
+      <DependentUpon>PayrollLedgerRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>90c73c0e-f853-4d23-ae37-aa4247f0f178</id>
+    </None>
+    <None Include="Repository\PayrollLedgerRes.rxrep">
+      <id>b4e6ef0f-7423-424c-a5ce-52f806bf2482</id>
+      <repoid>84423655-1343-48b8-ae7f-6bf455fe142d</repoid>
+      <reporootid>84a541e8-fb23-4eca-8e02-73008df3a3b0</reporootid>
+    </None>
+    <None Include="Repository\PayrollRunJournalRes.rximg">
+      <BoundTo>8b7a22c0-1688-4973-b110-602554044121</BoundTo>
+      <DependentUpon>PayrollRunJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d1d744b4-46de-4db2-91f0-d86f0b31ec59</id>
+    </None>
+    <None Include="Repository\PayrollRunJournalRes.rxrep">
+      <id>8b7a22c0-1688-4973-b110-602554044121</id>
+      <repoid>84176ded-cf91-4f14-a611-2ff3d98b675c</repoid>
+      <reporootid>7e8e081c-1b2f-4cb1-b3d2-8a0726587aa1</reporootid>
+    </None>
+    <None Include="Repository\ProjectLedgerRes.rximg">
+      <BoundTo>5dd19487-d460-4a81-859d-2431996fa8aa</BoundTo>
+      <DependentUpon>ProjectLedgerRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>715f7a8a-ff84-4f57-b404-2aa25c015d8b</id>
+    </None>
+    <None Include="Repository\ProjectLedgerRes.rxrep">
+      <id>5dd19487-d460-4a81-859d-2431996fa8aa</id>
+      <repoid>7f4f4de2-a9b9-4d41-ad3b-19a9f3d05857</repoid>
+      <reporootid>66ed229b-3a5f-48c0-80bc-a21cd6c27dc7</reporootid>
+    </None>
+    <None Include="Repository\PaymentsJournalRes.rximg">
+      <BoundTo>1a408837-8812-4fb9-a36a-966f1b4bcc0b</BoundTo>
+      <DependentUpon>PaymentsJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>20238d6c-c489-443b-a9dc-fa8a8600d3c4</id>
+    </None>
+    <None Include="Repository\PaymentsJournalRes.rxrep">
+      <id>1a408837-8812-4fb9-a36a-966f1b4bcc0b</id>
+      <repoid>6e5d93eb-5f0d-4298-a324-864e62e0ba49</repoid>
+      <reporootid>bf1ec14a-02a8-4f62-8da3-5aa29ce0b5fe</reporootid>
+    </None>
+    <None Include="Repository\PurchasesJournalRes.rximg">
+      <BoundTo>f6ee73f0-b506-4297-881e-7819804ccb49</BoundTo>
+      <DependentUpon>PurchasesJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>0fa32b2c-0e15-4885-b3a2-deb1096e220e</id>
+    </None>
+    <None Include="Repository\PurchasesJournalRes.rxrep">
+      <id>f6ee73f0-b506-4297-881e-7819804ccb49</id>
+      <repoid>d718faec-e0e3-45a1-95e0-7b5ba3aafebd</repoid>
+      <reporootid>103469e0-8ab2-4b13-9ef5-88ed9135b495</reporootid>
+    </None>
+    <None Include="Repository\ReceiptsJournalRes.rximg">
+      <BoundTo>2103afb6-0c13-47ac-a13a-3b68de14f714</BoundTo>
+      <DependentUpon>ReceiptsJournalRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>07e547d3-f9d2-4bd4-892e-717c4166b231</id>
+    </None>
+    <None Include="Repository\ReceiptsJournalRes.rxrep">
+      <id>2103afb6-0c13-47ac-a13a-3b68de14f714</id>
+      <repoid>784d5382-24a3-4651-b167-14bf98acf97a</repoid>
+      <reporootid>0dfd2478-3510-4ea9-9504-46edf4478a24</reporootid>
+    </None>
+    <None Include="Repository\ReceivablesLedgerRes.rximg">
+      <DependentUpon>ReceivablesLedgerRes.rxrep</DependentUpon>
+      <id>36a3b572-c400-423a-8a2f-4cfbb94cc441</id>
+      <BoundTo>720ca75a-b94d-4f35-b68a-3f6723e09394</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Repository\ReceivablesLedgerRes.rxrep">
+      <id>720ca75a-b94d-4f35-b68a-3f6723e09394</id>
+      <repoid>5ac055c4-8568-472f-b8ae-926016a0ee39</repoid>
+      <reporootid>0ec55c70-5517-4b72-91e7-a799d837037a</reporootid>
+    </None>
+    <None Include="Repository\ReportCentreRes.rximg">
+      <BoundTo>0af137aa-1caa-41e0-8a8a-4f33780b80b6</BoundTo>
+      <DependentUpon>ReportCentreRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b0a8f5c1-2ebc-4d64-adf0-924878c32191</id>
+    </None>
+    <None Include="Repository\ReportCentreRes.rxrep">
+      <id>0af137aa-1caa-41e0-8a8a-4f33780b80b6</id>
+      <repoid>0c961da4-6c25-42b9-99e2-e31574b8e36c</repoid>
+      <reporootid>eaeee20a-46e0-4cca-9ec1-953335ec2965</reporootid>
+    </None>
+    <None Include="Repository\SalesJournalRes.rximg">
+      <DependentUpon>SalesJournalRes.rxrep</DependentUpon>
+      <id>aa12f8e8-e181-4cad-a630-fcdc70c4667f</id>
+      <BoundTo>a0b607f4-bfb5-4428-828b-ecde43ac572b</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Repository\SalesJournalRes.rxrep">
+      <id>a0b607f4-bfb5-4428-828b-ecde43ac572b</id>
+      <repoid>cc31b699-d159-4755-ab71-22149e947e45</repoid>
+      <reporootid>112ae935-3e2d-491c-ba45-3543ff5100d5</reporootid>
+    </None>
+    <None Include="Repository\SettingsRes.rximg">
+      <BoundTo>416d6c95-590f-4683-aca0-404e4eb3e440</BoundTo>
+      <DependentUpon>SettingsRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>e9ef2329-3548-495f-9b52-aff79a2dfc5a</id>
+    </None>
+    <None Include="Repository\SettingsRes.rxrep">
+      <id>416d6c95-590f-4683-aca0-404e4eb3e440</id>
+      <repoid>823a42d3-6c7d-4665-a247-39137a6d1655</repoid>
+      <reporootid>44efbea6-2b28-4e3f-aba2-41f09c36fdb1</reporootid>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Repository\SimplyInstallRes.rximg">
+      <BoundTo>8850101e-e038-4d8c-85c8-f920a834c92e</BoundTo>
+      <DependentUpon>SimplyInstallRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>dad00300-148c-457b-a0e0-f5eea1ebba9c</id>
+    </None>
+    <None Include="Repository\SimplyInstallRes.rxrep">
+      <id>8850101e-e038-4d8c-85c8-f920a834c92e</id>
+      <repoid>51c9a37e-370d-447b-9c53-9dcc71911b17</repoid>
+      <reporootid>10ed71f2-5678-43eb-a5f1-f68f9f6a9ea5</reporootid>
+    </None>
+    <None Include="Repository\SimplyMessageRes.rximg">
+      <BoundTo>cd70bcef-c9fd-45cc-9d7c-8c65dfaf14f1</BoundTo>
+      <DependentUpon>SimplyMessageRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>5ed44ec9-bafb-4e56-b2c2-67a3b5f0eda2</id>
+    </None>
+    <None Include="Repository\SimplyMessageRes.rxrep">
+      <id>cd70bcef-c9fd-45cc-9d7c-8c65dfaf14f1</id>
+      <repoid>d63b6e60-3d02-4a11-974a-d522cd0b7341</repoid>
+      <reporootid>adff9cea-df57-4bb8-b863-dbfc65d61499</reporootid>
+    </None>
+    <None Include="Repository\SimplyRes.rximg">
+      <DependentUpon>SimplyRes.rxrep</DependentUpon>
+      <id>b97125e3-8872-41ce-b4f1-ecbb404faae8</id>
+      <BoundTo>a0618ada-784b-43de-a030-5261eb682f34</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="Repository\SimplyRes.rxrep">
+      <id>a0618ada-784b-43de-a030-5261eb682f34</id>
+      <repoid>5ea8afcb-3eaf-454f-b448-016dc587a64e</repoid>
+      <reporootid>1cfd7eba-2951-4401-980a-75ba720ad991</reporootid>
+    </None>
+    <None Include="Repository\UserPreferencesRes.rximg">
+      <BoundTo>61e5e4a2-b5f6-40de-9d8d-77b8620f4a2a</BoundTo>
+      <DependentUpon>UserPreferencesRes.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d2a3f152-a8ff-44a1-b76c-bbe6fff6ebf4</id>
+    </None>
+    <None Include="Repository\UserPreferencesRes.rxrep">
+      <id>61e5e4a2-b5f6-40de-9d8d-77b8620f4a2a</id>
+      <repoid>969c9e1b-0fbb-47c5-8717-301ad34d3998</repoid>
+      <reporootid>712d83e2-ba73-4975-b17d-25445c69adbc</reporootid>
+    </None>
+    <None Include="Sage50.csproj">
+      <id>e4030c87-9718-4a6b-9812-a854e9e5d5b8</id>
+    </None>
+    <None Include="Sage50.csproj.pref">
+      <id>6b891c46-9605-4db1-9a39-e112f46e9b99</id>
+    </None>
+    <None Include="Sage50.csproj.rxuser">
+      <id>27766c9a-5909-4933-beab-ff4ac298fc42</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sage50.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b74743cc-a54b-4805-8ca4-f033c3c687cd</id>
+    </Content>
+    <Content Include="Sage50.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2499a6d9-dceb-47f9-8151-208cc4300819</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\BVT">
+      <id>49b2adcb-3165-4af2-ab15-5f96244dbe32</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>
