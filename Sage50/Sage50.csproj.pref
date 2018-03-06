@@ -1,9 +1,54 @@
 ﻿<Properties>
-  <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="active">
+    <Element value="Sage50.rxtst" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Ranorex\Sage50Automation\SA2018\Sage50\Classes\Settings.cs|2356|13|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="Scripts\BVT\AddReciept.cs" />
+    <Element value="Scripts\BVT\AddPayment.cs" />
+    <Element value="Classes\PurchasesJournal.cs" />
+    <Element value="Sage50.rxtst" />
+    <Element value="Scripts\BVT\AddPurchaseInvoice.cs" />
+    <Element value="Scripts\BVT\AddPayCheque.cs" />
+    <Element value="Scripts\BVT\AddGeneralJournal.cs" />
+    <Element value="Scripts\BVT\AdjustSalesInvoice.cs" />
+    <Element value="Scripts\BVT\PrintSimplyForm.cs" />
+    <Element value="Scripts\BVT\AddItem.cs" />
+    <Element value="Scripts\BVT\AddEmployee.cs" />
+    <Element value="Scripts\BVT\AddCustomer.cs" />
+    <Element value="Scripts\BVT\AddAccount.cs" />
+    <Element value="Classes\SalesJournal.cs" />
+    <Element value="Scripts\BVT\AddSalesInvoice.cs" />
+    <Element value="Scripts\BVT\AdjustPurchaseInvoice.cs" />
+    <Element value="Scripts\BVT\AddVendor.cs" />
+    <Element value="Scripts\BVT\AddProject.cs" />
+    <Element value="Sage50.rxtmg" />
+    <Element value="Scripts\CheckTestCaseState.cs" />
+    <Element value="Scripts\BVT\CreateNewCompany.cs" />
+    <Element value="Scripts\BVT\OpenSampleCompany.cs" />
+    <Element value="Classes\Simply.cs" />
+    <Element value="Classes\Settings.cs" />
+    <Element value="Scripts\BVT\EditSettings.cs" />
+    <Element value="Scripts\test.cs" />
+    <Element value="Repository\SettingsRes.rxrep" />
+    <Element value="Classes\NewCompanyWizard.cs" />
+    <Element value="Repository\SalesJournalRes.rxrep" />
+    <Element value="Repository\PayrollJournalRes.rxrep" />
+    <Element value="Scripts\BVT\GenerateReports.cs" />
+    <Element value="Classes\ReportsFromMenu.cs" />
+    <Element value="Types\ITEM_PRICE.cs" />
+    <Element value="Types\ITEM.cs" />
+    <Element value="Types\GL_ACCOUNT.cs" />
+    <Element value="Types\PURCHASE.cs" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
+      <fileNames value="" />
       <runOnBuild value="False" />
     </Properties>
+    <Array name="recentusercodeselections" />
+    <Properties name="watchVars" />
   </Properties>
 </Properties>

@@ -1196,10 +1196,10 @@ rxversion="8.0">
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="1a240f58-346f-4e5d-982f-fcf2e226d058">
+			id="c6391ecb-15b6-4b3e-af40-36dc16837b1c">
 			</testcontainer>
 			<testcontainer
-			id="c6391ecb-15b6-4b3e-af40-36dc16837b1c">
+			id="ccf52d5f-76e8-4c37-a0ca-fb301b3607b4">
 			</testcontainer>
 			<testcontainer
 			id="dc60bd07-6169-4b91-b4c4-1dc8b61871e8">
@@ -1209,9 +1209,6 @@ rxversion="8.0">
 	<references>
 		<reference>
 			C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-		</reference>
-		<reference>
-			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
 		</reference>
 	</references>
 </testsuitedoc>
